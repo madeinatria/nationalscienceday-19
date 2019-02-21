@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" >
-   <head>
+  <head>
       <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
       <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
       <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -15,8 +15,8 @@
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
       <link rel="stylesheet" href="css/bootstrap.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-       <title>Information Science Events</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Information Science Events</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
       <style>
@@ -234,19 +234,22 @@
          to {
          transform: translateY(-2000px);
          }}
-         .grow{
-         transition: transform .2s;
-         }
-         .grow:hover
-         {
-         -webkit-transform: scale(1.1);
-         -ms-transform: scale(1.1);
-         transform: scale(1.1);
-         opacity:0.8;
-         }
-         .backbtn:hover{
-         opacity:0.7;
-         }
+        .grow{
+              transition: transform .2s;
+        }
+    
+          .grow:hover
+          {
+              -webkit-transform: scale(1.1);
+              -ms-transform: scale(1.1);
+              transform: scale(1.1);
+              opacity:0.8;
+                
+          }
+          .backbtn:hover{
+            opacity:0.7;
+          }
+        
       </style>
       <script>
          window.console = window.console || function(t) {};
@@ -267,313 +270,129 @@
       <div id='stars2'></div>
       <div id='stars3'></div>
       <header class="clearfix">
-         <button onclick=" relocate_events()" type="button" style="margin-left:30px; width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;" class="btn btn-default backbtn "> &laquo; Back</button>
+        <button onclick=" relocate_events()" type="button" style="margin-left:30px; width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;" class="btn btn-default backbtn "> &laquo; Back</button>
+
          <h2 style="font-size:30px; text-align: center; font-family: 'Raleway', sans-serif;color:#bdbdbd">Information Science</h2>
+         
          <h3 style="font-size:20px; text-align: center;font-family: 'Raleway', sans-serif;color:#bdbdbd">Events</h3>
       </header>
       <div class="expanding-grid ">
          <ul  class="links">
-            <li class="grow"> <div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">Cycle ತುಳಿCಕli </div> <a style="opacity:0.8; color:transparent; border:1px #bdbdbd solid; height: 225px; background-image: url(images/ise/cycle.png);" href="#section1"></a></li>
-            <li class="grow"> <div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">Web Design </div> <a style="opacity:0.8; color:transparent; border:1px  #bdbdbd  solid;  height: 225px; background-image: url(images/ise/web.png);" href="#section2">2</a></li>
-            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">WATER KABADDI  </div> <a style="opacity:0.8; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/ise/ise-kabadi.jpeg);"   href="#section3">3</a></li>
-            <li><a style=" background-image: url(images/stars-about.png);    "  href="#section5"></a></li>
-            <li><a style=" background-image: url(images/stars-about.png);    "  href="#section5"></a></li>
-            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">BLIND CODING </div> <a style="opacity:0.5; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/ise/ise-blind.jpg);" href="#section4">4</a></li>
-            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">STARTUP PITCH </div> <a style="opacity:0.8; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/ise/startup.png);"href="#section6">6</a></li>
-            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">BAKASURA </div> <a style="opacity:0.8; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/ise/ise-food.jpeg);" href="#section7">7</a></li>
+            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">Web Design and Development </div> <a style="opacity:0.8; color:transparent; border:1px #bdbdbd solid; height: 225px; background-image: url(images/cse/cse-syn.jpg);" href="#section1"></a></li>
+            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;"> Poster Presentation</div><a style="opacity:0.8; color:transparent; border:1px  #bdbdbd  solid;  height: 225px; background-image: url(images/cse/cse-cc.jpg);" href="#section2"></a></li>
+            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">
+Teck Talk </div><a style="opacity:0.8; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/cse/cse-techsay.jpg);"   href="#section3"></a></li>
+           
          </ul>
-         <div  id="section1" class="expanding-container">
+         <div  id="section1" class="expanding-container"> 
             <article class="hentry">
-               <h1 class="entry-title">Cycle ತುಳಿCಕli</h1>
-               <div class="entry-image">
-                  <div style="background-image: url(images/ise/cycle.png);" class="img-placeholder">1</div>
+               <h1 class="entry-title">Web Design and Development</h1>
+              <div class="entry-image">
+                  <div style="background-image: url(images/cse/cse-syn.jpg);" class="img-placeholder">1</div>
                </div>
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
                   <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Rules</a>
+                     <a style="color:white;" class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Details</a>
                   </li>
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Details</a>
-                  </li>
+                 
                </ul>
                <div class="tab-content" id="myTabContent">
                   <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Participants will have to answer questions while riding a bicycle</li>
-                        <li> Q/A process will happen simultaneously with a race</li>
+                     <li>2 -Days workshop on Web Design and Development would </li>
+	<li>cover the following topics:</li>
+	<li>• Basics of HTML CSS & Javascript.</li>
+	<li>• Libraries of Javascript's such as Jquery</li>
+	<li>• How all the above 3 languages can be effectively together. </li>
+	<li>• Designing a Layout and developing it using the above Languages</li>
+	<li>• Database handling using MYSQL.</li>
+	<li>• Basic programming using PHP and its role in Web Development.</li>
+	<li>• Understanding PHP frameworks (Laravel)</li>
+	<li>• Testing the Website/ Web Application for various contingencies.</li>
+	<li>• Hosting the site in the respective Domain</li>
+                </br>
+                <li>Venue: AC 108</li>
+                <li>Date: 27th February 2019</li>
+                  <li>9:00 AM - 4:00 PM</li>
                      </ul>
                      </p>
                   </div>
-                  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Participation:   Single Duration:   3 Hrs</li>
-                        <li>Venue:   Outdoor</li>
-                        <li>Prizes:   Winner and Runner Time:</li>
-                        <li>Contact Details:</li>
-                     </ul>
-                     </ul>
-                  </div>
+                  
                </div>
-                     <?php 
-include('dbconnection.php');
-$query="select eid,team_size,type from Events where ename like 'Cycle Tulsikali';";
-$run_query=mysqli_query($dbHandle,$query);
-$row=mysqli_fetch_assoc($run_query);
-$eid=$row["eid"];
-$type=$row["type"];
-$size=$row["team_size"];
-echo "
-<form method='POST' action='register.php?id=$size'>
-<input type='hidden' name='eid' value=$eid>
-<input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>"; ?>
+   
+
+              <button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button>
             </article>
          </div>
          <div id="section2" class="expanding-container">
             <article class="hentry">
-               <h1 class="entry-title"> Web Design</h1>
+               <h1 class="entry-title">Poster Presentation</h1>
                <div class="entry-image">
-                  <div style="background-image: url(images/ise/web.png);" class="img-placeholder">1</div>
+                  <div style="background-image: url(images/cse/cse-cc.jpg);" class="img-placeholder">1</div>
                </div>
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
                   <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="h-tab" data-toggle="tab" href="#h" role="tab" aria-controls="h" aria-selected="true">Rules</a>
+                     <a style="color:white;" class="nav-link active" id="h-tab" data-toggle="tab" href="#h" role="tab" aria-controls="h" aria-selected="true">Details</a>
                   </li>
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link" id="p-tab" data-toggle="tab" href="#p" role="tab" aria-controls="p" aria-selected="false">Details</a>
-                  </li>
+                  
                </ul>
                <div class="tab-content" id="myTabContent">
                   <div class="tab-pane fade show active" id="h" role="tabpanel" aria-labelledby="h-tab">
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li> Participants will be designing a web page on the given problem statement</li>
-                        <li> Creative and attractive design will be awarded</li>
+                        <li>Theme: "Science for the People and the People for Science."</li>
+                         </br>
+                <li>Venue: AC 207</li>
+                <li>Date: 28th February 2019</li>
+                  <li>9.30 AM - 12.30 PM</li>
                      </ul>
                      </p>
                   </div>
-                  <div class="tab-pane fade" id="p" role="tabpanel" aria-labelledby="p-tab">
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Participation:   Team of two</li>
-                        <li>Duration:   3 Hrs</li>
-                        <li>Venue:   Indoor  (  ISE Lab)</li>
-                        <li>Prizes:   Winner and Runner</li>
-                        <li>Time:</li>
-                        <li>Contact Details:</li>
-                     </ul>
-                  </div>
+               
                </div>
-                   <?php 
-include('dbconnection.php');
-$query="select eid,team_size,type from Events where ename like 'Web Design';";
-$run_query=mysqli_query($dbHandle,$query);
-$row=mysqli_fetch_assoc($run_query);
-$eid=$row["eid"];
-$type=$row["type"];
-$size=$row["team_size"];
-echo "
-<form method='POST' action='register.php?id=$size'>
-<input type='hidden' name='eid' value=$eid>
-<input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>"; ?>
-            </article>
+                  
+<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
+          </article>
          </div>
          <div id="section3" class="expanding-container">
             <article class="hentry">
-               <h1 class="entry-title">WATER KABADDI</h1>
+               <h1 class="entry-title">
+Teck Talk
+</h1>
                <div class="entry-image">
-                  <div style="background-image: url(images/ise/ise-kabadi.jpeg);" class="img-placeholder">1</div>
+                  <div style=" background-image: url(images/cse/cse-techsay.jpg)" class="img-placeholder">1</div>
                </div>
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
                   <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="h1-tab" data-toggle="tab" href="#h1" role="tab" aria-controls="h1" aria-selected="true">Rules</a>
+                     <a style="color:white;" class="nav-link active" id="h1-tab" data-toggle="tab" href="#h1" role="tab" aria-controls="h1" aria-selected="true">Details</a>
                   </li>
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link" id="p1-tab" data-toggle="tab" href="#p1" role="tab" aria-controls="p1" aria-selected="false">Details</a>
-                  </li>
+                 
                </ul>
                <div class="tab-content" id="myTabContent">
                   <div class="tab-pane fade show active" id="h1" role="tabpanel" aria-labelledby="h1-tab">
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Participants will be playing kabaddi following the official kabaddi rules</li>
-                        <li>Usage of fun props will be incorporated in the game</li>
+                      	<li>HTML 5 and Vue.js</li>
+    </br>
+                <li>Venue: AC 208</li>
+                <li>Date: 28th February 2019</li>
+                  <li>9.30 AM - 11.30 AM</li>
                      </ul>
                      </p>
                   </div>
-                  <div class="tab-pane fade" id="p1" role="tabpanel" aria-labelledby="p1-tab">
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Participation:   Team of five</li>
-                        <li>Duration:   3 Hrs</li>
-                        <li>Venue:   Outdoor (Parking Space) Prizes:   Winner and Runner Time:</li>
-                        <li>Contact Details:</li>
-                     </ul>
-                  </div>
+                  
                </div>
-                <?php 
-include('dbconnection.php');
-$query="select eid,team_size,type from Events where ename like 'Water Kabaddi';";
-$run_query=mysqli_query($dbHandle,$query);
-$row=mysqli_fetch_assoc($run_query);
-$eid=$row["eid"];
-$type=$row["type"];
-$size=$row["team_size"];
-echo "
-<form method='POST' action='register.php?id=$size'>
-<input type='hidden' name='eid' value=$eid>
-<input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>"; ?> 
+               
+<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
             </article>
          </div>
-         <div id="section4" class="expanding-container">
-            <article class="hentry">
-               <h1 class="entry-title">BLIND CODING</h1>
-               <div class="entry-image">
-                  <div style="background-image: url(images/ise/ise-blind.jpg);" class="img-placeholder">1</div>
-               </div>
-               <br>
-               <ul class="nav nav-tabs" id="myTab" role="tablist">
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="h2-tab" data-toggle="tab" href="#h2" role="tab" aria-controls="h2" aria-selected="true">Rules</a>
-                  </li>
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link" id="p2-tab" data-toggle="tab" href="#p2" role="tab" aria-controls="p2" aria-selected="false">Details</a>
-                  </li>
-               </ul>
-               <div class="tab-content" id="myTabContent">
-                  <div class="tab-pane fade show active" id="h2" role="tabpanel" aria-labelledby="h2-tab">
-                     <p>
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li> The participants have to crack all the 3 levels, where each level contains different coding challenges</li>
-                        <li>The participants have to solve them, while the monitor's will be switched off</li>
-                     </ul>
-                     </p>
-                  </div>
-                  <div class="tab-pane fade" id="p2" role="tabpanel" aria-labelledby="p2-tab">
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Participation:   Team of two Duration:   2 Hrs.</li>
-                        <li>Venue:   Indoor (ISE Lab) </li>
-                        <li>Prizes:   Winner and Runner Time:</li>
-                        <li>Contact Details:</li>
-                     </ul>
-                  </div>
-               </div>
-                 <?php 
-include('dbconnection.php');
-$query="select eid,team_size,type from Events where ename like 'Blind Coding';";
-$run_query=mysqli_query($dbHandle,$query);
-$row=mysqli_fetch_assoc($run_query);
-$eid=$row["eid"];
-$type=$row["type"];
-$size=$row["team_size"];
-echo "
-<form method='POST' action='register.php?id=$size'>
-<input type='hidden' name='eid' value=$eid>
-<input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>"; ?>
-            </article>
-         </div>
-         <div id="section6" class="expanding-container">
-            <article class="hentry">
-               <h1 class="entry-title">STARTUP PITCH</h1>
-               <div class="entry-image">
-                  <div style="background-image: url(images/ise/startup.png);" class="img-placeholder">1</div>
-               </div>
-               <br>
-               <ul class="nav nav-tabs" id="myTab" role="tablist">
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="h3-tab" data-toggle="tab" href="#h3" role="tab" aria-controls="h3" aria-selected="true">Rules</a>
-                  </li>
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link" id="p3-tab" data-toggle="tab" href="#p3" role="tab" aria-controls="p3" aria-selected="false">Details</a>
-                  </li>
-               </ul>
-               <div class="tab-content" id="myTabContent">
-                  <div class="tab-pane fade show active" id="h3" role="tabpanel" aria-labelledby="h3-tab">
-                     <p>
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>● Participants will have to do a PowerPoint presentation on their topic</li>
-                        <li> A participant is expected to speak for about 10 minutes</li>
-                     </ul>
-                     </p>
-                  </div>
-                  <div class="tab-pane fade" id="p3" role="tabpanel" aria-labelledby="p3-tab">
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Participation:   Single</li>
-                        <li>Duration:   3 Hrs</li>
-                        <li>Venue:   Indoor</li>
-                        <li>Prizes:   Winner and Runner Time:</li>
-                        <li>Contact Details:</li>
-                     </ul>
-                  </div>
-               </div>
-               <?php 
-include('dbconnection.php');
-$query="select eid,team_size,type from Events where ename like 'Startup Pitch';";
-$run_query=mysqli_query($dbHandle,$query);
-$row=mysqli_fetch_assoc($run_query);
-$eid=$row["eid"];
-$type=$row["type"];
-$size=$row["team_size"];
-echo "
-<form method='POST' action='register.php?id=$size'>
-<input type='hidden' name='eid' value=$eid>
-<input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>"; ?>            </article>
-         </div>
-         <div id="section7" class="expanding-container">
-            <article class="hentry">
-               <h1 class="entry-title">BAKASURA</h1>
-               <div class="entry-image">
-                  <div style=" background-image: url(images/ise/ise-food.jpeg);" class="img-placeholder">1</div>
-               </div>
-               <br>
-               <ul class="nav nav-tabs" id="myTab" role="tablist">
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="h4-tab" data-toggle="tab" href="#h4" role="tab" aria-controls="h4" aria-selected="true">Rules</a>
-                  </li>
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link" id="p4-tab" data-toggle="tab" href="#p4" role="tab" aria-controls="p4" aria-selected="false">Details</a>
-                  </li>
-               </ul>
-               <div class="tab-content" id="myTabContent">
-                  <div class="tab-pane fade show active" id="h4" role="tabpanel" aria-labelledby="h4-tab">
-                     <p>
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li> Involves series of tasks to be completed by passing each level</li>
-                        <li> Includes different food items at each level</li>
-                     </ul>
-                     </p>
-                  </div>
-                  <div class="tab-pane fade" id="p4" role="tabpanel" aria-labelledby="p4-tab">
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Participation:   Single</li>
-                        <li>Duration:   3 Hrs</li>
-                        <li>Venue:   Indoor</li>
-                        <li>Prizes:   Winner and Runner Time:</li>
-                        <li>Contact Details:</li>
-                     </ul>
-                  </div>
-               </div>
-                <?php 
-include('dbconnection.php');
-$query="select eid,team_size,type from Events where ename like 'Bakasura';";
-$run_query=mysqli_query($dbHandle,$query);
-$row=mysqli_fetch_assoc($run_query);
-$eid=$row["eid"];
-$type=$row["type"];
-$size=$row["team_size"];
-echo "
-<form method='POST' action='register.php?id=$size'>
-<input type='hidden' name='eid' value=$eid>
-<input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>"; ?>
-            </article>
-         </div>
+    
+      
+      
       </div>
       <script src="//static.codepen.io/assets/common/stopExecutionOnTimeout-41c52890748cd7143004e05d3c5f786c66b19939c4500ce446314d1748483e13.js"></script>
       <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>

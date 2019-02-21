@@ -278,119 +278,75 @@
       </header>
       <div class="expanding-grid ">
          <ul  class="links">
-            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">SYNTACTIX </div> <a style="opacity:0.8; color:transparent; border:1px #bdbdbd solid; height: 225px; background-image: url(images/cse/cse-syn.jpg);" href="#section1"></a></li>
-            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;"> COMPETITIVE CODING</div><a style="opacity:0.8; color:transparent; border:1px  #bdbdbd  solid;  height: 225px; background-image: url(images/cse/cse-cc.jpg);" href="#section2"></a></li>
+            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;"> Robotics Workshop </div> <a style="opacity:0.8; color:transparent; border:1px #bdbdbd solid; height: 225px; background-image: url(images/cse/cse-syn.jpg);" href="#section1"></a></li>
+            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;"> Robotics Model Making Exhibition</div><a style="opacity:0.8; color:transparent; border:1px  #bdbdbd  solid;  height: 225px; background-image: url(images/cse/cse-cc.jpg);" href="#section2"></a></li>
             <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">TECH SAY </div><a style="opacity:0.8; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/cse/cse-techsay.jpg);"   href="#section3"></a></li>
-            <li><a style=" background-image: url(images/stars-about.png);    "  href="#section5"></a></li>
-            <li><a style=" background-image: url(images/stars-about.png);    "  href="#section5"></a></li>
-            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;"> TECH LADDER </div><a style="opacity:0.5; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/cse/cse-ladder.jpg);" href="#section4"></a></li>
-            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;"> TECH HUNT </div><a style="opacity:0.8; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/cse/cse-hunt.jpg);"href="#section6"></a></li>
-            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;"> FUN FIESTA </div><a style="opacity:0.8; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/cse/cse-fun.jpg);" href="#section7"></a></li>
+           
          </ul>
-         <div  id="section1" class="expanding-container">
+         <div  id="section1" class="expanding-container"> 
             <article class="hentry">
-               <h1 class="entry-title">SYNTACTIX</h1>
+               <h1 class="entry-title">Robotics Workshop</h1>
                <div class="entry-image">
                   <div style="background-image: url(images/cse/cse-syn.jpg);" class="img-placeholder">1</div>
                </div>
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
                   <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Rules</a>
+                     <a style="color:white;" class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Details</a>
                   </li>
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Details</a>
-                  </li>
+                 
                </ul>
                <div class="tab-content" id="myTabContent">
                   <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Are you good at syntaxes? Check your syntactical skills in C and C++</li>
-                        <li>1st round: MCQ type</li>
-                        <li>2nd round: include few video-based question</li>
-                        <li>Final round</li>
-                        <li>Question on syntaxes of C and C++</li>
+                      <li>Students would demonstrate </li>
+              <li>                      1. I/O port operation – Bar graph LED</li>
+              <li>                      2. LCD to display a message using boot switch</li>
+              <li>                      3. Velocity control of DC motor using PWM</li>
+              <li>                      4. Line following Robot</li>
+              <li>                      5. Command Control Robot</li>
+              <li>   6. Obstacle Avoidance Robot</li>
+                </br>
+                <li>Venue: AC 413</li>
+                <li>Date: 27th February 2019</li>
+                  <li>9:00 AM - 4:00 PM</li>
                      </ul>
                      </p>
                   </div>
-                  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Time duration: 2 hours</li>
-                        <li>Team size: 1</li>
-                        <li>Type:inter</li>
-                        <li>Contact : kavyashree </li>
-                        <li>+91 81057 35425</li>
-                     </ul>
-                     </ul>
-                  </div>
+                  
                </div>
-               <?php 
-include('dbconnection.php');
-$query="select eid,team_size,type from Events where ename like 'Syntactix';";
-$run_query=mysqli_query($dbHandle,$query);
-$row=mysqli_fetch_assoc($run_query);
-$eid=$row["eid"];
-$type=$row["type"];
-$size=$row["team_size"];
-echo "
-<form method='POST' action='register.php?id=$size'>
-<input type='hidden' name='eid' value=$eid>
-<input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>"; ?>
+   
+
+              <button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button>
             </article>
          </div>
          <div id="section2" class="expanding-container">
             <article class="hentry">
-               <h1 class="entry-title">COMPETITIVE CODING :</h1>
+               <h1 class="entry-title">Robotics Model Making Exhibition</h1>
                <div class="entry-image">
                   <div style="background-image: url(images/cse/cse-cc.jpg);" class="img-placeholder">1</div>
                </div>
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
                   <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="h-tab" data-toggle="tab" href="#h" role="tab" aria-controls="h" aria-selected="true">Rules</a>
+                     <a style="color:white;" class="nav-link active" id="h-tab" data-toggle="tab" href="#h" role="tab" aria-controls="h" aria-selected="true">Details</a>
                   </li>
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link" id="p-tab" data-toggle="tab" href="#p" role="tab" aria-controls="p" aria-selected="false">Details</a>
-                  </li>
+                  
                </ul>
                <div class="tab-content" id="myTabContent">
                   <div class="tab-pane fade show active" id="h" role="tabpanel" aria-labelledby="h-tab">
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Is coding your passion? – Competitive Coding is an event to exhibit your coding skills.</li>
-                        <li>It involves not just coding but also error debugging and code analysis.</li>
-                        <li>3 rounds involving coding.</li>
-                        <li>1st round: MCQ questions – 30 minutes</li>
-                        <li>2nd round: Code correction – 30 minutes</li>
-                        <li>3rd round: Problem Statement- Based on maximum questions attempted, winners will be selected and awarded with attractive prices – 1hr</li>
+                        <li>Peer-to-Peer Learning</li>
                      </ul>
                      </p>
                   </div>
-                  <div class="tab-pane fade" id="p" role="tabpanel" aria-labelledby="p-tab">
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Time duration: 3 hours</li>
-                        <li>Team size: 2</li>
-                        <li>Type:inter</li>
-                        <li>Contact: Rakshitha P</li>
-                        <li>                 +91 95915 45007</li>
-                     </ul>
-                  </div>
+               
                </div>
-                  <?php 
-include('dbconnection.php');
-$query="select eid,team_size,type from Events where ename like 'Competitive Coding';";
-$run_query=mysqli_query($dbHandle,$query);
-$row=mysqli_fetch_assoc($run_query);
-$eid=$row["eid"];
-$type=$row["type"];
-$size=$row["team_size"];
-echo "
-<form method='POST' action='register.php?id=$size'>
-<input type='hidden' name='eid' value=$eid>
-<input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>"; ?>            </article>
+                  
+<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
+          </article>
          </div>
          <div id="section3" class="expanding-container">
             <article class="hentry">
@@ -401,206 +357,41 @@ echo "
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
                   <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="h1-tab" data-toggle="tab" href="#h1" role="tab" aria-controls="h1" aria-selected="true">Rules</a>
+                     <a style="color:white;" class="nav-link active" id="h1-tab" data-toggle="tab" href="#h1" role="tab" aria-controls="h1" aria-selected="true">Details</a>
                   </li>
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link" id="p1-tab" data-toggle="tab" href="#p1" role="tab" aria-controls="p1" aria-selected="false">Details</a>
-                  </li>
+                 
                </ul>
                <div class="tab-content" id="myTabContent">
                   <div class="tab-pane fade show active" id="h1" role="tabpanel" aria-labelledby="h1-tab">
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Participants are to select one from the provided topics to present.</li>
-                        <li>Round 1: Each participant or team gets 4 minutes to speak about the chosen topic and 1 minute to answer the questions asked by the judges.</li>
-                        <li>Round 2: Pick and speak, participant gets minimum 3 minutes to present the topic.</li>
+                      	<li>2 -Days workshop on Web Design and Development would </li>
+	<li>cover the following topics:</li>
+	<li>• Basics of HTML CSS & Javascript.</li>
+	<li>• Libraries of Javascript's such as Jquery</li>
+	<li>• How all the above 3 languages can be effectively together. </li>
+	<li>• Designing a Layout and developing it using the above Languages</li>
+	<li>• Database handling using MYSQL.</li>
+	<li>• Basic programming using PHP and its role in Web Development.</li>
+	<li>• Understanding PHP frameworks (Laravel)</li>
+	<li>• Testing the Website/ Web Application for various contingencies.</li>
+	<li>• Hosting the site in the respective Domain</li>
+    </br>
+                <li>Venue: AC 403</li>
+                <li>Date: 28th February 2019</li>
+                  <li>12:30 PM - 2:30 PM</li>
                      </ul>
                      </p>
                   </div>
-                  <div class="tab-pane fade" id="p1" role="tabpanel" aria-labelledby="p1-tab">
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Time duration: 2 hours</li>
-                        <li>Type inter and PU</li>
-                        <li>Team size: 1 or 2</li>
-                        <li>Contact:Supriya </li>
-                        <li>                +91 99011 17114</li>
-                     </ul>
-                  </div>
+                  
                </div>
-                <?php 
-include('dbconnection.php');
-$query="select eid,team_size,type from Events where ename like 'Tech Say';";
-$run_query=mysqli_query($dbHandle,$query);
-$row=mysqli_fetch_assoc($run_query);
-$eid=$row["eid"];
-$type=$row["type"];
-$size=$row["team_size"];
-echo "
-<form method='POST' action='register.php?id=$size'>
-<input type='hidden' name='eid' value=$eid>
-<input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>"; ?>
+               
+<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
             </article>
          </div>
-         <div id="section4" class="expanding-container">
-            <article class="hentry">
-               <h1 class="entry-title">TECH LADDER</h1>
-               <div class="entry-image">
-                  <div style="background-image: url(images/cse/cse-ladder.jpg);" class="img-placeholder">1</div>
-               </div>
-               <br>
-               <ul class="nav nav-tabs" id="myTab" role="tablist">
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="h2-tab" data-toggle="tab" href="#h2" role="tab" aria-controls="h2" aria-selected="true">Rules</a>
-                  </li>
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link" id="p2-tab" data-toggle="tab" href="#p2" role="tab" aria-controls="p2" aria-selected="false">Details</a>
-                  </li>
-               </ul>
-               <div class="tab-content" id="myTabContent">
-                  <div class="tab-pane fade show active" id="h2" role="tabpanel" aria-labelledby="h2-tab">
-                     <p>
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Here is a fun filled event involving question from various backgrounds of life involving technology. Play Snake and Ladder while answering questions based on technology.</li>
-                        <li>Snake & Ladder with Tech questions.</li>
-                        <li>Each ladder and snake have questions for that spot.</li>
-                        <li>90 to 100 will have one question on each block.</li>
-                        <li>If the questions are correctly answered at a ladder, one can climb the ladder and if the questions at snake are correctly answered, participants continue playing the game else, they have to go down the tail of the snake.</li>
-                     </ul>
-                     </p>
-                  </div>
-                  <div class="tab-pane fade" id="p2" role="tabpanel" aria-labelledby="p2-tab">
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Time duration: 2 hours</li>
-                        <li>Team size: 3</li>
-                        <li>Type:inter</li>
-                        <li>Contact:Navya S N</li>
-                        <li>                +91 77956 48685</li>
-                     </ul>
-                  </div>
-               </div>
-               <?php 
-include('dbconnection.php');
-$query="select eid,team_size,type from Events where ename like 'Tech Ladder';";
-$run_query=mysqli_query($dbHandle,$query);
-$row=mysqli_fetch_assoc($run_query);
-$eid=$row["eid"];
-$type=$row["type"];
-$size=$row["team_size"];
-echo "
-<form method='POST' action='register.php?id=$size'>
-<input type='hidden' name='eid' value=$eid>
-<input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>"; ?>
-            </article>
-         </div>
-         <div id="section6" class="expanding-container">
-            <article class="hentry">
-               <h1 class="entry-title">TECH HUNT</h1>
-               <div class="entry-image">
-                  <div style=" background-image: url(images/cse/cse-hunt.jpg);" class="img-placeholder">1</div>
-               </div>
-               <br>
-               <ul class="nav nav-tabs" id="myTab" role="tablist">
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="h3-tab" data-toggle="tab" href="#h3" role="tab" aria-controls="h3" aria-selected="true">Rules</a>
-                  </li>
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link" id="p3-tab" data-toggle="tab" href="#p3" role="tab" aria-controls="p3" aria-selected="false">Details</a>
-                  </li>
-               </ul>
-               <div class="tab-content" id="myTabContent">
-                  <div class="tab-pane fade show active" id="h3" role="tabpanel" aria-labelledby="h3-tab">
-                     <p>
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Do you like treasure hunts? Here is a new twist to all-time favourite game.</li>
-                        <li>Use your technical skills and knowledge to solve the clues and move ahead. But that’s not all, there’s more to this!</li>
-                        <li>Total of 8 rounds including the first and last rounds.</li>
-                        <li>Participants get a clue after qualifying each round where they’ll have a questionnaire to answer.</li>
-                        <li>Once the participants get through 4 rounds and have 4 clues, in the 5th round, after qualifying it, clue for an elimination round is given.</li>
-                        <li>After the elimination round, there are three more rounds of clue solving and some tech-based games.</li>
-                        <li>A team with 7 clues and an elimination round card, gets the clue for the final point.</li>
-                        <li>The one who reaches the end point first wins.</li>
-                     </ul>
-                     </p>
-                  </div>
-                  <div class="tab-pane fade" id="p3" role="tabpanel" aria-labelledby="p3-tab">
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Time duration: 3 hours</li>
-                        <li>Team size: 3-4</li>
-                        <li>Type:inter</li>
-                        <li>Contact: Summiya </li>
-                        <li>                 82770 74571</li>
-                     </ul>
-                  </div>
-               </div>
-               <?php 
-include('dbconnection.php');
-$query="select eid,team_size,type from Events where ename like 'Tech Hunt';";
-$run_query=mysqli_query($dbHandle,$query);
-$row=mysqli_fetch_assoc($run_query);
-$eid=$row["eid"];
-$type=$row["type"];
-$size=$row["team_size"];
-echo "
-<form method='POST' action='register.php?id=$size'>
-<input type='hidden' name='eid' value=$eid>
-<input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>"; ?>
-            </article>
-         </div>
-         <div id="section7" class="expanding-container">
-            <article class="hentry">
-               <h1 class="entry-title">FUN FIESTA</h1>
-               <div class="entry-image">
-                  <div style=" background-image: url(images/cse/cse-fun.jpg);" class="img-placeholder">1</div>
-               </div>
-               <br>
-               <ul class="nav nav-tabs" id="myTab" role="tablist">
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="h4-tab" data-toggle="tab" href="#h4" role="tab" aria-controls="h4" aria-selected="true">Rules</a>
-                  </li>
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link" id="p4-tab" data-toggle="tab" href="#p4" role="tab" aria-controls="p4" aria-selected="false">Details</a>
-                  </li>
-               </ul>
-               <div class="tab-content" id="myTabContent">
-                  <div class="tab-pane fade show active" id="h4" role="tabpanel" aria-labelledby="h4-tab">
-                     <p>
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>New arrival!! Are you bored of attending engineering classes? Want to Experience 4 years of Engineering life in just one shot…….!? Then this is the right event for you to enjoy and have fun.</li>
-                        <li>1st level: amazing race</li>
-                        <li>2nd level: shuffling tools</li>
-                        <li>3rd level: spin the wheel</li>
-                        <li>4th level: knock out</li>
-                     </ul>
-                     </p>
-                  </div>
-                  <div class="tab-pane fade" id="p4" role="tabpanel" aria-labelledby="p4-tab">
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Time duration: 3hours</li>
-                        <li>Team size:3  </li>
-                        <li>Type:inter and PU</li>
-                        <li>Contact:Divya </li>
-                        <li>                +91 77601 81319</li>
-                     </ul>
-                  </div>
-               </div>
-               <?php 
-include('dbconnection.php');
-$query="select eid,team_size,type from Events where ename like 'Fun Fiesta';";
-$run_query=mysqli_query($dbHandle,$query);
-$row=mysqli_fetch_assoc($run_query);
-$eid=$row["eid"];
-$type=$row["type"];
-$size=$row["team_size"];
-echo "
-<form method='POST' action='register.php?id=$size'>
-<input type='hidden' name='eid' value=$eid>
-<input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>"; ?>
-            </article>
-         </div>
+    
+      
+      
       </div>
       <script src="//static.codepen.io/assets/common/stopExecutionOnTimeout-41c52890748cd7143004e05d3c5f786c66b19939c4500ce446314d1748483e13.js"></script>
       <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
