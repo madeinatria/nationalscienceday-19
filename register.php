@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -47,7 +46,7 @@
         font-family: 'Raleway', sans-serif;
         background-image: url(images/stars-about.png);
       }
-      input {
+      input,select {
         width: 80%;
         padding: 12px 20px;
         margin: 8px 0;
@@ -77,17 +76,13 @@
       card-link{
         color:#fff;
       }
-
       <meta name="viewport" content="width=device-width, initial-scale=1">
-
 #myImg {
     border-radius: 0px;
     cursor: pointer;
     transition: 0.3s;
 }
-
 #myImg:hover {opacity: 0.8;}
-
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
@@ -102,7 +97,6 @@
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 }
-
 /* Modal Content (image) */
 .modal-content {
     margin: auto;
@@ -111,7 +105,6 @@
     height: 500px;
     max-width: 700px;
 }
-
 /* Caption of Modal Image */
 #caption {
     margin: auto;
@@ -123,7 +116,6 @@
     padding: 10px 0;
     height: 100px;
 }
-
 /* Add Animation */
 .modal-content, #caption {    
     -webkit-animation-name: zoom;
@@ -131,17 +123,14 @@
     animation-name: zoom;
     animation-duration: 0.6s;
 }
-
 @-webkit-keyframes zoom {
     from {-webkit-transform:scale(0)} 
     to {-webkit-transform:scale(1)}
 }
-
 @keyframes zoom {
     from {transform:scale(0)} 
     to {transform:scale(1)}
 }
-
 /* The Close Button */
 .close {
     position: absolute;
@@ -152,14 +141,12 @@
     font-weight: bold;
     transition: 0.3s;
 }
-
 .close:hover,
 .close:focus {
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
 }
-
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
     .modal-content {
@@ -175,44 +162,57 @@
       </h2>
       <div id='accordion'>
         <?php
-include('dbconnection.php');
-$id=$_GET['id'];
-$eid=$_POST['eid'];
-$type=$_POST['type'];
-$query="select ename,reg_amount from Events where eid='$eid';";
-$run_query=mysqli_query($dbHandle,$query);
-$row=mysqli_fetch_assoc($run_query);;
-$ename=$row['ename'];
-$amount=$row['reg_amount'];
-if($id==1) 
-{ 
 echo "
 <div id='myModal' class='modal'>
   <span class='close'>&times;</span>
   <img class='modal-content' src='images/qrcode.jpg'>
-  <div id='caption'></div>
+  <div id='c aption'></div>
 </div>
 <form action='save.php' method='POST'>
 <div class='card'>
 <div class='card-header'>
 <a class='card-link' data-toggle='collapse' href='#collapseOne' style='color: !important#fff;'>
-<strong>PARTICIPANT 1</strong>
+<strong>DETAILS</strong>
 </a>
 </div>
-<div id='collapseOne' class='collapse' data-parent='#accordion'>
+<div id='collapseOne' class='open' data-parent='#accordion'>
 <div class='card-body'>
-<input type='hidden' id='' name='id' value='$id'>
-<input type='hidden' id='' name='eid' value='$eid'>
 <label for='fname'>NAME: </label>
 <input required type='text' id='' name='name1'>
-<label for='lname'>COLLEGE:</label>
-<input list='colleges' name='college1' id='name' placeholder='If others,please specify' />
-<datalist id='colleges'>
-<option value='Atria Institute Of Technology'>
-<option value='Others'>
-</datalist>
 <label>EVENT:</label>
-<input type='text' id='' name='event1' value='$ename' readonly>
+<select name='event'>
+  <optgroup style='background-color:#404040;' label='Computer Science'>
+    <option value='Robotics Workshop'>Future of Work - Robotics Workshop</option>
+    <option value='Robotics Model Making Exhibition'>Robotics Model Making Exhibition</option>
+    <option value='Tech Say'>Tech Say</option>
+  </optgroup>
+  <optgroup style='background-color:#404040;'label='Information science'>
+    <option value='Web Design'>Workshop on: Web Design and 
+Development</option>
+    <option value='Poster Presentation'>Poster Presentation</option>
+    <option value='Tech Talk'>Tech Talk</option>
+  </optgroup>
+  <optgroup style='background-color:#404040;'label='BSE & Humanities'>
+    <option value='Magic and Origami for Maths'>Magic and Origami for Maths</option>
+    <option value='Glass Preparation'>Glass Preparation</option>
+    <option value='Movie on Nobel Laureate Chandra'>Movie on Nobel Laureate Chandra</option>
+    <option value='Water Quality'>Water Quality</option>
+    <option value='Report Writing'>Report Writing</option>
+    <option value='Preparation of Nanoparticles'>Preparation of Nanoparticles</option>
+</optgroup>
+ <optgroup style='background-color:#404040;' label='Mechanical Engineering'>
+    <option value='Elastica - The Paradox of the Principle of Least Action'>Elastica - The Paradox of the Principle of Least Action</option>
+    <option value='Automobile- Cars evolution till date'>Automobile- Cars evolution till date</option>
+    <option value='Computer Aided Design Workshop'>Computer Aided Design Workshop</option>
+    <option value='Poster presentation'>Poster presentation</option>
+  </optgroup>
+  <optgroup style='background-color:#404040;' label='Electronics and Communication'>
+    <option value='Hardware'>Hardware</option>
+    <option value='Build Your Own Robot from SCRATCH'>Build Your Own Robot from SCRATCH</option>
+    <option value='Amazon ALEXA'>Amazon ALEXA</option>
+    <option value='ARM'>ARM</option>
+  </optgroup>
+</select>
 <label>EMAIL:</label>
 <input required type='email' id='' name='email1'>
 <label>PHONE NUMBER:</label>
@@ -220,666 +220,17 @@ echo "
 <label for='fname'>DEPARTMENT: </label>
 <input required type='text' id='' name='dep1'>
 <label>SEMESTER/YEAR:</label>
-<select  id='sem1' name='sem1' style='width: 50px;'>
-<option value='1'>1</option>
+<select name='sem'>
+<optgroup style='background-color:#404040;'>
 <option value='2'>2</option>
-<option value='3'>3</option>
-<option value='4'>4</option>
-<option value='5'>5</option>
+<option value='3'>4</option>
 <option value='6'>6</option>
-<option value='7'>7</option>
-<option value='8'>8</option>
-<option value='pu1'>11th</option>
-<option value='pu2'>12th</option>
+<option value='8'>8</option></optgroup>
 </select>
-</div></div></div>
-<div class='card'>
-<div class='card-header'>
-<a class='card-link' data-toggle='collapse' href='#collapsepay'>
-<strong> PAYMENT DETAILS </strong>
-</a>
-</div>
-<div id='collapsepay' class='collapse' data-parent='#accordion'>
-<div class='card-body'> 
-<p style='color:#fff;' id='demo'></p>
-<p>
-<img id='myImg' src='images/paytm.jpg' style='width:20%;max-width:300px;height: 60px;'></p>
-<label>TRANSACTION ID:</label>
-<input required type='text' id='' name='tid'>
-<button type='submit' formaction='save.php' class='btn'>REGISTER!</button>  </div>
-</div>
-</div>
-</form>
-</div>" ;
-} 
-else if($id==2){
-echo "
-<div id='myModal' class='modal'>
-  <span class='close'>&times;</span>
-  <img class='modal-content' src='images/qrcode.jpg'>
-  <div id='caption'></div>
-</div>
-<form method='POST' action='save.php'>
-<div class='card'>
-<div class='card-header'>
-<a class='card-link' data-toggle='collapse' href='#collapseOne'>
-<strong>PARTICIPANT 1</strong>
-</a>
-</div>
-<div id='collapseOne' class='collapse' data-parent='#accordion'>
-<div class='card-body'>
-<input type='hidden' id='' name='id' value='$id'>
-<input type='hidden' id='' name='eid' value='$eid'>
-<label for='fname'>NAME: </label>
-<input required type='text' id='' name='name1'>
-<label for='lname'>COLLEGE:</label>
-<input list='colleges' name='college1' id='name' placeholder='If others,please specify' />
-<datalist id='colleges'>
-<option value='Atria Institute Of Technology'>
-<option value='Others'>
-</datalist>
-<label>EVENT:</label>
-<input type='text' id='' name='event1' value='$ename' readonly>
-<label>EMAIL:</label>
-<input required type='email' id='' name='email1'>
-<label>PHONE NUMBER:</label>
-<input required type='text' id='' name='phone1'>
-<label for='fname'>DEPARTMENT: </label>
-<input required type='text' id='' name='dep1'>
-<label>SEMESTER/YEAR:</label>
-<select  id='sem1' name='sem1' style='width: 40px;'>
-<option value='1'>1</option>
-<option value='2'>2</option>
-<option value='3'>3</option>
-<option value='4'>4</option>
-<option value='5'>5</option>
-<option value='6'>6</option>
-<option value='7'>7</option>
-<option value='8'>8</option>
-<option value='pu1'>11th</option>
-<option value='pu2'>12th</option>
-</select>
-</div></div>
-<div class='card-header'>
-<a class='card-link' data-toggle='collapse' href='#collapsetwo'>
-<strong>PARTICIPANT 2</strong>
-</a>
-</div>
-<div id='collapsetwo' class='collapse' data-parent='#accordion'>
-<div class='card-body'>
-<label for='fname'>NAME: </label>
-<input required type='text' id='' name='name2'>
-<label for='lname'>COLLEGE:</label>
-<input list='colleges' name='college2' id='name' placeholder='If others,please specify' />
-<datalist id='colleges'>
-<option value='Atria Institute Of Technology'>
-<option value='Others'>
-</datalist>
-<label>EVENT:</label>
-<input type='text' id='' name='event2' value='$ename' readonly>
-<label>EMAIL:</label>
-<input required type='email' id='name' name='email2'>
-<label>PHONE NUMBER:</label>
-<input required type='text' id='' name='phone2'> 
-<label for='fname'>DEPARTMENT: </label>
-<input required type='text' id='' name='dep2'>
-<label>SEMESTER/YEAR:</label>
-<select  id='sem1' name='sem2' style='width: 40px;'>
-<option value='1'>1</option>
-<option value='2'>2</option>
-<option value='3'>3</option>
-<option value='4'>4</option>
-<option value='5'>5</option>
-<option value='6'>6</option>
-<option value='7'>7</option>
-<option value='8'>8</option>
-<option value='pu1'>11th</option>
-<option value='pu2'>12th</option>
-</select></div></div>
-</div>
-<div class='card'>
-<div class='card-header'>
-<a class='card-link' data-toggle='collapse' href='#collapsepay'>
-<strong> PAYMENT DETAILS </strong>
-</a>
-</div>
-<div id='collapsepay' class='collapse' data-parent='#accordion'>
-<div class='card-body'> 
-<p style='color:#fff;' id='demo'></p>
-<p>
-<img id='myImg' src='images/paytm.jpg' style='width:20%;max-width:300px;height: 60px;'></p>
-<label>TRANSACTION ID:</label>
-<input required type='text' id='' name='tid'>
-<button type='submit' formaction='save.php' class='btn'>REGISTER!</button>  </div>
-</div>
-</div>
-</form>" ;
-}
-else if($id==3)
-{
-echo "
-<div id='myModal' class='modal'>
-  <span class='close'>&times;</span>
-  <img class='modal-content' src='images/qrcode.jpg'>
-  <div id='caption'></div>
-</div>
-<form method='POST' action='save.php'>
-<div class='card'>
-<div class='card-header'>
-<a class='card-link' data-toggle='collapse' href='#collapseOne'>
-<strong>PARTICIPANT 1</strong>
-</a>
-</div>
-<div id='collapseOne' class='collapse' data-parent='#accordion'>
-<div class='card-body'>
-<input type='hidden' id='custId' name='id' value='$id'> 
-<input type='hidden' id='' name='eid' value='$eid'>
-<label for='fname'>NAME: </label>
-<input required type='text' id='' name='name1'>
-<label for='lname'>COLLEGE:</label>
-<input list='colleges' name='college1' id='name' placeholder='If others,please specify' />
-<datalist id='colleges'>
-<option value='Atria Institute Of Technology'>
-<option value='Others'>
-</datalist>
-<label>EVENT:</label>
-<input type='text' id='' name='event1' value='$ename' readonly>
-<label>EMAIL:</label>
-<input required type='email' id='' name='email1'>
-<label>PHONE NUMBER:</label>
-<input required type='text' id='' name='phone1'>
-<label for='fname'>DEPARTMENT: </label>
-<input required type='text' id='' name='dep1'>
-<label>SEMESTER/YEAR:</label>
-<select  id='sem1' name='sem1' style='width: 40px;'>
-<option value='1'>1</option>
-<option value='2'>2</option>
-<option value='3'>3</option>
-<option value='4'>4</option>
-<option value='5'>5</option>
-<option value='6'>6</option>
-<option value='7'>7</option>
-<option value='8'>8</option>
-<option value='pu1'>11th</option>
-<option value='pu2'>12th</option>
-</select>
-</div></div>
-<div class='card-header'>
-<a class='card-link' data-toggle='collapse' href='#collapsetwo'>
-<strong>PARTICIPANT 2</strong>
-</a>
-</div>
-<div id='collapsetwo' class='collapse' data-parent='#accordion'>
-<div class='card-body'>
-<label for='fname'>NAME: </label>
-<input required type='text' id='' name='name2'>
-<label for='lname'>COLLEGE:</label>
-<input list='colleges' name='college2' id='name' placeholder='If others,please specify' />
-<datalist id='colleges'>
-<option value='Atria Institute Of Technology'>
-<option value='Others'>
-</datalist>
-<label>EVENT:</label>
-<input type='text' id='' name='event2' value='$ename' readonly>
-<label>EMAIL:</label>
-<input required type='email' id='' name='email2'>
-<label>PHONE NUMBER:</label>
-<input required type='text' id='' name='phone2'>  
-<label for='fname'>DEPARTMENT: </label>
-<input required type='text' id='' name='dep2'>
-<label>SEMESTER/YEAR:</label>
-<select  id='' name='sem2' style='width: 40px;'>
-<option value='1'>1</option>
-<option value='2'>2</option>
-<option value='3'>3</option>
-<option value='4'>4</option>
-<option value='5'>5</option>
-<option value='6'>6</option>
-<option value='7'>7</option>
-<option value='8'>8</option>
-<option value='pu1'>11th</option>
-<option value='pu2'>12th</option>
-</select></div></div>
-<div class='card-header'>
-<a class='card-link' data-toggle='collapse' href='#collapsethree'>
-<strong>PARTICIPANT 3</strong>
-</a>
-</div>
-<div id='collapsethree' class='collapse' data-parent='#accordion'>
-<div class='card-body'>
-<label for='fname'>NAME: </label>
-<input required type='text' id='' name='name3'>
-<label for='lname'>COLLEGE:</label>
-<input list='colleges' name='college3' id='name' placeholder='If others,please specify' />
-<datalist id='colleges'>
-<option value='Atria Institute Of Technology'>
-<option value='Others'>
-</datalist>
-<label>EVENT:</label>
-<input type='text' id='' name='event3' value='$ename' readonly>
-<label>EMAIL:</label>
-<input required type='email' id='' name='email3'>
-<label>PHONE NUMBER:</label>
-<input required type='text' id='' name='phone3'>
-<label for='fname'>DEPARTMENT: </label>
-<input required type='text' id='' name='dep3'>
-<label>SEMESTER/YEAR:</label>
-<select  id='' name='sem3' style='width: 40px;'>
-<option value='1'>1</option>
-<option value='2'>2</option>
-<option value='3'>3</option>
-<option value='4'>4</option>
-<option value='5'>5</option>
-<option value='6'>6</option>
-<option value='7'>7</option>
-<option value='8'>8</option>
-<option value='pu1'>11th</option>
-<option value='pu2'>12th</option>
-</select>
-</div></div>
-</div>
-<div class='card'>
-<div class='card-header'>
-<a class='card-link' data-toggle='collapse' href='#collapsepay'>
-<strong> PAYMENT DETAILS </strong>
-</a>
-</div>
-<div id='collapsepay' class='collapse' data-parent='#accordion'>
-<div class='card-body'>  
-<p style='color:#fff;' id='demo'></p>
-<p>
-<img id='myImg' src='images/paytm.jpg' style='width:20%;max-width:300px;height: 60px;'></p>
-<label>TRANSACTION ID:</label>
-<input required type='text' id='' name='tid'>
-<button type='submit' formaction='save.php' class='btn'>REGISTER!</button>  </div>
-</div>
-</div>
-</form>" ; 
-}
-else if($id==4)
-{
-echo "
-<div id='myModal' class='modal'>
-  <span class='close'>&times;</span>
-  <img class='modal-content' src='images/qrcode.jpg'>
-  <div id='caption'></div>
-</div>
-<form method='POST' action='save.php'>
-<div class='card'>
-<div class='card-header'>
-<a class='card-link' data-toggle='collapse' href='#collapseOne'>
-<strong>PARTICIPANT 1</strong>
-</a>
-</div>
-<div id='collapseOne' class='collapse' data-parent='#accordion'>
-<div class='card-body'>
-<input type='hidden' id='custId' name='id' value='$id'>
-<input type='hidden' id='id' name='eid' value='$eid'>
-<label for='fname'>NAME: </label>
-<input required type='text' id='' name='name1'>
-<label for='lname'>COLLEGE:</label>
-<input list='colleges' name='college1' id='name' placeholder='If others,please specify' />
-<datalist id='colleges'>
-<option value='Atria Institute Of Technology'>
-<option value='Others'>
-</datalist>
-<label>EVENT:</label>
-<input type='text' id='' name='event1' value='$ename' readonly>
-<label>EMAIL:</label>
-<input required type='email' id='' name='email1'>
-<label>PHONE NUMBER:</label>
-<input required type='text' id='' name='phone1'> 
-<label for='fname'>DEPARTMENT: </label>
-<input required type='text' id='fname' name='dep1'> <label>SEMESTER/YEAR:</label>
-<select  id='sem1' name='sem1' style='width: 40px;'>
-<option value='1'>1</option>
-<option value='2'>2</option>
-<option value='3'>3</option>
-<option value='4'>4</option>
-<option value='5'>5</option>
-<option value='6'>6</option>
-<option value='7'>7</option>
-<option value='8'>8</option>
-<option value='pu1'>11th</option>
-<option value='pu2'>12th</option>
-</select>
-</div></div>
-<div class='card-header'>
-<a class='card-link' data-toggle='collapse' href='#collapsetwo'>
-<strong> PARTICIPANT 2</strong>
-</a>
-</div>
-<div id='collapsetwo' class='collapse' data-parent='#accordion'>
-<div class='card-body'>
-<label for='fname'>NAME: </label>
-<input required type='text' id='fname' name='name2'>
-<label for='lname'>COLLEGE:</label>
-<input list='colleges' name='college2' id='name' placeholder='If others,please specify' />
-<datalist id='colleges'>
-<option value='Atria Institute Of Technology'>
-<option value='Others'>
-</datalist>
-<label>EVENT:</label>
-<input type='text' id='' name='event2' value='$ename' readonly>
-<label>EMAIL:</label>
-<input required type='email' id='email1' name='email2'>
-<label>PHONE NUMBER:</label>
-<input required type='text' id='phone1' name='phone2'>
-<label for='fname'>DEPARTMENT: </label>
-<input required type='text' id='fname' name='dep2'>
-<label>SEMESTER/YEAR:</label>
-<select  id='sem1' name='sem2' style='width: 40px;'>
-<option value='1'>1</option>
-<option value='2'>2</option>
-<option value='3'>3</option>
-<option value='4'>4</option>
-<option value='5'>5</option>
-<option value='6'>6</option>
-<option value='7'>7</option>
-<option value='8'>8</option>
-<option value='pu1'>11th</option>
-<option value='pu2'>12th</option>
-</select>
-</div></div>
-<div class='card-header'>
-<a class='card-link' data-toggle='collapse' href='#collapsethree'>
-<strong>PARTICIPANT 3</strong>
-</a>
-</div>
-<div id='collapsethree' class='collapse' data-parent='#accordion'>
-<div class='card-body'>
-<label for='fname'>NAME: </label>
-<input required type='text' id='fname' name='name3'>
-<label for='lname'>COLLEGE:</label>
-<input list='colleges' name='college3' id='name' placeholder='If others,please specify' />
-<datalist id='colleges'>
-<option value='Atria Institute Of Technology'>
-<option value='Others'>
-</datalist>
-<label>EVENT:</label>
-<input type='text' id='' name='event3' value='$ename' readonly>
-<label>EMAIL:</label>
-<input required type='email' id='email1' name='email3'>
-<label>PHONE NUMBER:</label>
-<input required type='text' id='phone1' name='phone3'>   <label for='fname'>DEPARTMENT: </label>
-<input required type='text' id='fname' name='dep3'>  <label>SEMESTER/YEAR:</label>
-<select  id='sem1' name='sem3' style='width: 40px;'>
-<option value='1'>1</option>
-<option value='2'>2</option>
-<option value='3'>3</option>
-<option value='4'>4</option>
-<option value='5'>5</option>
-<option value='6'>6</option>
-<option value='7'>7</option>
-<option value='8'>8</option>
-<option value='pu1'>11th</option>
-<option value='pu2'>12th</option>
-</select>
-</div></div>
-<div class='card-header'>
-<a class='card-link' data-toggle='collapse' href='#collapsefour'>
-<strong>PARTICIPANT 4</strong>
-</a>
-</div>
-<div id='collapsefour' class='collapse' data-parent='#accordion'>
-<div class='card-body'>
-<label for='fname'>NAME: </label>
-<input required type='text' id='fname' name='name4'>
-<label for='lname'>COLLEGE:</label>
-<input list='colleges' name='college4' id='name' placeholder='If others,please specify' />
-<datalist id='colleges'>
-<option value='Atria Institute Of Technology'>
-<option value='Others'>
-</datalist> 
-<label>EVENT:</label>
-<input type='text' id='' name='event4' value='$ename' readonly>
-<label>EMAIL:</label>
-<input required type='email' id='email1' name='email4'>
-<label>PHONE NUMBER:</label>
-<input required type='text' id='phone1' name='phone4'> 
-<label for='fname'>DEPARTMENT: </label>
-<input required type='text' id='fname' name='dep4'> <label>SEMESTER/YEAR:</label>
-<select  id='sem1' name='sem4' style='width: 40px;'>
-<option value='1'>1</option>
-<option value='2'>2</option>
-<option value='3'>3</option>
-<option value='4'>4</option>
-<option value='5'>5</option>
-<option value='6'>6</option>
-<option value='7'>7</option>
-<option value='8'>8</option>
-<option value='pu1'>11th</option>
-<option value='pu2'>12th</option>
-</select>
-</div></div>
-</div>
-<div class='card'>
-<div class='card-header'>
-<a class='card-link' data-toggle='collapse' href='#collapsepay' onClick='mul();'>
-<strong> PAYMENT DETAILS </strong>
-</a>
-</div>
-<div id='collapsepay' class='collapse' data-parent='#accordion' >
-<div class='card-body'>  
-<p style='color:#fff;' id='demo'></p>
-<p>
-<img id='myImg' src='images/paytm.jpg' style='width:20%;max-width:300px;height: 60px;'></p>
-<label>TRANSACTION ID:</label>
-<input required type='text' id='' name='tid'>
-<button type='submit' formaction='save.php' class='btn'>REGISTER!</button>  </div>
-</div>
-</div>
-</form>" ; 
-}
-else if($id==5){
-echo "
-<div id='myModal' class='modal'>
-  <span class='close'>&times;</span>
-  <img class='modal-content' src='images/qrcode.jpg'>
-  <div id='caption'></div>
-</div>
-<form method='POST' action='save.php'>
-<div class='card'>
-<div class='card-header'>
-<a class='card-link' data-toggle='collapse' href='#collapseOne'>
-<strong>PARTICIPANT 1</strong>
-</a>
-</div>
-<div id='collapseOne' class='collapse' data-parent='#accordion'>
-<div class='card-body'>
-<input type='hidden' id='custId' name='id' value='$id'>
-<input type='hidden' id='id' name='eid' value='$eid'>
-<label for='fname'>NAME: </label>
-<input required type='text' id='' name='name1'>
-<label for='lname'>COLLEGE:</label>
-<input list='colleges' name='college1' id='name' placeholder='If others,please specify' />
-<datalist id='colleges'>
-<option value='Atria Institute Of Technology'>
-<option value='Others'>
-</datalist>
-<label>EVENT:</label>
-<input type='text' id='' name='event1' value='$ename' readonly>
-<label>EMAIL:</label>
-<input required type='email' id='' name='email1'>
-<label>PHONE NUMBER:</label>
-<input required type='text' id='' name='phone1'> 
-<label for='fname'>DEPARTMENT: </label>
-<input required type='text' id='fname' name='dep1'> <label>SEMESTER/YEAR:</label>
-<select  id='sem1' name='sem1' style='width: 40px;'>
-<option value='1'>1</option>
-<option value='2'>2</option>
-<option value='3'>3</option>
-<option value='4'>4</option>
-<option value='5'>5</option>
-<option value='6'>6</option>
-<option value='7'>7</option>
-<option value='8'>8</option>
-<option value='pu1'>11th</option>
-<option value='pu2'>12th</option>
-</select>
-</div></div>
-<div class='card-header'>
-<a class='card-link' data-toggle='collapse' href='#collapsetwo'>
-<strong> PARTICIPANT 2</strong>
-</a>
-</div>
-<div id='collapsetwo' class='collapse' data-parent='#accordion'>
-<div class='card-body'>
-<label for='fname'>NAME: </label>
-<input required type='text' id='fname' name='name2'>
-<label for='lname'>COLLEGE:</label>
-<input list='colleges' name='college2' id='name' placeholder='If others,please specify' />
-<datalist id='colleges'>
-<option value='Atria Institute Of Technology'>
-<option value='Others'>
-</datalist>
-<label>EVENT:</label>
-<input type='text' id='' name='event2' value='$ename' readonly>
-<label>EMAIL:</label>
-<input required type='email' id='email1' name='email2'>
-<label>PHONE NUMBER:</label>
-<input required type='text' id='phone1' name='phone2'>
-<label for='fname'>DEPARTMENT: </label>
-<input required type='text' id='fname' name='dep2'>
-<label>SEMESTER/YEAR:</label>
-<select  id='sem1' name='sem2' style='width: 40px;'>
-<option value='1'>1</option>
-<option value='2'>2</option>
-<option value='3'>3</option>
-<option value='4'>4</option>
-<option value='5'>5</option>
-<option value='6'>6</option>
-<option value='7'>7</option>
-<option value='8'>8</option>
-<option value='pu1'>11th</option>
-<option value='pu2'>12th</option>
-</select>
-</div></div>
-<div class='card-header'>
-<a class='card-link' data-toggle='collapse' href='#collapsethree'>
-<strong>PARTICIPANT 3</strong>
-</a>
-</div>
-<div id='collapsethree' class='collapse' data-parent='#accordion'>
-<div class='card-body'>
-<label for='fname'>NAME: </label>
-<input required type='text' id='fname' name='name3'>
-<label for='lname'>COLLEGE:</label>
-<input list='colleges' name='college3' id='name' placeholder='If others,please specify' />
-<datalist id='colleges'>
-<option value='Atria Institute Of Technology'>
-<option value='Others'>
-</datalist>
-<label>EVENT:</label>
-<input type='text' id='' name='event3' value='$ename' readonly>
-<label>EMAIL:</label>
-<input required type='email' id='email1' name='email3'>
-<label>PHONE NUMBER:</label>
-<input required type='text' id='phone1' name='phone3'>   <label for='fname'>DEPARTMENT: </label>
-<input required type='text' id='fname' name='dep3'>  <label>SEMESTER/YEAR:</label>
-<select  id='sem1' name='sem3' style='width: 40px;'>
-<option value='1'>1</option>
-<option value='2'>2</option>
-<option value='3'>3</option>
-<option value='4'>4</option>
-<option value='5'>5</option>
-<option value='6'>6</option>
-<option value='7'>7</option>
-<option value='8'>8</option>
-<option value='pu1'>11th</option>
-<option value='pu2'>12th</option>
-</select>
-</div></div>
-<div class='card-header'>
-<a class='card-link' data-toggle='collapse' href='#collapsefour'>
-<strong>PARTICIPANT 4</strong>
-</a>
-</div>
-<div id='collapsefour' class='collapse' data-parent='#accordion'>
-<div class='card-body'>
-<label for='fname'>NAME: </label>
-<input required type='text' id='fname' name='name4'>
-<label for='lname'>COLLEGE:</label>
-<input list='colleges' name='college4' id='name' placeholder='If others,please specify' />
-<datalist id='colleges'>
-<option value='Atria Institute Of Technology'>
-<option value='Others'>
-</datalist> 
-<label>EVENT:</label>
-<input type='text' id='' name='event4' value='$ename' readonly>
-<label>EMAIL:</label>
-<input required type='email' id='email1' name='email4'>
-<label>PHONE NUMBER:</label>
-<input required type='text' id='phone1' name='phone4'> 
-<label for='fname'>DEPARTMENT: </label>
-<input required type='text' id='fname' name='dep4'> <label>SEMESTER/YEAR:</label>
-<select  id='sem1' name='sem4' style='width: 40px;'>
-<option value='1'>1</option>
-<option value='2'>2</option>
-<option value='3'>3</option>
-<option value='4'>4</option>
-<option value='5'>5</option>
-<option value='6'>6</option>
-<option value='7'>7</option>
-<option value='8'>8</option>
-<option value='pu1'>11th</option>
-<option value='pu2'>12th</option>
-</select>
-</div></div>
-<div class='card-header'>
-<a class='card-link' data-toggle='collapse' href='#collapsefive'>
-<strong>PARTICIPANT 5</strong>
-</a>
-</div>
-<div id='collapsefive' class='collapse' data-parent='#accordion'>
-<div class='card-body'>
-<label for='fname'>NAME: </label>
-<input required type='text' id='fname' name='name5'>
-<label for='lname'>COLLEGE:</label>
-<input list='colleges' name='college5' id='name' placeholder='If others,please specify' />
-<datalist id='colleges'>
-<option value='Atria Institute Of Technology'>
-<option value='Others'>
-</datalist> 
-<label>EVENT:</label>
-<input type='text' id='' name='event5' value='$ename' readonly>
-<label>EMAIL:</label>
-<input required type='email' id='email1' name='email5'>
-<label>PHONE NUMBER:</label>
-<input required type='text' id='phone1' name='phone5'> 
-<label for='fname'>DEPARTMENT: </label>
-<input required type='text' id='fname' name='dep5'> <label>SEMESTER/YEAR:</label>
-<select  id='sem1' name='sem5' style='width: 40px;'>
-<option value='1'>1</option>
-<option value='2'>2</option>
-<option value='3'>3</option>
-<option value='4'>4</option>
-<option value='5'>5</option>
-<option value='6'>6</option>
-<option value='7'>7</option>
-<option value='8'>8</option>
-<option value='pu1'>11th</option>
-<option value='pu2'>12th</option>
-</select>
-</div></div>
-</div>
-<div class='card'>
-<div class='card-header'>
-<a class='card-link' data-toggle='collapse' href='#collapsepay' onClick='mul();'>
-<strong> PAYMENT DETAILS </strong>
-</a>
-</div>
-<div id='collapsepay' class='collapse' data-parent='#accordion' >
-<div class='card-body'>  
-<p style='color:#fff;' id='demo'></p>
-<img id='myImg' src='images/paytm.jpg' style='width:20%;max-width:300px;height: 60px;'></p>
-<label>TRANSACTION ID:</label>
-<input required type='text' id='' name='tid'>
-<button type='submit' formaction='save.php' class='btn'>REGISTER!</button>  </div>
-</div>
-</div>
-</form>" ;
-}
+</div></div></div>;"
+
+ 
+
 ?>
       </div>
     </div>
@@ -895,7 +246,7 @@ echo "
     {
         var x=<?php echo $amount?>;
         document.getElementById("demo").innerHTML = 'AMOUNT: '+ x;
-    }*/
+    }
       $("#name").on('input', function () {
         var val = this.value;
         if($('#colleges option').filter(function(){
@@ -915,9 +266,7 @@ echo "
           }
         }
       });
-
       var modal = document.getElementById('myModal');
-
 var img = document.getElementById('myImg');
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
@@ -929,7 +278,7 @@ img.onclick = function(){
 var span = document.getElementsByClassName("close")[0];
 span.onclick = function() { 
     modal.style.display = "none";
-}
+}*/
     </script> 
 
        <script src="js/jquery-1.11.3.js"></script> 

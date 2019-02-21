@@ -41,7 +41,7 @@
          display: block;
          margin: 0 -1em;
          overflow: hidden;
-         padding: 1em 0;
+         padding: 2em;
          background-color: transparent;
          }
          .expanding-grid .links > li {
@@ -101,7 +101,7 @@
          }
          @media only screen and (min-width: 60em) {
          .expanding-grid .links > li {
-         width: 25%;
+         width: 33.3%;
          }
          .expanding-grid .links > li:nth-of-type(4n+1) {
          clear: left;

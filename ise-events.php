@@ -41,7 +41,7 @@
          display: block;
          margin: 0 -1em;
          overflow: hidden;
-         padding: 1em 0;
+         padding: 2em;
          background-color: transparent;
          }
          .expanding-grid .links > li {
@@ -101,7 +101,7 @@
          }
          @media only screen and (min-width: 60em) {
          .expanding-grid .links > li {
-         width: 25%;
+         width: 33%;
          }
          .expanding-grid .links > li:nth-of-type(4n+1) {
          clear: left;
@@ -249,6 +249,22 @@
           .backbtn:hover{
             opacity:0.7;
           }
+          .wrapper {
+        text-align: center;
+    }
+    .wrapper ul {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        /* For IE, the outcast */
+        zoom:1;
+        *display: inline;
+    }
+    .wrapper li {
+        float: left;
+        padding: 2px 5px;
+        border: 1px solid black;
+    }
         
       </style>
       <script>
@@ -276,12 +292,12 @@
          
          <h3 style="font-size:20px; text-align: center;font-family: 'Raleway', sans-serif;color:#bdbdbd">Events</h3>
       </header>
-      <div class="expanding-grid ">
-         <ul  class="links">
-            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">Web Design and Development </div> <a style="opacity:0.8; color:transparent; border:1px #bdbdbd solid; height: 225px; background-image: url(images/cse/cse-syn.jpg);" href="#section1"></a></li>
-            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;"> Poster Presentation</div><a style="opacity:0.8; color:transparent; border:1px  #bdbdbd  solid;  height: 225px; background-image: url(images/cse/cse-cc.jpg);" href="#section2"></a></li>
-            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">
-Teck Talk </div><a style="opacity:0.8; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/cse/cse-techsay.jpg);"   href="#section3"></a></li>
+      <div class="expanding-grid  " style="padding:20px!important;">
+         <ul  class="links ">
+           
+            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">Web Design and Development </div> <a style="opacity:0.8; color:transparent; border:1px #bdbdbd solid; height: 250px; background-image: url(images/cse/cse-syn.jpg);" href="#section1"></a></li>
+            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;"> Poster Presentation</div><a style="opacity:0.8; color:transparent; border:1px  #bdbdbd  solid;  height: 250px; background-image: url(images/cse/cse-cc.jpg);" href="#section2"></a></li>
+            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">Teck Talk </div><a style="opacity:0.8; color:transparent;border:1px  #bdbdbd  solid; height: 250px; background-image: url(images/cse/cse-techsay.jpg);"   href="#section3"></a></li>
            
          </ul>
          <div  id="section1" class="expanding-container"> 
