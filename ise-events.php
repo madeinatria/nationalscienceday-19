@@ -38,17 +38,11 @@
          padding: 2rem;
          }
          .expanding-grid .links {
-         display: block;
-         margin: 0 -1em;
-         overflow: hidden;
-         padding: 2em;
-         background-color: transparent;
+       
+        
          }
          .expanding-grid .links > li {
-         box-sizing: border-box;
-         float: left;
-         padding: 1em;
-         background-color: transparent;
+       
          }
          .expanding-grid .links > li a {
          background-image: url(images/ece/ec-ramrom.jpeg);   
@@ -56,13 +50,7 @@
          display: block;
          font-size: 2em;
          line-height: 1;
-         padding: 25% 1em;
-         position: relative;
-         background-color: transparent;
-         text-align: center;
-         text-decoration: none;
-         -webkit-font-smoothing: antialiased;
-         -moz-osx-font-smoothing: grayscale;
+        
          }
          .expanding-grid .links > li a:hover {
          #ffb733
@@ -85,7 +73,7 @@
          }
          @media only screen and (max-width: 39.99em) {
          .expanding-grid .links > li {
-         width: 50%;
+        
          }
          .expanding-grid .links > li:nth-of-type(2n+1) {
          clear: left;
@@ -93,7 +81,6 @@
          }
          @media only screen and (min-width: 40em) and (max-width: 59.99em) {
          .expanding-grid .links > li {
-         width: 33.3333333333%;
          }
          .expanding-grid .links > li:nth-of-type(3n+1) {
          clear: left;
@@ -101,7 +88,7 @@
          }
          @media only screen and (min-width: 60em) {
          .expanding-grid .links > li {
-         width: 33%;
+        
          }
          .expanding-grid .links > li:nth-of-type(4n+1) {
          clear: left;
@@ -129,6 +116,7 @@
          border: 1px solid white;
          box-sizing: border-box;
          clear: both;
+         margin-bottom:20px;
          color: #fff;
          min-height: 4em;
          overflow: hidden;
@@ -240,32 +228,24 @@
     
           .grow:hover
           {
-              -webkit-transform: scale(1.1);
-              -ms-transform: scale(1.1);
-              transform: scale(1.1);
+              -webkit-transform: scale(1.05);
+              -ms-transform: scale(1.05);
+              transform: scale(1.05);
               opacity:0.8;
                 
           }
           .backbtn:hover{
             opacity:0.7;
           }
-          .wrapper {
-        text-align: center;
-    }
-    .wrapper ul {
-        display: inline-block;
-        margin: 0;
-        padding: 0;
-        /* For IE, the outcast */
-        zoom:1;
-        *display: inline;
-    }
-    .wrapper li {
-        float: left;
-        padding: 2px 5px;
-        border: 1px solid black;
-    }
-        
+        .edit{
+              width: 100%;
+            height: 100px!important;
+            background: #6f6f6f6e;
+            margin-bottom:20px;
+        }
+        a:hover{
+          text-decoration:none;
+        }
       </style>
       <script>
          window.console = window.console || function(t) {};
@@ -292,20 +272,17 @@
          
          <h3 style="font-size:20px; text-align: center;font-family: 'Raleway', sans-serif;color:#bdbdbd">Events</h3>
       </header>
-      <div class="expanding-grid  " style="padding:20px!important;">
-         <ul  class="links ">
-           
-            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">Web Design and Development </div> <a style="opacity:0.8; color:transparent; border:1px #bdbdbd solid; height: 250px; background-image: url(images/cse/cse-syn.jpg);" href="#section1"></a></li>
-            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;"> Poster Presentation</div><a style="opacity:0.8; color:transparent; border:1px  #bdbdbd  solid;  height: 250px; background-image: url(images/cse/cse-cc.jpg);" href="#section2"></a></li>
-            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">Teck Talk </div><a style="opacity:0.8; color:transparent;border:1px  #bdbdbd  solid; height: 250px; background-image: url(images/cse/cse-techsay.jpg);"   href="#section3"></a></li>
+      <div class="expanding-grid ">
+         <ul  class="links">
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section1">Web Design and Development </a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section2">Poster Presentation</a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section3"> Tech Talk</a></li>
            
          </ul>
          <div  id="section1" class="expanding-container"> 
             <article class="hentry">
                <h1 class="entry-title">Web Design and Development</h1>
-              <div class="entry-image">
-                  <div style="background-image: url(images/cse/cse-syn.jpg);" class="img-placeholder">1</div>
-               </div>
+             
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
                   <li class="nav-item">
@@ -317,7 +294,7 @@
                   <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                     <li>2 -Days workshop on Web Design and Development would </li>
+                 <li>2 -Days workshop on Web Design and Development would </li>
 	<li>cover the following topics:</li>
 	<li>• Basics of HTML CSS & Javascript.</li>
 	<li>• Libraries of Javascript's such as Jquery</li>
@@ -338,16 +315,16 @@
                   
                </div>
    
-
+<form method='POST' action='register.php'>
+<input type='hidden' name='eid' value=$eid>
+<input type='hidden' name='type' value=$type>
               <button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button>
             </article>
          </div>
          <div id="section2" class="expanding-container">
             <article class="hentry">
                <h1 class="entry-title">Poster Presentation</h1>
-               <div class="entry-image">
-                  <div style="background-image: url(images/cse/cse-cc.jpg);" class="img-placeholder">1</div>
-               </div>
+              
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
                   <li class="nav-item">
@@ -359,7 +336,7 @@
                   <div class="tab-pane fade show active" id="h" role="tabpanel" aria-labelledby="h-tab">
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Theme: "Science for the People and the People for Science."</li>
+                         <li>Theme: "Science for the People and the People for Science."</li>
                          </br>
                 <li>Venue: AC 207</li>
                 <li>Date: 28th February 2019</li>
@@ -369,18 +346,16 @@
                   </div>
                
                </div>
-                  
+               <form method='POST' action='register.php'>
+<input type='hidden' name='eid' value=$eid>
+<input type='hidden' name='type' value=$type>
 <button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
           </article>
          </div>
          <div id="section3" class="expanding-container">
             <article class="hentry">
-               <h1 class="entry-title">
-Teck Talk
-</h1>
-               <div class="entry-image">
-                  <div style=" background-image: url(images/cse/cse-techsay.jpg)" class="img-placeholder">1</div>
-               </div>
+               <h1 class="entry-title">Tech Talk</h1>
+               
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
                   <li class="nav-item">
@@ -392,17 +367,18 @@ Teck Talk
                   <div class="tab-pane fade show active" id="h1" role="tabpanel" aria-labelledby="h1-tab">
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                      	<li>HTML 5 and Vue.js</li>
+                                            	<li>HTML 5 and Vue.js</li>
     </br>
                 <li>Venue: AC 208</li>
                 <li>Date: 28th February 2019</li>
                   <li>9.30 AM - 11.30 AM</li>
-                     </ul>
                      </p>
                   </div>
                   
                </div>
-               
+               <form method='POST' action='register.php'>
+<input type='hidden' name='eid' value=$eid>
+<input type='hidden' name='type' value=$type>
 <button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
             </article>
          </div>

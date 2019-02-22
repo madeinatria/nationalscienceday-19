@@ -6,5 +6,5 @@
     if(!$dbHandle){
         die("Could not connect".mysql_error());
     }
-    mysqli_select_db($dbHandle,'parvath1_Dexterix2018');
+    mysqli_select_db($dbHandle,'parvath1_nsd_atria_2019');
 ?>

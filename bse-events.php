@@ -1,128 +1,177 @@
-<!doctype html>
-<html lang="en" class="no-js">
-<head>
-      <meta charset="UTF-8">
-    
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-      <link href="http://fonts.googleapis.com/css?family=Raleway:400,300,100,700%7Dosis:400,500" rel="stylesheet"><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/34/13/intl/en_gb/common.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/34/13/intl/en_gb/util.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/34/13/intl/en_gb/stats.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/34/13/intl/en_gb/common.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/34/13/intl/en_gb/util.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/34/13/intl/en_gb/stats.js"></script>
-       <script type="text/javascript" src="js/jquery.particleground.js"></script>
-      <script type="text/javascript" src="js/demo.js"></script>
-       <link href="https://fonts.googleapis.com/css?family=Oleo+Script:400,700" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+      <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Oleo+Script:400,700" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Teko:400,700" rel="stylesheet">
       <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBvEF88TUQE1XfTDginYNRWpU5YzDkGGrc&amp;callback=initMap"></script>          
+      <script     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBvEF88TUQE1XfTDginYNRWpU5YzDkGGrc&callback=initMap"></script>          
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
       <link rel="stylesheet" href="css/bootstrap.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <meta charset="UTF-8">
-      <title>Events</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Basic Science Events</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-      <link rel="stylesheet" href="css/bootstrap.css">
       <style>
-         body{
+         body {
+         background-image: url(images/stars-about.png);   
+         color: #333;
          font-family: 'Raleway', sans-serif;
-          background-image: url(images/stars-about.png);  
-        overflow-y: scroll; 
-        font-weight:400;
+         font-weight: 400;
+         line-height: 1.5;
+         margin: 0 auto;
+         max-width: 80em;
+         background-color: transparent;
+         overflow-y: scroll;
          }
-         .nav-link{
-         color:white!important;
-         }
-         @media (max-width: 700px) {
-         body{
-         overflow: scroll;
-         }
-         .toprow{
-         margin-top:250px;
-         } 
-         }
-         .inner{position:fixed;}
-         .border{width:72px;height:52px;z-index:-1;top:0px;}
-         .wrapper{width:70px;top:1px;left:1px;}
-         .container {text-align:center;}
-         .bcontainer{background:black;width:71px;height:41px;}
-         .abc {
-         width: 60px;
-         border-bottom: 10px solid rgb(226,226,226);
-         border-right: 10px solid transparent;
-         }
-         .ab{    width: 61px;
-         border-bottom: 9px solid black;
-         border-right: 10px solid transparent;}
-         .box {
-         position:relative;
-         vertical-align: middle;
-         color: #bdbdbd;
-         display: inline-block;
-         height: 60px;
-         text-align: center;
-         transition: 0.5s;
-         cursor: pointer;
-         border: 2px solid #0b7;
-         background-color: rgba(255,255,255,0.1);
-         -webkit-transition:0.5s;
-         }
-         .box:hover {
-         border: 2px solid rgba(0,160,80,0);
-         color: #FFF;
-         background-color: rgba(255,255,255,0.2);
-         }
-         .box::before, .box::after {
+         .expanding-grid {
+         position: relative;
          width: 100%;
-         height:100%;
-         z-index: 3;
-         content:'';
-         position: absolute;
-         top:0;
-         left:0;
-         box-sizing: border-box;
-         -webkit-transform: scale(0);
-         transition: 0.5s;
+         background-color: transparent;
+         padding: 2rem;
          }
-         .foo::before {
-         border-bottom: 4px solid #FFF;
-         border-left: 4px solid #FFF;
-         -webkit-transform-origin: 0 100%;
-         }
-         .foo::after {
-         border-top: 4px solid #FFF;
-         border-right: 4px solid #FFF;
-         -webkit-transform-origin: 100% 0%;
-         animation: border 2s 1s infinite, borderColor 2s 1s infinite;
-         }
-         .box:hover::after, .box:hover::before {
-         -webkit-transform: scale(1);
-         }
-         #one{
-         animation: glowing 5000ms infinite;
-         }
-         html {
-         background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-         }
+         .expanding-grid .links {
+       
         
-         #title {
+         }
+         .expanding-grid .links > li {
+       
+         }
+         .expanding-grid .links > li a {
+         background-image: url(images/ece/ec-ramrom.jpeg);   
+         color: #fff;
+         display: block;
+         font-size: 2em;
+         line-height: 1;
+        
+         }
+         .expanding-grid .links > li a:hover {
+         #ffb733
+         }
+         .expanding-grid .links > li a.active {
+         #ffb733
+         }
+         .expanding-grid .links > li a.active:after {
+         background-color: transparent;
+         border-bottom: 0.375em solid #888;
+         border-left: 0.375em solid transparent;
+         border-right: 0.375em solid transparent;
+         bottom: -0.5em;
+         content: '';
+         height: 0;
+         left:50%;
+         margin-left: -0.375em;
          position: absolute;
-         top: 50%;
-         left: 0;
-         right: 0;
-         color: #FFF;
+         width: 0;
+         }
+         @media only screen and (max-width: 39.99em) {
+         .expanding-grid .links > li {
+        
+         }
+         .expanding-grid .links > li:nth-of-type(2n+1) {
+         clear: left;
+         }
+         }
+         @media only screen and (min-width: 40em) and (max-width: 59.99em) {
+         .expanding-grid .links > li {
+         }
+         .expanding-grid .links > li:nth-of-type(3n+1) {
+         clear: left;
+         }
+         }
+         @media only screen and (min-width: 60em) {
+         .expanding-grid .links > li {
+        
+         }
+         .expanding-grid .links > li:nth-of-type(4n+1) {
+         clear: left;
+         }
+         }
+         .expanding-grid .spacer {
+         background-color: transparent;
+         clear: both;
+         display: block;
+         #ffb733
+         margin: 0 1em;
+         }
+         .expanding-grid .expanding-container {
+         clear: both;
+         display: none;
+         overflow: hidden;
+         width: 100%;
+         #ffb733
+         }
+         .expanding-grid .expanding-container.expanded, .expanding-grid .expanding-container:target {
+         display: block;
+         }
+         .expanding-grid .hentry {
+         background-image: url(images/stars-about.png);   
+         border: 1px solid white;
+         box-sizing: border-box;
+         clear: both;
+         margin-bottom:20px;
+         color: #fff;
+         min-height: 4em;
+         overflow: hidden;
+         padding: 2em;
+         width: 100%;
+         -webkit-font-smoothing: antialiased;
+         -moz-osx-font-smoothing: transparent;
+         #ffb733
+         }
+         .expanding-grid .hentry .entry-image {
+         box-sizing: border-box;
+         float: right;
+         margin-left: 1em;
+         padding: 0.25em 0 0.52em 1em;
          text-align: center;
-         font-family: "lato", sans-serif;
+         color:transparent;
+         width: 25%;
+         }
+         .expanding-grid .hentry .entry-title {
+         font-size: 1.5em;
+         }
+         .expanding-grid .close-button {
+         background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDIwIDIwIj48cGF0aCBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBkPSJNLjcuN2wxOCAxOG0tMTggMGwxOC0xOCIvPjwvc3ZnPg==) no-repeat scroll 50% 50% transparent;
+         color: #fff;
+         display: inline-block;
+         height: 20px;
+         line-height: 1;
+         overflow: hidden;
+         padding: 1.5em 2em;
+         text-decoration: none;
+         text-indent: 5em;
+         white-space: nowrap;
+         width: 20px;
+         will-change: opacity;
+         z-index: 5;
+         -webkit-font-smoothing: antialiased;
+         -moz-osx-font-smoothing: grayscale;
+         }
+         .expanding-grid .close-button.active {
+         transition: opacity 0.2s;
+         }
+         .expanding-grid .close-button:hover {
+         opacity: 0.5;
+         }
+         .img-placeholder {
+         background: black;
+         color:transparent;
+         font-size: 4em;
          font-weight: 300;
-         letter-spacing: 10px;
-         margin-top: -60px;
-         padding-left: 10px;
+         line-height: 1;
+         padding: 15% 0.25em;
+         -webkit-font-smoothing: antialiased;
+         -moz-osx-font-smoothing: grayscale;
          }
-         #title span {
-         background: -webkit-linear-gradient(white, #38495a);
-         -webkit-background-clip: text;
-         -webkit-text-fill-color: transparent;
-         }
-          #stars {
+         #stars {
          width: 1px;
          height: 1px;
          background: transparent;
@@ -172,72 +221,553 @@
          }
          to {
          transform: translateY(-2000px);
-         }
-         }nav {
-    z-index: 999;}
-      </style>
-   </head><body>     
-   
-       <?php include('navbar.php') ; ?>
-  
-      
-       <div id="stars"></div>
-      <div id="stars2"></div>
-      <div id="stars3"></div>
-      <div class="container "  style="margin-top:50px">
-         <div class="row">
-             <div id="one" style="background-image: url('images/background/abstract2.jpg'); text-align:center;padding-top:50px;font-size:20px;border: 1px solid white; height:150px;" class="cse box foo col-md-4  offset-md-4">
-               <div style="background-color:black;">COMPUTER SCIENCE</div>
+         }}
+        .grow{
+              transition: transform .2s;
+        }
+    
+          .grow:hover
+          {
+              -webkit-transform: scale(1.05);
+              -ms-transform: scale(1.05);
+              transform: scale(1.05);
+              opacity:0.8;
                 
-            </div>
-            <div class="is box foo col-md-4 " style="background-image: url('images/background/abstract.jpg'); ; text-align:center;padding-top:50px;font-size:20px;border: 1px solid white; height:150px;">
-               <div style="background-color:black;">INFORMATION SCIENCE </div>
-            </div>
-         </div>
-         <div class="row">
-            <div style="background-image: url('images/background/abstract.jpg');  text-align:center;padding-top:50px;font-size:20px;border: 1px solid white; height:150px;" class="me box foo col-md-4">
-               <div style="background-color:black;">MECHANICAL ENGINEERING </div>
-            </div>
-            <div style="color:#bdbdbd;text-align:center;padding-top:50px;font-size:20px;border: 1px solid white; height:150px;" class="col-md-4">
-               EVENTS
-            </div>
-            <div class="mba box foo col-md-4 " style=" background-image: url('images/background/abstract3.jpeg'); 
-             background-size: 100% 100%;text-align:center;padding-top:50px;
-             opacity:0.8;font-size:20px;border: 1px solid white; height:150px;">
-               <div style="background-color:black;">BSE and Humanities</div>
-            </div>
-         </div>
-         <div class="row">
-            <div style=" background-image: url('images/background/abstract2.jpg');  text-align:center;padding-top:50px;font-size:20px;border: 1px solid white; height:150px;" class="ec box foo col-md-4  ">
-               <div style="background-color:black;">ELECTRONICS AND COMMUNICATION </div>
-            </div>
-            <div class="civil box foo col-md-4 " style="background-image: url('images/background/abstract.jpg');  text-align:center;padding-top:50px;font-size:20px;border: 1px solid white; height:150px;">
-               <div style="background-color:black;">CIVIL ENGINEERING </div>
-            </div>
-         </div>
-      </div>
-    <?php include('footer.php') ; ?>
- <script>
-          $(".cse").click(function() {
-                window.location = "cse-events.php";
-            });
-         $(".is").click(function() {
-                window.location = "ise-events.php";
-            });
-             $(".ec").click(function() {
-                window.location = "comingsoon.php";
-            });
-             $(".me").click(function() {
-                window.location = "comingsoon.php";
-            });
-             $(".civil").click(function() {
-                window.location = "comingsoon.php";
-            });
-             $(".mba").click(function() {
-                window.location = "bse-events.php";
-            });
-        </script>
-         
-   
+          }
+          .backbtn:hover{
+            opacity:0.7;
+          }
+        .edit{
+              width: 100%;
+            height: 100px!important;
+            background: #6f6f6f6e;
+            margin-bottom:20px;
+        }
+        a:hover{
+          text-decoration:none;
+        }
+      </style>
+      <script>
+         window.console = window.console || function(t) {};
+      </script>
+      <script>
+         if (document.location.search.match(/type=embed/gi)) {
+           window.parent.postMessage("resize", "*");
+         }
+         function relocate_events()
+          {
+              location.href = "events.php";
+          } 
+      </script>
+   </head>
+   <body >
+      <?php include('navbar.php') ; ?>
+      <div id='stars'></div>
+      <div id='stars2'></div>
+      <div id='stars3'></div>
+      <header class="clearfix">
+        <button onclick=" relocate_events()" type="button" style="margin-left:30px; width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;" class="btn btn-default backbtn "> &laquo; Back</button>
 
-</body></html>
+         <h2 style="font-size:30px; text-align: center; font-family: 'Raleway', sans-serif;color:#bdbdbd">Basic Science</h2>
+         
+         <h3 style="font-size:20px; text-align: center;font-family: 'Raleway', sans-serif;color:#bdbdbd">Events</h3>
+      </header>
+      <div class="expanding-grid ">
+         <ul  class="links">
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section1">Magic and Origami for Maths</a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section2"> Glass Preparation</a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section3"> Water Quality </a></li>
+           <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section4"> Movie on Nobel Laureate Chandra</a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section5"> Report Writing</a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section6">Preparation of Nanoparticles </a></li>
+         </ul>
+          <div  id="section1" class="expanding-container">
+            <article class="hentry">
+               <h1 class="entry-title">Magic and Origami for Maths</h1>
+              
+               <br>
+               <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item">
+                     <a style="color:white;" class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Details</a>
+                  </li>
+               </ul>
+               <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                     <p>
+                     <ul style="margin-top: 15px;list-style-type: circle;">
+                        <li>To explore the concepts of Maths through the lens of Magic and Origami through hands-on workshop by creating the models.</li>
+                     </ul>
+                     </p>
+                  </div>
+               </div>
+
+<form method='POST' action='register.php'>
+<input type='hidden' name='eid' value=$eid>
+<input type='hidden' name='type' value=$type>
+<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
+            </article>
+         </div>
+         <div id="section2" class="expanding-container">
+            <article class="hentry">
+               <h1 class="entry-title">Glass Preparation</h1>
+             
+               <br>
+               <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item">
+                     <a style="color:white;" class="nav-link active" id="h-tab" data-toggle="tab" href="#h" role="tab" aria-controls="h" aria-selected="true">Details</a>
+                  </li>
+               </ul>
+               <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade show active" id="h" role="tabpanel" aria-labelledby="h-tab">
+                     <p>
+                     <ul style="margin-top: 15px;list-style-type: circle;">
+                        <li>"Wanna Cook glasses in few minutes?" - A hands on workshop to prepare one's own colourful glasses.</li>
+                      
+                     </ul>
+                     </p>
+                  </div>
+               </div>
+<form method='POST' action='register.php'>
+<input type='hidden' name='eid' value=$eid>
+<input type='hidden' name='type' value=$type>
+<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
+            </article>
+         </div>
+         <div id="section3" class="expanding-container">
+            <article class="hentry">
+               <h1 class="entry-title">Water Quality</h1>
+               
+               <br>
+               <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item">
+                     <a style="color:white;" class="nav-link active" id="h1-tab" data-toggle="tab" href="#h1" role="tab" aria-controls="h1" aria-selected="true">Details</a>
+                  </li>
+               </ul>
+               <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade show active" id="h1" role="tabpanel" aria-labelledby="h1-tab">
+                     <p>
+                     <ul style="margin-top: 15px;list-style-type: circle;">
+                        <li>"Water Potability" -  An experiential approach to collect samples of water and check if they are potable or not.</li>
+</ul>
+                     </p>
+                  </div>
+               </div>
+<form method='POST' action='register.php'>
+<input type='hidden' name='eid' value=$eid>
+<input type='hidden' name='type' value=$type>
+<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
+            </article>
+         </div>
+         <div id="section4" class="expanding-container">
+            <article class="hentry">
+               <h1 class="entry-title">Movie on Nobel Laureate Chandra</h1>
+               
+               <br>
+               <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item">
+                     <a style="color:white;" class="nav-link active" id="h2-tab" data-toggle="tab" href="#h2" role="tab" aria-controls="h2" aria-selected="true">Details</a>
+                  </li>
+               </ul>
+               <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade show active" id="h2" role="tabpanel" aria-labelledby="h2-tab">
+                     <p>
+                     <ul style="margin-top: 15px;list-style-type: circle;">
+                        <li>Screening the movie - Making of a Star.  Movie is a biographical sketch of the Nobel Laureate - S Chandrashekar, popularly known as Chandra. </li>
+                     </ul>
+                     </p>
+                  </div>
+               </div>
+<form method='POST' action='register.php'>
+<input type='hidden' name='eid' value=$eid>
+<input type='hidden' name='type' value=$type>
+<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
+  </article>
+            </article>
+         </div>
+         <div id="section6" class="expanding-container">
+            <article class="hentry">
+               <h1 class="entry-title">Report Writing</h1>
+              
+               <br>
+               <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item">
+                     <a style="color:white;" class="nav-link active" id="h3-tab" data-toggle="tab" href="#h3" role="tab" aria-controls="h3" aria-selected="true">Details</a>
+                  </li>
+               </ul>
+               <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade show active" id="h3" role="tabpanel" aria-labelledby="h3-tab">
+                     <p>
+                     <ul style="margin-top: 15px;list-style-type: circle;">
+                       <li>The one race where you can test your limits.</li>
+   <li>"Blog it on National Science Day" - Students will visit any of the four workshops in progress during the first hour and write a blog on the website of Atria  </li>
+</ul>
+                     </p>
+                  </div>
+               </div>
+<form method='POST' action='register.php'>
+<input type='hidden' name='eid' value=$eid>
+<input type='hidden' name='type' value=$type>
+<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
+            </article>
+         </div>
+         <div id="section7" class="expanding-container">
+            <article class="hentry">
+               <h1 class="entry-title">Preparation of Nanoparticles</h1>
+              
+               <br>
+               <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item">
+                     <a style="color:white;" class="nav-link active" id="h4-tab" data-toggle="tab" href="#h4" role="tab" aria-controls="h4" aria-selected="true">Details</a>
+                  </li>
+               </ul>
+               <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade show active" id="h4" role="tabpanel" aria-labelledby="h4-tab">
+                     <p>
+                     <ul style="margin-top: 15px;list-style-type: circle;">
+                        <li>"Material Sciences for Medical world" - Preparation of nanoparticles that have medical applications in general and in particular to Cancer</li>
+                     </ul>
+                     </p>
+                  </div>
+                  
+               </div>
+<form method='POST' action='register.php'>
+<input type='hidden' name='eid' value=$eid>
+<input type='hidden' name='type' value=$type>
+<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
+            </article>
+         </div>
+      
+      
+      </div>
+      <script src="//static.codepen.io/assets/common/stopExecutionOnTimeout-41c52890748cd7143004e05d3c5f786c66b19939c4500ce446314d1748483e13.js"></script>
+      <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+      <script >
+         /**
+         * jQuery Expanding Grid plugin.
+         *
+         * By Dan Boulet - https://danboulet.com
+         */
+         (function ($, window, document) {
+         
+         // Enable strict mode
+         "use strict";
+         
+         /**
+         * Return the last element in the current row of a grid layout.
+         */
+         var getLastSiblingInRow = function (element) {
+         var candidate = element,
+         elementTop = element.offsetTop;
+         
+         // Loop through the element’s next siblings and look for the first one which
+         // is positioned further down the page.
+         while (candidate.nextElementSibling !== null) {
+         if (candidate.nextElementSibling.offsetTop > elementTop) {
+         return candidate;
+         }
+         candidate = candidate.nextElementSibling;
+         }
+         return candidate;
+         };
+         
+         /**
+         * Calculate the distance that we need to scroll the page to bring a
+         * section, defined as the area between the top and bottom, into view.
+         */
+         var calculatePageScrollDistance = function (top, bottom) {
+         var windowScrollDistance = $(window).scrollTop(),
+         windowHeight = $(window).height(),
+         scrollDistanceToTop,
+         scrollDistanceToBottom;
+         
+         // Scroll to the top of the section if the we are already scrolled past it.
+         if (windowScrollDistance >= top) {
+         return top - windowScrollDistance;
+         }
+         // Do nothing if there is enough space to show the section without having to scroll.
+         else if ((windowScrollDistance + windowHeight) >= bottom) {
+         return 0;
+         }
+         else {
+         // Find the maximum distance we can scroll without passing the top of the section.
+         scrollDistanceToTop = top - windowScrollDistance;
+         // Find the distance we need to scroll to reveal the entire section.
+         scrollDistanceToBottom = bottom - (windowScrollDistance + windowHeight);
+         
+         return Math.min(scrollDistanceToTop, scrollDistanceToBottom);
+         }
+         };
+         
+         /**
+         * Create the expanding preview grid.
+         */
+         var expandingGrid = function (context, options) {
+         var defaults = {
+         animationDuration: 250,
+         linksSelector: '.links a',
+         expandingAreaSelector: '.expanding-container',
+         closeButtonMarkup: '<a href="#" class="close-button">Close</a>',
+         spacerMarkup: '<span class="spacer" aria-hidden="true"/>',
+         elementActiveClass: 'active',
+         elementExpandedClass: 'expanded',
+         onExpandBefore: false,
+         onExpandAfter: false
+         };
+         
+         var settings = $.extend({}, defaults, options);
+         
+         var isExpanded = false;
+         var activeLink = false;
+         var activeExpandedArea = false;
+         var activeExpandedAreaTop = false;
+         var activeExpandedAreaHeight = false;
+         var lastItemInActiveRow = false;
+         var activeRowChanged = false;
+         var checkExpandedAreaResize = false;
+         var $links = $(settings.linksSelector, context);
+         var $expandingAreas = $(settings.expandingAreaSelector, context);
+         var $closeButton = $(settings.closeButtonMarkup);
+         var $spacer = $(settings.spacerMarkup);
+         var $secondarySpacer = $spacer.clone();
+         
+         /**
+         * Scroll a section of the page into view, using animation.
+         */
+         var scrollSectionIntoView = function (top, bottom, duration, callback) {
+         var animate;
+         var scroll = 0;
+         var distance = calculatePageScrollDistance(top, bottom);
+         var windowScrollDistance = $(window).scrollTop();
+         var timeLeft;
+         
+         // Set default duration.
+         duration = (typeof duration === 'undefined') ? settings.animationDuration : duration;
+         timeLeft = duration;
+         
+         var start = new Date().getTime();
+         var last = start;
+         var tick = function() {
+         timeLeft = Math.max(duration - (new Date() - start), 0);
+         
+         var x = (timeLeft === 0 || distance === 0) ? 0 : ((new Date() - last) / timeLeft * distance);
+         var diff = (distance > 0 ? Math.min(x, distance) : Math.max(x, distance));
+         distance = distance - diff;
+         scroll += diff;
+         window.scrollTo(0, windowScrollDistance + scroll);
+         
+         last = new Date().getTime();
+         
+         if (last - start <= duration) {
+         animate = (window.requestAnimationFrame && requestAnimationFrame(tick)) || setTimeout(tick, 16);
+         }
+         else {
+         if (typeof callback === 'function') {
+         callback();
+         }
+         }
+         };
+         
+         tick();
+         };
+         
+         // Process the links.
+         $links.each(function () {
+         var $this = $(this);
+         var targetId = $this.attr('href').match(/#([^\?]+)/)[1];
+         var target = document.getElementById(targetId);
+         
+         if (target) {
+         $this.click(function (event) {
+         var clickedLink = this;
+         var scrollTargetOffset;
+         var closeButtonAnimationDelay;
+         
+         event.preventDefault();
+         
+         // Is this link already expanded?
+         if (isExpanded && activeLink === clickedLink) {
+         // Close it.
+         $closeButton.click();
+         }
+         // Otherwise, expand it.
+         else {
+         $links.removeClass(settings.elementActiveClass).filter($this).addClass(settings.elementActiveClass).parent('li').each(function () {
+         var lastSibling = getLastSiblingInRow(this);
+         activeRowChanged = lastSibling !== lastItemInActiveRow;
+         if (activeRowChanged) {
+         	lastItemInActiveRow = lastSibling;
+         }
+         // If we are changing rows, replace spacer with secondary spacer.
+         if (isExpanded && activeRowChanged) {
+         	$secondarySpacer.height($spacer.height());
+         	$spacer.height(0).replaceWith($secondarySpacer);
+         }
+         $(lastItemInActiveRow).after($spacer);
+         });
+         if (isExpanded && activeRowChanged) {
+         $secondarySpacer.animate({height: 0}, settings.animationDuration, function () {
+         	$(this).detach();
+         });
+         $closeButton.removeClass(settings.elementActiveClass).hide();
+         }
+         scrollTargetOffset = ($secondarySpacer.position().top < $spacer.position().top ? $secondarySpacer.height() : 0);
+         activeExpandedAreaTop = ($spacer.position().top - scrollTargetOffset);
+         $expandingAreas.removeClass(settings.elementExpandedClass).hide().filter(target).each(function () {
+         	var $this = $(this);
+         	var autoHeight = $this.height();
+         	var autoOuterHeight = $this.outerHeight();
+         	var initialHeight = (isExpanded && activeExpandedAreaHeight && (activeRowChanged === false)) ? activeExpandedAreaHeight : 0;
+         
+         	stopExpandedAreaMonitor();
+         
+         	$spacer.animate({height: autoHeight + 'px'}, settings.animationDuration);
+         
+         	$this.css({
+         		height: initialHeight + 'px',
+         		position: 'absolute',
+         		left: 0,
+         		top: $spacer.position().top + 'px'
+         	}).show(0, function () {
+         		// Callback.
+         		if (typeof settings.onExpandBefore === 'function') {
+         			settings.onExpandBefore.call(this);
+         		}
+         	}).animate({
+         		height: autoHeight + 'px',
+         		top: activeExpandedAreaTop + 'px'
+         	}, settings.animationDuration, function () {
+         		$this.css({height: 'auto'}).addClass(settings.elementExpandedClass);
+         
+         		// Set a timer to monitor changes to expanded area’s height.
+         		activeExpandedAreaHeight = $this.height();
+         		checkExpandedAreaResize = setInterval(function () {
+         			var activeExpandedAreaNewHeight = $this.height();
+         			if (activeExpandedAreaNewHeight !== activeExpandedAreaHeight) {
+         				activeExpandedAreaHeight = activeExpandedAreaNewHeight;
+         				syncExpandedAreaWithSpacer();
+         			}
+         		}, 1000);
+         
+         		// Callback.
+         		if (typeof settings.onExpandAfter === 'function') {
+         			settings.onExpandAfter.call(this);
+         		}
+         	});
+         
+         	// Scroll the page to bring the active link and preview into view.
+         	var scrollTargetTop = $(clickedLink).offset().top - scrollTargetOffset;
+         	var scrollTargetBottom = $this.offset().top + autoOuterHeight + 20 - scrollTargetOffset;
+         	scrollSectionIntoView(scrollTargetTop, scrollTargetBottom);
+         });
+         
+         // Activate close button.
+         closeButtonAnimationDelay = (isExpanded && activeRowChanged && ($this.parent().index() > $(activeLink).parent().index())) ? settings.animationDuration : (settings.animationDuration / 4);
+         $closeButton.css({
+         	position: 'absolute',
+         	right: 0,
+         	top: activeExpandedAreaTop + 'px'
+         }).delay(closeButtonAnimationDelay).fadeIn(settings.animationDuration, function () {
+         	$(this).addClass(settings.elementActiveClass);
+         });
+         
+         // Set global variables.
+         activeLink = this;
+         activeExpandedArea = target;
+         isExpanded = true;
+         }
+         });
+         }
+         });
+         
+         // Process the close button.
+         $closeButton.appendTo(context).hide().click(function (event) {
+         var $activeLink = $(activeLink);
+         var activeLinkTopOffset = $activeLink.offset().top;
+         var activeLinkBottomOffset = activeLinkTopOffset + $activeLink.outerHeight();
+         
+         event.preventDefault();
+         
+         // DOM manipulation and animations.
+         $links.removeClass(settings.elementActiveClass);
+         $expandingAreas.slideUp(settings.animationDuration).removeClass(settings.elementExpandedClass);
+         $closeButton.removeClass('active').hide();
+         $spacer.animate({height: 0}, settings.animationDuration, function () {
+         $spacer.detach();
+         });
+         
+         // Scroll the page to bring the active link into view.
+         scrollSectionIntoView(activeLinkTopOffset, activeLinkBottomOffset);
+         
+         stopExpandedAreaMonitor();
+         
+         // Reset global variables.
+         isExpanded = false;
+         activeLink = false;
+         activeExpandedArea = false;
+         });
+         
+         /**
+         * Stop monitoring size of expanded area.
+         */
+         var stopExpandedAreaMonitor = function () {
+         if (checkExpandedAreaResize) {
+         clearInterval(checkExpandedAreaResize);
+         }
+         };
+         
+         /**
+         * Match preview and spacer in height and position.
+         */
+         var syncExpandedAreaWithSpacer = function () {
+         if (activeExpandedArea && isExpanded) {
+         $spacer.height($(activeExpandedArea).height());
+         activeExpandedAreaTop = $spacer.position().top;
+         $closeButton.add(activeExpandedArea).css({top: activeExpandedAreaTop + 'px'});
+         }
+         };
+         
+         /**
+         * Place spacer in proper position within grid.
+         */
+         var positionSpacer = function () {
+         var lastSibling;
+         if (activeLink && lastItemInActiveRow && isExpanded) {
+         // Remove spacer.
+         $spacer.detach();
+         lastSibling = getLastSiblingInRow($(activeLink).parent()[0]);
+         // Reposition spacer, if necessary.
+         if (lastItemInActiveRow !== lastSibling) {
+         console.log(lastSibling);
+         lastItemInActiveRow = lastSibling;
+         }
+         // Restore spacer.
+         $(lastItemInActiveRow).after($spacer);
+         }
+         };
+         
+         // React to window resize.
+         $(window).resize(function () {
+         if (isExpanded) {
+         positionSpacer();
+         syncExpandedAreaWithSpacer();
+         }
+         });
+         };
+         
+         // Create the jQuery plugin.
+         $.fn.expandingGrid = function (options) {
+         return this.each(function () {
+         expandingGrid(this, options);
+         });
+         };
+         
+         })(jQuery, window, document);
+         
+         $(document).ready(function () {
+         $('.expanding-grid').expandingGrid();
+         });
+         //# sourceURL=pen.js
+      </script>
+      <?php include('footer.php') ; ?>
+   </body>
+</html>
