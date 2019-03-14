@@ -303,6 +303,33 @@
          </div>
        
       </div>
+      
+      <div id="section2"  style="background-color:black;opacity:1  ">
+      <div class="container">
+        <h2 style="text-decoration:underline;text-align:center;font-size:20px; padding-top:40px; font-weight:1000;" > Chief Guest</h2>
+        </div>
+       <div  style="padding-top:30px; margin-bottom:-30px;" class="container">
+                <div class="row">
+                   <div style="text-align:center" class="col-md-6">
+                     <img id="logo"  class="center" style="height: 450px;  width: 312px;   text-align:center; " src="images\image-cg.jpg" alt="Chief Guest">
+
+                     </div>
+                  <div class="col-md-6">
+                      <p style="text-decoration:underline;text-align:center;font-weight:1000; font-size:20px;">Gangaraju KM</p>
+                       <p style="text-align:center;font-size:15px;"> Scientist E in CAIR, DRDO,</p>
+                      <p  style=" text-align:justify ; font-size:15px;">Gangaraju KM, Scientist E, in CAIR, DRDO, has 17 years of experience in Design and Development of Communication and Secure Systems.</p>
+                      <p style=" text-align:justify ; font-size:15px;">He holds M.E in Communication Systems from PSG College of Technology, Coimbatore and B.E in Electronics and Communication from UBDT College of Engineering, Davangere.</p>
+                      <p style=" text-align:justify ; font-size:15px;">This has helped him developed a holistic view of the dynamics of technology and has been leveraging it for business growth given the extensive assignments in his career spanning over 28 years, in various roles and functions which include sales, strategy, consulting, competency delivery and managing P&L.</p>
+                      <p style=" text-align:justify ; font-size:15px;">Gangaraju Joined DRDO as Scientist B in 2002, working in the area of Trusted, Communication and secure system design. He presented four technical papers in national and international conferences and published two technical papers in international journals. He is also co‐author of book a chapter in a book “Trends in Communication Technologies and Engineering Science”. He is a recipient of one Indian patent for his work “A method and device to improve bit error rate (BER) in wireless E1 ATM link”. He received DRDO Agni awards for his excellence work in years 2012 and 2018. His research area is trusted and cognitive systems design.</p>
+                      
+
+
+                  
+                  </div>
+                </div>
+              </div>
+        </div> 
+        
  <?php include('footer.php') ; ?>
  
     <script src="https://npmcdn.com/particlesjs@2.2.2/dist/particles.min.js"></script>  

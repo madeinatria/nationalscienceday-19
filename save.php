@@ -13,10 +13,10 @@ echo $query ;
 $insert=mysqli_query($dbHandle,$query);
 if($insert)
 {
-header("Location: registration_successful.html");
+header("Location: registration_successful.php");
 }
 else {
-header("Location: registration_failed.html");
+header("Location: registration_failed.php");
 
 }
 

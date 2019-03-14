@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" >
-   <head>
+  <head>
       <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
       <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
       <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -15,8 +15,8 @@
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
       <link rel="stylesheet" href="css/bootstrap.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Civil Engineering Events</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Civil Events</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
       <style>
@@ -38,17 +38,11 @@
          padding: 2rem;
          }
          .expanding-grid .links {
-         display: block;
-         margin: 0 -1em;
-         overflow: hidden;
-         padding: 1em 0;
-         background-color: transparent;
+       
+        
          }
          .expanding-grid .links > li {
-         box-sizing: border-box;
-         float: left;
-         padding: 1em;
-         background-color: transparent;
+       
          }
          .expanding-grid .links > li a {
          background-image: url(images/ece/ec-ramrom.jpeg);   
@@ -56,13 +50,7 @@
          display: block;
          font-size: 2em;
          line-height: 1;
-         padding: 25% 1em;
-         position: relative;
-         background-color: transparent;
-         text-align: center;
-         text-decoration: none;
-         -webkit-font-smoothing: antialiased;
-         -moz-osx-font-smoothing: grayscale;
+        
          }
          .expanding-grid .links > li a:hover {
          #ffb733
@@ -85,7 +73,7 @@
          }
          @media only screen and (max-width: 39.99em) {
          .expanding-grid .links > li {
-         width: 50%;
+        
          }
          .expanding-grid .links > li:nth-of-type(2n+1) {
          clear: left;
@@ -93,7 +81,6 @@
          }
          @media only screen and (min-width: 40em) and (max-width: 59.99em) {
          .expanding-grid .links > li {
-         width: 33.3333333333%;
          }
          .expanding-grid .links > li:nth-of-type(3n+1) {
          clear: left;
@@ -101,7 +88,7 @@
          }
          @media only screen and (min-width: 60em) {
          .expanding-grid .links > li {
-         width: 25%;
+        
          }
          .expanding-grid .links > li:nth-of-type(4n+1) {
          clear: left;
@@ -129,6 +116,7 @@
          border: 1px solid white;
          box-sizing: border-box;
          clear: both;
+         margin-bottom:20px;
          color: #fff;
          min-height: 4em;
          overflow: hidden;
@@ -234,19 +222,30 @@
          to {
          transform: translateY(-2000px);
          }}
-         .grow{
-         transition: transform .2s;
-         }
-         .grow:hover
-         {
-         -webkit-transform: scale(1.1);
-         -ms-transform: scale(1.1);
-         transform: scale(1.1);
-         opacity:0.8;
-         }
-         .backbtn:hover{
-         opacity:0.7;
-         }
+        .grow{
+              transition: transform .2s;
+        }
+    
+          .grow:hover
+          {
+              -webkit-transform: scale(1.05);
+              -ms-transform: scale(1.05);
+              transform: scale(1.05);
+              opacity:0.8;
+                
+          }
+          .backbtn:hover{
+            opacity:0.7;
+          }
+        .edit{
+              width: 100%;
+            height: 100px!important;
+            background: #6f6f6f6e;
+            margin-bottom:20px;
+        }
+        a:hover{
+          text-decoration:none;
+        }
       </style>
       <script>
          window.console = window.console || function(t) {};
@@ -267,328 +266,255 @@
       <div id='stars2'></div>
       <div id='stars3'></div>
       <header class="clearfix">
-         <button onclick=" relocate_events()" type="button" style="margin-left:30px; width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;" class="btn btn-default backbtn "> &laquo; Back</button>
+        <button onclick=" relocate_events()" type="button" style="margin-left:30px; width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;" class="btn btn-default backbtn "> &laquo; Back</button>
+
          <h2 style="font-size:30px; text-align: center; font-family: 'Raleway', sans-serif;color:#bdbdbd">Civil Engineering</h2>
+         
          <h3 style="font-size:20px; text-align: center;font-family: 'Raleway', sans-serif;color:#bdbdbd">Events</h3>
       </header>
       <div class="expanding-grid ">
          <ul  class="links">
-            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">TOWER BUILDER</div> <a style="opacity:0.8; color:transparent; border:1px #bdbdbd solid; height: 225px; background-image: url(images/civil/tower.png);" href="#section1"></a></li>
-            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">QUICK SURVEY  </div> <a style="opacity:0.8; color:transparent; border:1px  #bdbdbd  solid;  height: 225px; background-image: url(images/civil/landsurvey.png);" href="#section2">2</a></li>
-            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">STRUCTURE CAPTURE  </div> <a style="opacity:0.8; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/civil/structure.png);"   href="#section3">3</a></li>
-            <li><a style=" background-image: url(images/stars-about.png);    "  href="#section5"></a></li>
-            <li><a style=" background-image: url(images/stars-about.png);    "  href="#section5"></a></li>
-            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">QUIZ  </div> <a style="opacity:0.5; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/civil/quiz.png);" href="#section4">4</a></li>
-            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">BRIDGE IT  </div> <a style="opacity:0.8; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/civil/bridge.png);"href="#section6">6</a></li>
-            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">CADD MANE  </div> <a style="opacity:0.8; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/civil/caddmane.png);" href="#section7">7</a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section1">Invited Talk</a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section2">Modelling of Civil Engineering Construction Marvels </a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section3"> Hands on session   </a></li>
+           <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section4">Structure Capture </a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section6"> Hands on session </a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section7"> Futuristic Civil Engineering</a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section8">Tech Debate</a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section9">Invited Talk</a></li>
          </ul>
-         <div  id="section1" class="expanding-container">
+          <div  id="section1" class="expanding-container">
             <article class="hentry">
-               <h1 class="entry-title">TOWER BUILDER</h1>
-               <div class="entry-image">
-                  <div style="background-image: url(images/civil/tower.png)" class="img-placeholder">1</div>
-               </div>
+               <h1 class="entry-title">Invited Talk</h1>
+              
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
                   <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Rules</a>
-                  </li>
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Details</a>
+                     <a style="color:white;" class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Details</a>
                   </li>
                </ul>
                <div class="tab-content" id="myTabContent">
                   <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>The high rises known for load bearing columns and supports for the tall story buildings. In this event the ability to build the tallest tower with the maximum duration of time is tested.</li>
-                        <li>Materials will be reviled on spot.</li>
+                        <li>Session on Next Generation Concrete by Ultra Tech Vice- President.</li>
+                        <li>Venue: Main Seminar Hall </li>
+                        <li>Day: 27-02-2019  </li>
+                        <li>Duration : 9:30pm-11:30am</li>
                      </ul>
                      </p>
                   </div>
-                  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Number of participants : 3 participants per team</li>
-                        <li>Rounds: 2 rounds </li>
-                        <li>Venue: Civil drawing hall 1</li>
-                        <li>Prize: Attractive cash prize</li>
-                        <li>
-                           Contacts:
-                           <ul>
-                              <li> SUSHMA V BHATT (9738954565)</li>
-                              <li>BHUMIKA K GOWDA (9066486263)</li>
-                              <li>RAHUL S (9108312549)</li>
-                           </ul>
-                     </ul>
-                  </div>
                </div>
-                       <?php 
-include('dbconnection.php');
-$query="select eid,team_size,type from Events where ename like 'Tower Builder';";
-$run_query=mysqli_query($dbHandle,$query);
-$row=mysqli_fetch_assoc($run_query);
-$eid=$row["eid"];
-$type=$row["type"];
-$size=$row["team_size"];
-echo "
-<form method='POST' action='register.php?id=$size'>
+
+<form method='POST' action='register.php'>
 <input type='hidden' name='eid' value=$eid>
 <input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>"; ?>
+<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
             </article>
          </div>
          <div id="section2" class="expanding-container">
             <article class="hentry">
-               <h1 class="entry-title">QUICK SURVEY</h1>
-               <div class="entry-image">
-                  <div style="background-image: url(images/civil/landsurvey.png);" class="img-placeholder">1</div>
-               </div>
+               <h1 class="entry-title">Modelling of Civil Engineering Construction Marvels</h1>
+             
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
                   <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="h-tab" data-toggle="tab" href="#h" role="tab" aria-controls="h" aria-selected="true">Rules</a>
-                  </li>
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link" id="p-tab" data-toggle="tab" href="#p" role="tab" aria-controls="p" aria-selected="false">Details</a>
+                     <a style="color:white;" class="nav-link active" id="h-tab" data-toggle="tab" href="#h" role="tab" aria-controls="h" aria-selected="true">Details</a>
                   </li>
                </ul>
                <div class="tab-content" id="myTabContent">
                   <div class="tab-pane fade show active" id="h" role="tabpanel" aria-labelledby="h-tab">
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Surveying or land surveying is the technique and science of determining the terrestrial or three dimensional position of points and the distance and angles between them. This event provides you an opportunity to showcase your ease and the speed for surveying in a short duration of time. Grab it surveyours!!</li>
+                        <li>Modelling will be done using the materials such as ice-cream sticks, paper and plastic cups etc. (All materials will be provided by the dept)</li>
+                        <li>Venue: Class room IV A, IV B</li>
+                        <li>Duration: 1:30pm - 3:30pm </li>
+                        <li>Day: 27 -02-2019 </li>
+                      
                      </ul>
                      </p>
                   </div>
-                  <div class="tab-pane fade" id="p" role="tabpanel" aria-labelledby="p-tab">
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Number of participants: 3 participants per team</li>
-                        <li>Rounds: 3 rounds </li>
-                        <li>Venue: Round 1- survey lab ,Round 2 and 3- college ground</li>
-                        <li>Prize: Attractive cash prize</li>
-                        <li>Contacts</li>
-                        <li>DEEPAK CM (8123450381)</li>
-                        <li>VINOD J BHARATH (8884341845)</li>
-                     </ul>
-                  </div>
                </div>
-               <?php 
-include('dbconnection.php');
-$query="select eid,team_size,type from Events where ename like 'Quick Survey';";
-$run_query=mysqli_query($dbHandle,$query);
-$row=mysqli_fetch_assoc($run_query);
-$eid=$row["eid"];
-$type=$row["type"];
-$size=$row["team_size"];
-echo "
-<form method='POST' action='register.php?id=$size'>
+<form method='POST' action='register.php'>
 <input type='hidden' name='eid' value=$eid>
 <input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>"; ?>>
+<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
             </article>
          </div>
          <div id="section3" class="expanding-container">
             <article class="hentry">
-               <h1 class="entry-title">STRUCTURE CAPTURE</h1>
-               <div class="entry-image">
-                  <div style="background-image: url(images/civil/structure.png);" class="img-placeholder">1</div>
-               </div>
+               <h1 class="entry-title">Hands on session - </h1>
+               
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
                   <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="h1-tab" data-toggle="tab" href="#h1" role="tab" aria-controls="h1" aria-selected="true">Rules</a>
-                  </li>
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link" id="p1-tab" data-toggle="tab" href="#p1" role="tab" aria-controls="p1" aria-selected="false">Details</a>
+                     <a style="color:white;" class="nav-link active" id="h1-tab" data-toggle="tab" href="#h1" role="tab" aria-controls="h1" aria-selected="true">Details</a>
                   </li>
                </ul>
                <div class="tab-content" id="myTabContent">
                   <div class="tab-pane fade show active" id="h1" role="tabpanel" aria-labelledby="h1-tab">
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>How well do we know our college campus? Well, that will be put to test through this competition. Knowing the structure of the college we study in is very important and if you don’t, this event helps you in identifying every wall and every pillar of our college with fun and competence.</li>
-                     </ul>
+                        <li>Exposure to Civil Engineering softwares and advancements</li>
+                         <li>Venue: Language lab/Civil CAD lab</li>
+                        <li>Duration:  2pm - 4pm </li>
+                        <li>Day: 27 -02-2019</li>
+</ul>
                      </p>
                   </div>
-                  <div class="tab-pane fade" id="p1" role="tabpanel" aria-labelledby="p1-tab">
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Number of participants: 3 participants per team</li>
-                        <li> Rounds  :3 rounds.</li>
-                        <li>Venue: College campus</li>
-                        <li>Prize: Certificates will be given </li>
-                        <li>Contacts: Sunil V (8970630759) </li>
-                        <li>Chandra shekar (8747838072)</li>
-                        <li>Ruchitha R V (7760400931)</li>
-                     </ul>
-                  </div>
                </div>
-                   <?php 
-include('dbconnection.php');
-$query="select eid,team_size,type from Events where ename like 'Structure Capture';";
-$run_query=mysqli_query($dbHandle,$query);
-$row=mysqli_fetch_assoc($run_query);
-$eid=$row["eid"];
-$type=$row["type"];
-$size=$row["team_size"];
-echo "
-<form method='POST' action='register.php?id=$size'>
+<form method='POST' action='register.php'>
 <input type='hidden' name='eid' value=$eid>
 <input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>"; ?>
+<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
             </article>
          </div>
          <div id="section4" class="expanding-container">
             <article class="hentry">
-               <h1 class="entry-title">QUIZ</h1>
-               <div class="entry-image">
-                  <div style="background-image: url(images/civil/quiz.png);;" class="img-placeholder">1</div>
-               </div>
+               <h1 class="entry-title">Structure Capture</h1>
+               
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
                   <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="h2-tab" data-toggle="tab" href="#h2" role="tab" aria-controls="h2" aria-selected="true">Rules</a>
-                  </li>
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link" id="p2-tab" data-toggle="tab" href="#p2" role="tab" aria-controls="p2" aria-selected="false">Details</a>
+                     <a style="color:white;" class="nav-link active" id="h2-tab" data-toggle="tab" href="#h2" role="tab" aria-controls="h2" aria-selected="true">Details</a>
                   </li>
                </ul>
                <div class="tab-content" id="myTabContent">
                   <div class="tab-pane fade show active" id="h2" role="tabpanel" aria-labelledby="h2-tab">
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Are you a movie buff? , Are you sports enthusiast? , Do you think you have a strong general knowledge and intelligent enough to answer correctly? .If yes, participate and become a Quiz Monster!! Show us your intelligence and enthusiasm, as this quiz will have a pool of questions on different fields.</li>
+                        <li> Students will try to identify the structure(s) in question</li>
+                        <li>Venue: Campus</li>
+                           <li>Duration:  9:00am - 11 am </li>
+                           <li>Day: 28-02-2019</li>
                      </ul>
                      </p>
                   </div>
-                  <div class="tab-pane fade" id="p2" role="tabpanel" aria-labelledby="p2-tab">
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Number of participants: 2 participants per team</li>
-                        <li>Rounds :3 rounds.</li>
-                        <li>Venue: Class room</li>
-                        <li>Prize: Attractive cash prize </li>
-                        <li>Contacts: Sai Kiran (7795573402)</li>
-                        <li> Sunil V (8970630759)</li>
-                     </ul>
-                  </div>
                </div>
-                 <?php 
-include('dbconnection.php');
-$query="select eid,team_size,type from Events where ename like 'Quiz';";
-$run_query=mysqli_query($dbHandle,$query);
-$row=mysqli_fetch_assoc($run_query);
-$eid=$row["eid"];
-$type=$row["type"];
-$size=$row["team_size"];
-echo "
-<form method='POST' action='register.php?id=$size'>
+<form method='POST' action='register.php'>
 <input type='hidden' name='eid' value=$eid>
 <input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>"; ?>
+<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
   </article>
             </article>
          </div>
          <div id="section6" class="expanding-container">
             <article class="hentry">
-               <h1 class="entry-title">BRIDGE IT</h1>
-               <div class="entry-image">
-                  <div style="background-image: url(images/civil/bridge.png);" class="img-placeholder">1</div>
-               </div>
+               <h1 class="entry-title">Hands on session - </h1>
+              
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
                   <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="h3-tab" data-toggle="tab" href="#h3" role="tab" aria-controls="h3" aria-selected="true">Rules</a>
-                  </li>
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link" id="p3-tab" data-toggle="tab" href="#p3" role="tab" aria-controls="p3" aria-selected="false">Details</a>
+                     <a style="color:white;" class="nav-link active" id="h3-tab" data-toggle="tab" href="#h3" role="tab" aria-controls="h3" aria-selected="true">Details</a>
                   </li>
                </ul>
                <div class="tab-content" id="myTabContent">
                   <div class="tab-pane fade show active" id="h3" role="tabpanel" aria-labelledby="h3-tab">
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Loads and the effect of subjected loads on structures are some of the main concepts in civil engineering. In this competitive event we test the ability of the participants to build a structurally sound bridge capable of bearing the imposed loads with provided materials.</li>
-                        <li>Ice cream sticks, cutter and fevicol to be given on spot.</li>
-                        <li>Criteria’s will be informed 2-3 days prior to the event.</li>
-                     </ul>
+                       <li>Ecofriendly construction techniques</li>
+      <li>Venue: Strength of materials lab</li>
+                        <li>Duration:  9 am - 11 am</li>
+                        <li>Day: 28-02-2019</li>
+</ul>
                      </p>
                   </div>
-                  <div class="tab-pane fade" id="p3" role="tabpanel" aria-labelledby="p3-tab">
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Number of participants: 3 participants per team</li>
-                        <li> Rounds : 1 round (1 hour) </li>
-                        <li>Venue: Civil drawing hall</li>
-                        <li>Prize: Attractive cash prize </li>
-                        <li>Contacts: Sai Kiran B A (7795573402)</li>
-                        <li> Vineeth T (9738321393)</li>
-                        <li>Keerthana S (9945833311)</li>
-                     </ul>
-                  </div>
                </div>
-                <?php 
-include('dbconnection.php');
-$query="select eid,team_size,type from Events where ename like 'Bridge It';";
-$run_query=mysqli_query($dbHandle,$query);
-$row=mysqli_fetch_assoc($run_query);
-$eid=$row["eid"];
-$type=$row["type"];
-$size=$row["team_size"];
-echo "
-<form method='POST' action='register.php?id=$size'>
+<form method='POST' action='register.php'>
 <input type='hidden' name='eid' value=$eid>
 <input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>"; ?>
+<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
             </article>
          </div>
          <div id="section7" class="expanding-container">
             <article class="hentry">
-               <h1 class="entry-title">CADD MANE </h1>
-               <div class="entry-image">
-                  <div style="background-image: url(images/civil/caddmane.png);" class="img-placeholder">1</div>
-               </div>
+               <h1 class="entry-title">Futuristic Civil Engineering</h1>
+              
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
                   <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="h4-tab" data-toggle="tab" href="#h4" role="tab" aria-controls="h4" aria-selected="true">Rules</a>
-                  </li>
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link" id="p4-tab" data-toggle="tab" href="#p4" role="tab" aria-controls="p4" aria-selected="false">Details</a>
+                     <a style="color:white;" class="nav-link active" id="h4-tab" data-toggle="tab" href="#h4" role="tab" aria-controls="h4" aria-selected="true">Details</a>
                   </li>
                </ul>
                <div class="tab-content" id="myTabContent">
                   <div class="tab-pane fade show active" id="h4" role="tabpanel" aria-labelledby="h4-tab">
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>A platform where you should build up, a dream house within the constraints, shortcuts and speed of the mouse is the key to win, and a little use of brains.</li>
-                        <li>Rules and regulations to be given on spot.</li>
+                        <li>Technical Talk on Challenges, Opportunities and Solutions in CE</li><li>
+Round 2 : Pick & Speak</li>
+                           <li>Venue: Language lab/Civil CAD lab</li>
+                        <li>Duration:  1:30pm - 2:00pm
+ </li>
+                        <li>Day: 28 -02-2019</li>
                      </ul>
                      </p>
                   </div>
-                  <div class="tab-pane fade" id="p4" role="tabpanel" aria-labelledby="p4-tab">
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Number of participants : 1 participant</li>
-                        <li>Rounds : 2 rounds </li>
-                        <li>Venue: Civil Cadd lab</li>
-                        <li>Prize: Attractive cash prize </li>
-                        <li>Contacts: Rohit sihmar  (7795573402)</li>
-                        <li> Aniraa sharmin (9108147713)</li>
-                     </ul>
-                  </div>
+                  
                </div>
-               include('dbconnection.php');
-$query="select eid,team_size,type from Events where ename like 'Cadd Mane';";
-$run_query=mysqli_query($dbHandle,$query);
-$row=mysqli_fetch_assoc($run_query);
-$eid=$row["eid"];
-$type=$row["type"];
-$size=$row["team_size"];
-echo "
-<form method='POST' action='register.php?id=$size'>
+<form method='POST' action='register.php'>
 <input type='hidden' name='eid' value=$eid>
 <input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>"; ?>>
-                           </article>
+<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
+            </article>
          </div>
-      </div>
+      <div  id="section8" class="expanding-container">
+            <article class="hentry">
+               <h1 class="entry-title">Tech Debate</h1>
+              
+               <br>
+               <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item">
+                     <a style="color:white;" class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Details</a>
+                  </li>
+               </ul>
+               <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                     <p>
+                     <ul style="margin-top: 15px;list-style-type: circle;">
+                        <li>Debate on Solutions to Water Scarcity in Bangalore</li>
+                        <li>Venue: Class room IV A, IV B </li>
+                        <li>Duration:  11am-12:30pm </li>
+                        <li>Day: 28-02-2019</li>
+                     </ul>
+                     </p>
+                  </div>
+               </div>
+
+<form method='POST' action='register.php'>
+<input type='hidden' name='eid' value=$eid>
+<input type='hidden' name='type' value=$type>
+<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
+            </article>
+         </div>
+          <div  id="section9" class="expanding-container">
+            <article class="hentry">
+               <h1 class="entry-title">Tech Debate</h1>
+              
+               <br>
+               <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item">
+                     <a style="color:white;" class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Details</a>
+                  </li>
+               </ul>
+               <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                     <p>
+                     <ul style="margin-top: 15px;list-style-type: circle;">
+                        <li>Session on Disaster management</li>
+                        <li>Venue: Main Seminar Hall </li>
+                        <li>Duration:  1.30pm-3:00pm </li>
+                        <li>Day: 28-02-2019</li>
+                     </ul>
+                     </p>
+                  </div>
+               </div>
+
+<form method='POST' action='register.php'>
+<input type='hidden' name='eid' value=$eid>
+<input type='hidden' name='type' value=$type>
+<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
+            </article>
+         </div></div>
       <script src="//static.codepen.io/assets/common/stopExecutionOnTimeout-41c52890748cd7143004e05d3c5f786c66b19939c4500ce446314d1748483e13.js"></script>
       <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
       <script >

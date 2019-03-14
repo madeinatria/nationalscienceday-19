@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" >
-   <head>
+  <head>
       <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
       <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
       <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -15,8 +15,8 @@
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
       <link rel="stylesheet" href="css/bootstrap.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <meta charset="UTF-8">
-      <title>Electronics and Communication Events</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Computer Science Events</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
       <style>
@@ -38,17 +38,11 @@
          padding: 2rem;
          }
          .expanding-grid .links {
-         display: block;
-         margin: 0 -1em;
-         overflow: hidden;
-         padding: 1em 0;
-         background-color: transparent;
+       
+        
          }
          .expanding-grid .links > li {
-         box-sizing: border-box;
-         float: left;
-         padding: 1em;
-         background-color: transparent;
+       
          }
          .expanding-grid .links > li a {
          background-image: url(images/ece/ec-ramrom.jpeg);   
@@ -56,13 +50,7 @@
          display: block;
          font-size: 2em;
          line-height: 1;
-         padding: 25% 1em;
-         position: relative;
-         background-color: transparent;
-         text-align: center;
-         text-decoration: none;
-         -webkit-font-smoothing: antialiased;
-         -moz-osx-font-smoothing: grayscale;
+        
          }
          .expanding-grid .links > li a:hover {
          #ffb733
@@ -85,7 +73,7 @@
          }
          @media only screen and (max-width: 39.99em) {
          .expanding-grid .links > li {
-         width: 50%;
+        
          }
          .expanding-grid .links > li:nth-of-type(2n+1) {
          clear: left;
@@ -93,7 +81,6 @@
          }
          @media only screen and (min-width: 40em) and (max-width: 59.99em) {
          .expanding-grid .links > li {
-         width: 33.3333333333%;
          }
          .expanding-grid .links > li:nth-of-type(3n+1) {
          clear: left;
@@ -101,7 +88,7 @@
          }
          @media only screen and (min-width: 60em) {
          .expanding-grid .links > li {
-         width: 25%;
+        
          }
          .expanding-grid .links > li:nth-of-type(4n+1) {
          clear: left;
@@ -129,6 +116,7 @@
          border: 1px solid white;
          box-sizing: border-box;
          clear: both;
+         margin-bottom:20px;
          color: #fff;
          min-height: 4em;
          overflow: hidden;
@@ -233,21 +221,31 @@
          }
          to {
          transform: translateY(-2000px);
-         }
-         }
-         .grow{
-         transition: transform .2s;
-         }
-         .grow:hover
-         {
-         -webkit-transform: scale(1.1);
-         -ms-transform: scale(1.1);
-         transform: scale(1.1);
-         opacity:0.8;
-         }
-         .backbtn:hover{
-         opacity:0.7;
-         }
+         }}
+        .grow{
+              transition: transform .2s;
+        }
+    
+          .grow:hover
+          {
+              -webkit-transform: scale(1.05);
+              -ms-transform: scale(1.05);
+              transform: scale(1.05);
+              opacity:0.8;
+                
+          }
+          .backbtn:hover{
+            opacity:0.7;
+          }
+        .edit{
+              width: 100%;
+            height: 100px!important;
+            background: #6f6f6f6e;
+            margin-bottom:20px;
+        }
+        a:hover{
+          text-decoration:none;
+        }
       </style>
       <script>
          window.console = window.console || function(t) {};
@@ -268,381 +266,179 @@
       <div id='stars2'></div>
       <div id='stars3'></div>
       <header class="clearfix">
-          <button onclick=" relocate_events()" type="button" style="margin-left:30px; width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;" class="btn btn-default backbtn "> &laquo; Back</button>
-         <h2 style="font-size:30px; padding-top:30px;text-align: center; font-family: 'Raleway', sans-serif;color:#bdbdbd">Electronics and Communication</h2>
-         <h3 style="font-size:20px; text-align: center;font-family: 'Raleway', sans-serif;color:#bdbdbd"> Events</h3>
+        <button onclick=" relocate_events()" type="button" style="margin-left:30px; width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;" class="btn btn-default backbtn "> &laquo; Back</button>
+
+         <h2 style="font-size:30px; text-align: center; font-family: 'Raleway', sans-serif;color:#bdbdbd">Electronics And Communication</h2>
+         
+         <h3 style="font-size:20px; text-align: center;font-family: 'Raleway', sans-serif;color:#bdbdbd">Events</h3>
       </header>
-      <div class="expanding-grid">
-         <ul class="links">
-            <li class="grow" ><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">CRIMINALITY INQUEST </div><a style="opacity:0.8; color:transparent; border:1px white solid; height: 225px; background-image: url(images/ece/ece-law.jpeg);" href="#section1">1</a></li>
-            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">BIONIC DARTING</div><a style="opacity:0.8; color:transparent; border:1px white solid;  height: 225px; background-image: url(images/ece/ece-line.png);" href="#section2">2</a></li>
-            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">RAM ROM EVOKE</div><a style="opacity:0.8; color:transparent;border:1px white solid; height: 225px; background-image: url(images/ece/ece-ramrom.jpeg);"   href="#section3">3</a></li>
-            <li class="grow"><a style=" background-image: url(images/stars-about.png);    "  href="#section5"></a></li>
-            <li class="grow"><a style=" background-image: url(images/stars-about.png);    "  href="#section5"></a></li>
-            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">SALVAGE, SIEZE, WIN </div><a style="opacity:0.5; color:transparent;border:1px white solid; height: 225px; background-image: url(images/ece/ece-beg.jpeg);" href="#section4">4</a></li>
-            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">ATRIA TRIBUNAL</div><a style="opacity:0.8; color:transparent;border:1px white solid; height: 225px; background-image: url(images/ece/ece-court.png);"href="#section6">6</a></li>
-            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;"> CIRCUITRIX </div><a style="opacity:0.8; color:transparent;border:1px white solid; height: 225px; background-image: url(images/ece/ece-circuit.jpeg);" href="#section7">7</a></li>
+      <div class="expanding-grid ">
+         <ul  class="links">
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section1"> Hardware</a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section2"> Build Your Own Robot from "SCRATCH"</a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section3"> Amazon ALEXA </a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section4"> ARM </a></li>
+
+           
          </ul>
-         <div id="section1" class="expanding-container">
+         <div  id="section1" class="expanding-container"> 
             <article class="hentry">
-               <h1 class="entry-title">CRIMINALITY INQUEST</h1>
-               <div class="entry-image">
-                  <div style=" background-image: url(images/ece/ece-law.jpeg);" class="img-placeholder">1</div>
-               </div>
+               <h1 class="entry-title">Hardware</h1>
+             
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
                   <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Rules</a>
+                     <a style="color:white;" class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Details</a>
                   </li>
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Details</a>
-                  </li>
+                 
                </ul>
                <div class="tab-content" id="myTabContent">
                   <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Participants will have to solve cases with the help of clues and tasks.</li>
-                        <li>Use of cell phones or any other device for communication is strictly prohibited.</li>
-                        <li>No team shall try to communicate with any other team or take any help from the volunteers.</li>
-                        <li>The decisions of the organising committee will be final and binding. </li>
-                        <li>The Management shall not be held responsible for any kind of injury caused in the  course of this event.</li>
-                        <li> Use of expletives or aggressive behaviour will result in immediate disqualification.</li>
-                        <li>The Organizing committee reserves the right to change the venue, time and rules, if desired.</li>
+                      2- Days hands-on workshop to understand basics electronic components and applications
+              <li>                       LED Glow</li>
+              <li>                       LDR controlled LED on-off</li>
+              <li>                       Thermistor : Fire Alarm with 555 timer IC</li>
+              <li>                       Shift register and Counters with LED</li>
+              <li>                       LDR based automatic street light application</li>
+              <li>   Serial Set : Running LED chain.</li>
+              <li>  Making of Mobile charger.</li>
+              <li>  Temperature controlled Fan </li>
+                </br>
+                <li>Venue: LIC LAB</li>
+                <li>Date: 27th and 28th February 2019</li>
+                  <li>9:00 AM - 4:00 PM</li>
                      </ul>
                      </p>
                   </div>
-                  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Entry: All Branches</li>
-                        <li>Duration: 3 hours</li>
-                        <li>Rounds: 1</li>
-                        <li> Team size: 4</li>
-                        <li> Venue: The event will be held within the college premises only.</li>
-                        <li> Prizes: 1 winner &amp; 1 runner.</li>
-                        <li> Chief organizers: Sandhya J, Shilpa S &amp; S B Soumya.</li>
-                     </ul>
-                  </div>
+                  
                </div>
-                       <?php 
-include('dbconnection.php');
-$query="select eid,team_size,type from Events where ename like 'Criminality Inquest';";
-$run_query=mysqli_query($dbHandle,$query);
-$row=mysqli_fetch_assoc($run_query);
-$eid=$row["eid"];
-$type=$row["type"];
-$size=$row["team_size"];
-echo "
-<form method='POST' action='register.php?id=$size'>
+   
+<form method='POST' action='register.php'>
 <input type='hidden' name='eid' value=$eid>
 <input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>"; ?>
+              <button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button>
             </article>
          </div>
          <div id="section2" class="expanding-container">
             <article class="hentry">
-               <h1 class="entry-title">BIONIC DARTING :</h1>
-               <div class="entry-image">
-                  <div style=" background-image: url(images/ece/ece-line.png);" class="img-placeholder">1</div>
-               </div>
+               <h1 class="entry-title">Build Your Own Robot from "SCRATCH"</h1>
+              
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
                   <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="h-tab" data-toggle="tab" href="#h" role="tab" aria-controls="h" aria-selected="true">Rules</a>
+                     <a style="color:white;" class="nav-link active" id="h-tab" data-toggle="tab" href="#h" role="tab" aria-controls="h" aria-selected="true">Details</a>
                   </li>
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link" id="p-tab" data-toggle="tab" href="#p" role="tab" aria-controls="p" aria-selected="false">Details</a>
-                  </li>
+                  
                </ul>
                <div class="tab-content" id="myTabContent">
                   <div class="tab-pane fade show active" id="h" role="tabpanel" aria-labelledby="h-tab">
+                     <p>2 - Days Hands-on Workshop on Scratch Animation Programming and Development Robot from Scratch </p>
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>The participants are supposed to build their own autonomous line follower robot.</li>
-                        <li>The robot must work on a battery fixed on the bot. No power cords will be provided. </li>
-                        <li>When the robot starts off from the START tile, the timer starts. As the robot reaches the FINISH tile, the timer stops, and the time is saved. Before starting the competition, each team has PREPARATION TIME which is 10 minutes. </li>
-                        <li>One team member is elected as the robot handler. Only that team member is permitted to handle the robot during the game. </li>
-                        <li>A robot may restart the run if the handler deems necessary. The restart can be requested only if the robot doesn’t follow the line, stops half way or loses direction.</li>
-                        <li>Only TWO restarts are allowed. The RACE CLOCK will reset to zero on every restart. The robot which completes the task fastest will be declared as the winner.</li>
-                        <li>The Organizing committee reserves the right to change the venue, time and rules, if desired.</li>
+                        <li> Getting started with Scratch Programming</li>
+                        <li> Introduction to Arduino Controller, Arduino IDE and Sensors</li>
+                        <li> Build your own Robot from Scratch</li>
+                        <li> Interfacing IR sensors and bluetooth module with robot</li>
+                        <li> Competition </li>
                      </ul>
+                     Note: Students should get Laptops preferably 
+                     <li>Venue: VLSI Lab</li>
+                    <li>Date: 27th and 28th February 2019</li>
+                    <li>09:00 AM - 04:00 PM</li>
                      </p>
                   </div>
-                  <div class="tab-pane fade" id="p" role="tabpanel" aria-labelledby="p-tab">
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Entry: All Branches</li>
-                        <li>Duration: 3 hours</li>
-                        <li>Rounds: 1</li>
-                        <li>Team size: 2</li>
-                        <li>Time Limit: 2-3mins each team. (max 5 mins)</li>
-                        <li>Venue: The Event will be held in classroom.</li>
-                        <li>Prizes: 1 Winner & 1 Runner</li>
-                        <li>Chief organizers: Ananya & Sampath N</li>
-                     </ul>
-                  </div>
+               
                </div>
-                     <?php 
-include('dbconnection.php');
-$query="select eid,team_size,type from Events where ename like 'Bionic Darting';";
-$run_query=mysqli_query($dbHandle,$query);
-$row=mysqli_fetch_assoc($run_query);
-$eid=$row["eid"];
-$type=$row["type"];
-$size=$row["team_size"];
-echo "
-<form method='POST' action='register.php?id=$size'>
+                  <form method='POST' action='register.php'>
 <input type='hidden' name='eid' value=$eid>
 <input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>"; ?>
-            </article>
+<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
+          </article>
          </div>
          <div id="section3" class="expanding-container">
             <article class="hentry">
-               <h1 class="entry-title">RAM ROM EVOKE</h1>
-               <div class="entry-image">
-                  <div style=" background-image: url(images/ece/ece-ramrom.jpeg);" class="img-placeholder">1</div>
-               </div>
+               <h1 class="entry-title">Amazon ALEXA </h1>
+               
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
                   <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="h1-tab" data-toggle="tab" href="#h1" role="tab" aria-controls="h1" aria-selected="true">Rules</a>
+                     <a style="color:white;" class="nav-link active" id="h1-tab" data-toggle="tab" href="#h1" role="tab" aria-controls="h1" aria-selected="true">Details</a>
                   </li>
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link" id="p1-tab" data-toggle="tab" href="#p1" role="tab" aria-controls="p1" aria-selected="false">Details</a>
-                  </li>
+                 
                </ul>
                <div class="tab-content" id="myTabContent">
                   <div class="tab-pane fade show active" id="h1" role="tabpanel" aria-labelledby="h1-tab">
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Participants need to identify the things that are shown and make sure that you don’t run off time!</li>
-                        <li>Use of cell phones or any other device for communication is strictly prohibited.</li>
-                        <li>No team shall try to communicate with any other team or take any help from the volunteers.</li>
-                        <li>
-                           ROUND-1: PPT and answering it. Number of electronic components is shown on the projector screen for a span of 10seconds for each component. It would be displayed twice . Guess it and write it against the given question number. Any question-answer numbered wrong wouldn’t be evaluated. Top scoring teams will be qualified to the next round.
-                           <ul>
-                              <li>Number of questions: 25</li>
-                              <li>  Time limit: 15 minutes (10minutes for guessing +5minutes for writing)</li>
-                           </ul>
-                        </li>
-                        <li>
-                           ROUND-2: Tag line. Different brands are named and write the taglines across it. Partial answers are not considered. Top scoring teams will be qualified for the next round.
-                           <ul>
-                              <li> Number of questions: 20</li>
-                              <li>Time limit: 15 minutes</li>
-                           </ul>
-                        </li>
-                        <li>
-                           ROUND-3: Logo guessing. The logo’s displayed should be guessed that are given. Maximum questions correct, fetches marks.
-                           <ul>
-                              <li>Number of questions: 35</li>
-                              <li>Time limit: 20 minutes</li>
-                           </ul>
-                        </li>
+                      	2- Days Hands-on programming Amazon ALEXA
+	<li> Getting Started : connecting to internet and configuring </li>
+	<li> Presentation : Working of Alexa Skills</li>
+	<li> Building simple conversational skills</li>
+	<li> Intermediate level Skills: Demo and Development</li>
+	<li> Competition</li>
+	<li>Venue: LIC Lab</li>
+                    <li>Date: 27th and 28th February 2019</li>
+                    <li>09:00 AM - 04:00 PM</li>
+
+    </br>
+          
                      </ul>
                      </p>
                   </div>
-                  <div class="tab-pane fade" id="p1" role="tabpanel" aria-labelledby="p1-tab">
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Entry: All Branches</li>
-                        <li>Duration: 3 hours</li>
-                        <li>Rounds: 1</li>
-                        <li>Team size: 2</li>
-                        <li>Time Limit: 2-3mins each team. (max 5 mins)</li>
-                        <li>Venue: The Event will be held in classroom.</li>
-                        <li>Prizes: 1 Winner & 1 Runner</li>
-                        <li>Chief organizers: Ananya & Sampath N</li>
-                     </ul>
-                  </div>
+                  
                </div>
-                   <?php 
-include('dbconnection.php');
-$query="select eid,team_size,type from Events where ename like 'Ram Rom Evoke';";
-$run_query=mysqli_query($dbHandle,$query);
-$row=mysqli_fetch_assoc($run_query);
-$eid=$row["eid"];
-$type=$row["type"];
-$size=$row["team_size"];
-echo "
-<form method='POST' action='register.php?id=$size'>
+               <form method='POST' action='register.php'>
 <input type='hidden' name='eid' value=$eid>
 <input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>"; ?>
+<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
             </article>
          </div>
          <div id="section4" class="expanding-container">
             <article class="hentry">
-               <h1 class="entry-title">SALVAGE, SIEZE, WIN</h1>
-               <div class="entry-image">
-                  <div style="background-image: url(images/ece/ece-beg.jpeg);" class="img-placeholder">1</div>
-               </div>
+               <h1 class="entry-title">ARM</h1>
+               
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
                   <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="h2-tab" data-toggle="tab" href="#h2" role="tab" aria-controls="h2" aria-selected="true">Rules</a>
+                     <a style="color:white;" class="nav-link active" id="h1-tab" data-toggle="tab" href="#h1" role="tab" aria-controls="h1" aria-selected="true">Details</a>
                   </li>
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link" id="p2-tab" data-toggle="tab" href="#p2" role="tab" aria-controls="p2" aria-selected="false">Details</a>
-                  </li>
+                 
                </ul>
                <div class="tab-content" id="myTabContent">
-                  <div class="tab-pane fade show active" id="h2" role="tabpanel" aria-labelledby="h2-tab">
-                     <p>
+                  <div class="tab-pane fade show active" id="h1" role="tabpanel" aria-labelledby="h1-tab">
+                 <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>You can plead, beg or use your charm to get all the items enlisted within the given time limit.(No using transportation and purchasing is not entertained. If any found, will be disqualified)</li>
-                        <li>The Organizing committee reserves the right to change the venue, time and rules, if desired.</li>
+                      	2 Days Hands on Programming ARM microcontroller with STM32Nucleo-64 development board.
+	<li> Interfacing simple I/O devices switches,LEDS and buzzer </li>
+	<li> Interfacing and controlling devices with the help of Motors.
+</li>
+	<li>Demonstration of serial communication </li>
+	<li> Handling analog input with microcontroller</li>
+	<li> Applications involving 7 segment LED display</li>
+	<li> Competiton on Deriving algorithm for innovative application
+</li>
+	<li>Venue: Embedded controller Lab</li>
+                    <li>Date: 27th and 28th February 2019</li>
+                    <li>09:00 AM - 04:00 PM</li>
+
+    </br>
+          
                      </ul>
                      </p>
                   </div>
-                  <div class="tab-pane fade" id="p2" role="tabpanel" aria-labelledby="p2-tab">
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Time limit: 60 minutes</li>
-                        <li>Team size: 2</li>
-                        <li>Venue: The event will be held within the college premises only.</li>
-                        <li>Prize: 1 Winner & 1 Runner.</li>
-                        <li>Chief organizers: S M Shivani ,Pavitra Ashok.</li>
-                     </ul>
-                  </div>
+                  
                </div>
-                <?php 
-include('dbconnection.php');
-$query="select eid,team_size,type from Events where ename like 'Salvage,Seize,Win';";
-$run_query=mysqli_query($dbHandle,$query);
-$row=mysqli_fetch_assoc($run_query);
-$eid=$row["eid"];
-$type=$row["type"];
-$size=$row["team_size"];
-echo "
-<form method='POST' action='register.php?id=$size'>
+               <form method='POST' action='register.php'>
 <input type='hidden' name='eid' value=$eid>
 <input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>"; ?>
+<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
             </article>
          </div>
-         <div id="section6" class="expanding-container">
-            <article class="hentry">
-               <h1 class="entry-title">ATRIA TRIBUNAL</h1>
-               <div class="entry-image">
-                  <div style="background-image: url(images/ece/ece-court.png);" class="img-placeholder">1</div>
-               </div>
-               <br>
-               <ul class="nav nav-tabs" id="myTab" role="tablist">
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="h3-tab" data-toggle="tab" href="#h3" role="tab" aria-controls="h3" aria-selected="true">Rules</a>
-                  </li>
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link" id="p3-tab" data-toggle="tab" href="#p3" role="tab" aria-controls="p3" aria-selected="false">Details</a>
-                  </li>
-               </ul>
-               <div class="tab-content" id="myTabContent">
-                  <div class="tab-pane fade show active" id="h3" role="tabpanel" aria-labelledby="h3-tab">
-                     <p>
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>
-                           The trial will generally follow this order of events:
-                           <ul>
-                              <li>Opening statements.</li>
-                              <li>Presentation of evidence.</li>
-                              <li>Rulings by judge.</li>
-                              <li>Closing the arguments.</li>
-                           </ul>
-                        </li>
-                        <li>Gather your wits and guts to take part in the battlefield</li>
-                     </ul>
-                     </p>
-                  </div>
-                  <div class="tab-pane fade" id="p3" role="tabpanel" aria-labelledby="p3-tab">
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Time limit: 4hrs</li>
-                        <li>Team size: 4</li>
-                        <li>Venue: The event will be held in the classroom.</li>
-                        <li>Prize: 1 Winner & 1 Runner</li>
-                        <li>Chief Organizer: Harshitha, Arya</li>
-                     </ul>
-                  </div>
-               </div>
-                <?php 
-include('dbconnection.php');
-$query="select eid,team_size,type from Events where ename like 'Atria Tribunal';";
-$run_query=mysqli_query($dbHandle,$query);
-$row=mysqli_fetch_assoc($run_query);
-$eid=$row["eid"];
-$type=$row["type"];
-$size=$row["team_size"];
-echo "
-<form method='POST' action='register.php?id=$size'>
-<input type='hidden' name='eid' value=$eid>
-<input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>"; ?>>
-            </article>
-         </div>
-         <div id="section7" class="expanding-container">
-            <article class="hentry">
-               <h1 class="entry-title">CIRCUITRIX</h1>
-               <div class="entry-image">
-                  <div style="background-image: url(images/ece/ece-circuit.jpeg);" class="img-placeholder">1</div>
-               </div>
-               <br>
-               <ul class="nav nav-tabs" id="myTab" role="tablist">
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="h4-tab" data-toggle="tab" href="#h4" role="tab" aria-controls="h4" aria-selected="true">Rules</a>
-                  </li>
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link" id="p4-tab" data-toggle="tab" href="#p4" role="tab" aria-controls="p4" aria-selected="false">Details</a>
-                  </li>
-               </ul>
-               <div class="tab-content" id="myTabContent">
-                  <div class="tab-pane fade show active" id="h4" role="tabpanel" aria-labelledby="h4-tab">
-                     <p>
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                     <li>A platform to express the talent in the circuit debugging. Occurrence of errors is common in circuit and it is a complicated task debugging them. Here we provide you with an opportunity to show off your skills to rectify the glitch in the circuit and make it right.</li>
-                     <li>
-                        ROUND-1: Question and answers and MCQ’S. Several MCQs would be given, select the correct answer from the given choice. Top scoring teams will be qualifying for the next round.
-                        <ul>
-                           <li>Number of questions: 35</li>
-                           <li>Time limit: 30 minutes</li>
-                        </ul>
-                     </li>
-                     <li>
-                        ROUND-2: Debugging. All circuit based would be given. Bugs must be cleared. Partial bug clearing wouldn’t be considered. Top scoring teams will be qualifying for the next round.
-                        <ul>
-                           <li> Number of questions: 20</li>
-                           <li>Time limit: 30 minutes</li>
-                        </ul>
-                     </li>
-                     <li>
-                        ROUND-3: Rapid fire. Number of questions is asked.  No passing allowed. Maximum questions answered by any team grabs them the prize.
-                        <ul>
-                           <li>Number of questions:  Depending on number of teams. </li>
-                           </li>
-                        </ul>
-                        </p>
-                  </div>
-                  <div class="tab-pane fade" id="p4" role="tabpanel" aria-labelledby="p4-tab">
-                  <ul style="margin-top: 15px;list-style-type: circle;">
-                  <li>Team size: 2</li>
-                  <li>Time limit: 1 hr 30 minutes</li>
-                  <li>Venue: The event will be held in classroom</li>
-                  <li>Prize: 1 Winner & 1 Runner</li>
-                  <li>Chief organizer: Pranav Kumar M P</li>
-                  </ul>
-                  </div>
-               </div>
-                 <?php 
-include('dbconnection.php');
-$query="select eid,team_size,type from Events where ename like 'Circutrix';";
-$run_query=mysqli_query($dbHandle,$query);
-$row=mysqli_fetch_assoc($run_query);
-$eid=$row["eid"];
-$type=$row["type"];
-$size=$row["team_size"];
-echo "
-<form method='POST' action='register.php?id=$size'>
-<input type='hidden' name='eid' value=$eid>
-<input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>"; ?>
-            </article>
-         </div>
+    
+      
+      
       </div>
       <script src="//static.codepen.io/assets/common/stopExecutionOnTimeout-41c52890748cd7143004e05d3c5f786c66b19939c4500ce446314d1748483e13.js"></script>
       <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>

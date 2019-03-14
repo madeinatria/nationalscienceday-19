@@ -225,13 +225,13 @@
                 window.location = "ise-events.php";
             });
              $(".ec").click(function() {
-                window.location = "comingsoon.php";
+                window.location = "ece-events.php";
             });
              $(".me").click(function() {
-                window.location = "comingsoon.php";
+                window.location = "me-events.php";
             });
              $(".civil").click(function() {
-                window.location = "comingsoon.php";
+                window.location = "civil-events.php";
             });
              $(".mba").click(function() {
                 window.location = "bse-events.php";

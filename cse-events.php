@@ -274,7 +274,7 @@
       </header>
       <div class="expanding-grid ">
          <ul  class="links">
-            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section1"> Robotics Workshop</a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section1"> Future of Work - Robotics Workshop</a></li>
             <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section2"> Robotics Model Making Exhibition</a></li>
             <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section3"> Tech Say</a></li>
            
@@ -294,7 +294,7 @@
                   <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                      <li>Students would demonstrate </li>
+                      Students would demonstrate
               <li>                      1. I/O port operation – Bar graph LED</li>
               <li>                      2. LCD to display a message using boot switch</li>
               <li>                      3. Velocity control of DC motor using PWM</li>
@@ -305,6 +305,7 @@
                 <li>Venue: AC 413</li>
                 <li>Date: 27th February 2019</li>
                   <li>9:00 AM - 4:00 PM</li>
+                 
                      </ul>
                      </p>
                   </div>
@@ -314,7 +315,7 @@
 <form method='POST' action='register.php'>
 <input type='hidden' name='eid' value=$eid>
 <input type='hidden' name='type' value=$type>
-              <button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button>
+  <button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button> 
             </article>
          </div>
          <div id="section2" class="expanding-container">
@@ -333,6 +334,10 @@
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
                         <li>Peer-to-Peer Learning</li>
+                        </br>
+                <li>Venue: CoE/BC501</li>
+                <li>Date: 28th February 2019</li>
+                  <li>9:00 AM - 1:00 PM</li>
                      </ul>
                      </p>
                   </div>
@@ -359,17 +364,9 @@
                   <div class="tab-pane fade show active" id="h1" role="tabpanel" aria-labelledby="h1-tab">
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                      	<li>2 -Days workshop on Web Design and Development would </li>
-	<li>cover the following topics:</li>
-	<li>• Basics of HTML CSS & Javascript.</li>
-	<li>• Libraries of Javascript's such as Jquery</li>
-	<li>• How all the above 3 languages can be effectively together. </li>
-	<li>• Designing a Layout and developing it using the above Languages</li>
-	<li>• Database handling using MYSQL.</li>
-	<li>• Basic programming using PHP and its role in Web Development.</li>
-	<li>• Understanding PHP frameworks (Laravel)</li>
-	<li>• Testing the Website/ Web Application for various contingencies.</li>
-	<li>• Hosting the site in the respective Domain</li>
+                      	<li>Round 1 : Quiz </li>
+                      	<li>Round 2 : Pick & Speak </li>
+	
     </br>
                 <li>Venue: AC 403</li>
                 <li>Date: 28th February 2019</li>

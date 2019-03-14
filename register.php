@@ -179,6 +179,7 @@ echo "
 <div class='card-body'>
 <label for='fname'>NAME: </label>
 <input required type='text' id='' name='name1'>
+</br>
 <label>EVENT:</label>
 <select name='event'>
   <optgroup style='background-color:#404040;' label='Computer Science'>
@@ -199,6 +200,7 @@ Development</option>
     <option value='Water Quality'>Water Quality</option>
     <option value='Report Writing'>Report Writing</option>
     <option value='Preparation of Nanoparticles'>Preparation of Nanoparticles</option>
+      <option value='Will you eat it'>Will you eat it</option>
 </optgroup>
  <optgroup style='background-color:#404040;' label='Mechanical Engineering'>
     <option value='Elastica - The Paradox of the Principle of Least Action'>Elastica - The Paradox of the Principle of Least Action</option>
@@ -212,13 +214,28 @@ Development</option>
     <option value='Amazon ALEXA'>Amazon ALEXA</option>
     <option value='ARM'>ARM</option>
   </optgroup>
+   <optgroup style='background-color:#404040;' label='Civil Events'>
+   <option value='Next Generation Concrete-Invited Talk'>Next Generation Concrete-Invited Talk</option>
+ <option value='Modelling of Civil Engineering Construction Marvels'>Modelling of Civil Engineering Construction Marvels</option>
+<option value='Exposure to Civil Engineering-Hands on session'>Exposure to Civil Engineering-Hands on session</option>
+
+<option value='Structure Capture'>Structure Capture</option>
+<option value='Ecofriendly construction-Hands on session'>Ecofriendly construction-Hands on session</option>
+<option value='Futuristic Civil Engineering'>Futuristic Civil Engineering</option>
+<option value='Tech Debate'>Tech Debate</option>
+<option value='Disaster management-Invited Talk'>Disaster management-Invited Talk</option>
+  </optgroup>
 </select>
+</br>
 <label>EMAIL:</label>
 <input required type='email' id='' name='email1'>
+</br>
 <label>PHONE NUMBER:</label>
 <input required type='text' id='' name='phone1'>
+</br>
 <label for='fname'>DEPARTMENT: </label>
 <input required type='text' id='' name='dep1'>
+</br>
 <label>SEMESTER/YEAR:</label>
 <select name='sem'>
 <optgroup style='background-color:#404040;'>
@@ -227,6 +244,8 @@ Development</option>
 <option value='6'>6</option>
 <option value='8'>8</option></optgroup>
 </select>
+</br>
+<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>SUBMIT</button>
 </div></div></div>;"
 
  

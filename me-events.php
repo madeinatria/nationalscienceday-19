@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" >
-   <head>
+  <head>
       <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
       <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
       <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -15,8 +15,8 @@
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
       <link rel="stylesheet" href="css/bootstrap.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-       <title>Mechanical Engineering Events</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Mechanical Events</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
       <style>
@@ -38,17 +38,11 @@
          padding: 2rem;
          }
          .expanding-grid .links {
-         display: block;
-         margin: 0 -1em;
-         overflow: hidden;
-         padding: 1em 0;
-         background-color: transparent;
+       
+        
          }
          .expanding-grid .links > li {
-         box-sizing: border-box;
-         float: left;
-         padding: 1em;
-         background-color: transparent;
+       
          }
          .expanding-grid .links > li a {
          background-image: url(images/ece/ec-ramrom.jpeg);   
@@ -56,13 +50,7 @@
          display: block;
          font-size: 2em;
          line-height: 1;
-         padding: 25% 1em;
-         position: relative;
-         background-color: transparent;
-         text-align: center;
-         text-decoration: none;
-         -webkit-font-smoothing: antialiased;
-         -moz-osx-font-smoothing: grayscale;
+        
          }
          .expanding-grid .links > li a:hover {
          #ffb733
@@ -85,7 +73,7 @@
          }
          @media only screen and (max-width: 39.99em) {
          .expanding-grid .links > li {
-         width: 50%;
+        
          }
          .expanding-grid .links > li:nth-of-type(2n+1) {
          clear: left;
@@ -93,7 +81,6 @@
          }
          @media only screen and (min-width: 40em) and (max-width: 59.99em) {
          .expanding-grid .links > li {
-         width: 33.3333333333%;
          }
          .expanding-grid .links > li:nth-of-type(3n+1) {
          clear: left;
@@ -101,7 +88,7 @@
          }
          @media only screen and (min-width: 60em) {
          .expanding-grid .links > li {
-         width: 25%;
+        
          }
          .expanding-grid .links > li:nth-of-type(4n+1) {
          clear: left;
@@ -129,6 +116,7 @@
          border: 1px solid white;
          box-sizing: border-box;
          clear: both;
+         margin-bottom:20px;
          color: #fff;
          min-height: 4em;
          overflow: hidden;
@@ -234,22 +222,35 @@
          to {
          transform: translateY(-2000px);
          }}
-         .grow{
-         transition: transform .2s;
-         }
-         .grow:hover
-         {
-         -webkit-transform: scale(1.1);
-         -ms-transform: scale(1.1);
-         transform: scale(1.1);
-         opacity:0.8;
-         }
-         .backbtn:hover{
-         opacity:0.7;
-         }
+        .grow{
+              transition: transform .2s;
+        }
+    
+          .grow:hover
+          {
+              -webkit-transform: scale(1.05);
+              -ms-transform: scale(1.05);
+              transform: scale(1.05);
+              opacity:0.8;
+                
+          }
+          .backbtn:hover{
+            opacity:0.7;
+          }
+        .edit{
+              width: 100%;
+            height: 100px!important;
+            background: #6f6f6f6e;
+            margin-bottom:20px;
+        }
+        a:hover{
+          text-decoration:none;
+        }
       </style>
       <script>
          window.console = window.console || function(t) {};
+      </script>
+      <script>
          if (document.location.search.match(/type=embed/gi)) {
            window.parent.postMessage("resize", "*");
          }
@@ -265,341 +266,124 @@
       <div id='stars2'></div>
       <div id='stars3'></div>
       <header class="clearfix">
-         <button onclick=" relocate_events()" type="button" style="margin-left:30px; width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;" class="btn btn-default backbtn "> &laquo; Back</button>
+        <button onclick=" relocate_events()" type="button" style="margin-left:30px; width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;" class="btn btn-default backbtn "> &laquo; Back</button>
+
          <h2 style="font-size:30px; text-align: center; font-family: 'Raleway', sans-serif;color:#bdbdbd">Mechanical Engineering</h2>
+         
          <h3 style="font-size:20px; text-align: center;font-family: 'Raleway', sans-serif;color:#bdbdbd">Events</h3>
       </header>
       <div class="expanding-grid ">
          <ul  class="links">
-            <li class="grow"> <div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">GO NUTS </div><a style="opacity:0.8; color:transparent; border:1px #bdbdbd solid; height: 225px; background-image: url(images/mech/nuts.png);" href="#section1"></a></li>
-            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">PSYCHED CYCLE </div><a style="opacity:0.8; color:transparent; border:1px  #bdbdbd  solid;  height: 225px; background-image: url(images/mech/cycle.png);" href="#section2">2</a></li>
-            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">TERRAIN SURVIVAL </div><a style="opacity:0.8; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/mech/terrain.png);"   href="#section3">3</a></li>
-            <li><a style=" background-image: url(images/stars-about.png);    "  href="#section5"></a></li>
-            <li><a style=" background-image: url(images/stars-about.png);    "  href="#section5"></a></li>
-            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">ROAR </div><a style="opacity:0.5; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/mech/roar.png);" href="#section4">4</a></li>
-            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">ASSEMBLY ADVENTURE </div><a style="opacity:0.8; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/mech/assemble.jpg);"href="#section6">6</a></li>
-            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">TOON TANTRA </div><a style="opacity:0.8; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/mech/tantra.png);" href="#section7">7</a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:2em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section1"> Elastica - The Paradox of the Principle of Least Action</a></li>
+            </br>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:2em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section2">Automobile- Cars evolution till date (Poster presentation)</a></li>
+            </br>
+
+            <li style="" class="grow edit"> <a class="edit" style="line-height:2em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section4"> Computer Aided Design Workshop</a></li>
+
          </ul>
-         <div  id="section1" class="expanding-container">
+         <div  id="section1" class="expanding-container"> 
             <article class="hentry">
-               <h1 class="entry-title">GO NUTS</h1>
-               <div class="entry-image">
-                  <div style=" background-image: url(images/mech/nuts.png);" class="img-placeholder">1</div>
-               </div>
+               <h1 class="entry-title">Elastica - The Paradox of the Principle of Least Action</h1>
+             
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
                   <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Rules</a>
+                     <a style="color:white;" class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Details</a>
                   </li>
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Details</a>
-                  </li>
+                 
                </ul>
                <div class="tab-content" id="myTabContent">
                   <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                      <p>
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Identifying the bolt, nuts, steel washers, and rubber washer of the particular size informed by the organizer and assemble.</li>
-                     </ul>
+                        <p> A historical account of the phenomenon of Classical Mechanics followed by hands on experimental demonstration to illustrate an inherent paradox in the first principle of Classical mechanics.</p>
+                </br>
+                
+                <li> Feb 27,2019 </li>
+                  <li>9:00 AM - 2:00 PM</li>
+                    
                      </p>
                   </div>
-                  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                      	<li>Team Size: Solo event</li>
-	<li> Duration: maximum duration of 3 minutes. minimum timed achieving</li>
-	<li>student wins.</li>
-	<li> Fee: Rs30 for Intra and Rs40 for Inter</li>
-	<li>Venue: In front of library</li>
-	<li>Prizes: Achievers and participants are certified parallelly</li>
-	<li>Time: 3rd Nov 10.30 am</li>
-	<li>Contact details:( Chief org) DHRUVAKUMAR C (7619597680), SANJAY (8861649001) </li>
-                     </ul>
-                     </ul>
-                  </div>
+                  
                </div>
-             <?php 
-include('dbconnection.php');
-$query="select eid,team_size,type from Events where ename like 'Go Nuts';";
-$run_query=mysqli_query($dbHandle,$query);
-$row=mysqli_fetch_assoc($run_query);
-$eid=$row["eid"];
-$type=$row["type"];
-$size=$row["team_size"];
-echo "
-<form method='POST' action='register.php?id=$size'>
+   
+<form method='POST' action='register.php'>
 <input type='hidden' name='eid' value=$eid>
 <input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>"; ?>
+              <button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button>
             </article>
          </div>
          <div id="section2" class="expanding-container">
             <article class="hentry">
-               <h1 class="entry-title">PSYCHED CYCLE</h1>
-               <div class="entry-image">
-                  <div style="background-image: url(images/mech/cycle.png);" class="img-placeholder">1</div>
-               </div>
+               <h1 class="entry-title">Automobile- Cars evolution till date (Poster presentation)</h1>
+              
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
                   <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="h-tab" data-toggle="tab" href="#h" role="tab" aria-controls="h" aria-selected="true">Rules</a>
+                     <a style="color:white;" class="nav-link active" id="h-tab" data-toggle="tab" href="#h" role="tab" aria-controls="h" aria-selected="true">Details</a>
                   </li>
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link" id="p-tab" data-toggle="tab" href="#p" role="tab" aria-controls="p" aria-selected="false">Details</a>
-                  </li>
+                  
                </ul>
                <div class="tab-content" id="myTabContent">
                   <div class="tab-pane fade show active" id="h" role="tabpanel" aria-labelledby="h-tab">
                      <p>
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Once both the feet of the participant are off the ground , the game begins. Game lasts as long as the participant lands his/her  foot on the ground. Winner will be declared based on the amount of time spent on the cycle and covering the track distance,with both the feet off the ground.</li>
-                      
-                     </ul>
+                         </br>
+                     <p> The Technology development of Cars from yester years till date: </p>
+                     </br>
+                     <p>Students should create amazing posters which display the development of technological improvements over the years in the automotive(cars) sector.</p>
+                     <li>Venue: CC 212</li>
+                     <li>Date: 28th Feb</li>
+                     <li>Time: 10:00am to 4:00pm</li>
                      </p>
                   </div>
-                  <div class="tab-pane fade" id="p" role="tabpanel" aria-labelledby="p-tab">
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                       <li>Team size: One participant per round</li>
-	<li>Duration: Minute of time</li>
-	<li>Fee: Rs30 for Intra and Rs40 for Inter</li>
-	<li> Venue: Track made in front of CSE block</li>
-	<li> Prize: 500/- cash award to winner</li>
-	<li> Time: 11.30 am- 1pm, on both days of the event</li>
-	<li> Contact details: Pradeep Kumar G -(8088264613) & Nikhil C(+91 7353828143)</li>
-                     </ul>
-                  </div>
+               
                </div>
-               <?php 
-include('dbconnection.php');
-$query="select eid,team_size,type from Events where ename like 'Psyched Cycle';";
-$run_query=mysqli_query($dbHandle,$query);
-$row=mysqli_fetch_assoc($run_query);
-$eid=$row["eid"];
-$type=$row["type"];
-$size=$row["team_size"];
-echo "
-<form method='POST' action='register.php?id=$size'>
+                  <form method='POST' action='register.php'>
 <input type='hidden' name='eid' value=$eid>
 <input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>"; ?>
-            </article>
+<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
+          </article>
          </div>
-         <div id="section3" class="expanding-container">
+
+         <div id="section4" class="expanding-container">
             <article class="hentry">
-               <h1 class="entry-title">TERRAIN SURVIVAL</h1>
-               <div class="entry-image">
-                  <div style="background-image: url(images/mech/terrain.png);" class="img-placeholder">1</div>
-               </div>
+               <h1 class="entry-title">Computer Aided Design Workshop</h1>
+               
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
                   <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="h1-tab" data-toggle="tab" href="#h1" role="tab" aria-controls="h1" aria-selected="true">Rules</a>
+                     <a style="color:white;" class="nav-link active" id="h1-tab" data-toggle="tab" href="#h1" role="tab" aria-controls="h1" aria-selected="true">Details</a>
                   </li>
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link" id="p1-tab" data-toggle="tab" href="#p1" role="tab" aria-controls="p1" aria-selected="false">Details</a>
-                  </li>
+                 
                </ul>
                <div class="tab-content" id="myTabContent">
                   <div class="tab-pane fade show active" id="h1" role="tabpanel" aria-labelledby="h1-tab">
                      <p>
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Off-road Motorcycle Racing held on enclosed off-road circuits.</li>
-                        <li>Must undertake his/her own responsibility to finish the track without any major/minor injuries.(college is not responsible for any injuries)<ul>
-	<li>Exceeding track limit gets +10 sec penalty</li>
-	<li>Biker has to finish the race inside the track</li>
-	<li>Skipping any obstacle includes +10 sec penalty</li>
-	<li>Stepping on ground doesn't minus the points</li>
-	<li>The quickest participant to complete the track wins</li>
-	<li>No race personnel associated with influence of alcohol or any</li>
-	<li>intoxicant is allowed. Rider will be disqualified.</li>
-	<li>Shoes and helmet compulsory.</li>
-</ul></li>
-                     </ul>
+                     <p> Provide an hands on training session on computer aided design (CAD) and will help students to convert ideas to virtual models. </p>
+
+                     <br />
+                     <li> Feb 27th and Feb 28th </li>
+                  <li>8 hours of training</li>
+
+
+
+
+
+                     
+    </br>
+                
                      </p>
                   </div>
-                  <div class="tab-pane fade" id="p1" role="tabpanel" aria-labelledby="p1-tab">
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                     	<li>Number of participants: One student at a time</li>
-	<li> Fee: Rs 50 for Intra, Rs 80 for Inter</li>
-	<li> Duration: 2-3mins</li>
-	<li> Venue: FRONT OF CANTEEN ZONE</li>
-	<li> Prizes: CASH REWARD</li>
-	<li> Time: 3rd Nov 1.00 pm</li>
-	<li> Contact details: (Chief org) Harikrishnakanth (9066162053) (map detail) Rayaan (7760119854)</li>
-                     </ul>
-                  </div>
+                  
                </div>
-               <?php 
-include('dbconnection.php');
-$query="select eid,team_size,type from Events where ename like 'Terrain Survival';";
-$run_query=mysqli_query($dbHandle,$query);
-$row=mysqli_fetch_assoc($run_query);
-$eid=$row["eid"];
-$type=$row["type"];
-$size=$row["team_size"];
-echo "
-<form method='POST' action='register.php?id=$size'>
+               <form method='POST' action='register.php'>
 <input type='hidden' name='eid' value=$eid>
 <input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>"; ?>
+<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
             </article>
          </div>
-         <div id="section4" class="expanding-container">
-            <article class="hentry">
-               <h1 class="entry-title">ROAR</h1>
-               <div class="entry-image">
-                  <div style=" background-image: url(images/mech/roar.png);" class="img-placeholder">1</div>
-               </div>
-               <br>
-               <ul class="nav nav-tabs" id="myTab" role="tablist">
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="h2-tab" data-toggle="tab" href="#h2" role="tab" aria-controls="h2" aria-selected="true">Rules</a>
-                  </li>
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link" id="p2-tab" data-toggle="tab" href="#p2" role="tab" aria-controls="p2" aria-selected="false">Details</a>
-                  </li>
-               </ul>
-               <div class="tab-content" id="myTabContent">
-                  <div class="tab-pane fade show active" id="h2" role="tabpanel" aria-labelledby="h2-tab">
-                     <p>
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Producing higher sound by the bikes, with well altered and enhanced bike materials</li>
-                     </ul>
-                     </p>
-                  </div>
-                  <div class="tab-pane fade" id="p2" role="tabpanel" aria-labelledby="p2-tab">
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                       <li>Fee: Rs50 for Intra and Rs70 for Inter</li>
-	<li>Team size: Solo event</li>
-	<li> Duration: Individual Bike 10 to 20 seconds of continuous roar</li>
-	<li> Venue: Beside car parking on road.</li>
-	<li> Prize-cash prize, and achieving and participant certified</li>
-	<li> Time-opening event just after addressing by management</li>
-	<li> Contact- (Chief Org) Dhanush Gowda 8618793487 and Sumanth 9686018054</li>
-                     </ul>
-                  </div>
-               </div>
-                 <?php 
-include('dbconnection.php');
-$query="select eid,team_size,type from Events where ename like 'Roar';";
-$run_query=mysqli_query($dbHandle,$query);
-$row=mysqli_fetch_assoc($run_query);
-$eid=$row["eid"];
-$type=$row["type"];
-$size=$row["team_size"];
-echo "
-<form method='POST' action='register.php?id=$size'>
-<input type='hidden' name='eid' value=$eid>
-<input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>"; ?>
-  </article>
-            </article>
-         </div>
-         <div id="section6" class="expanding-container">
-            <article class="hentry">
-               <h1 class="entry-title">ASSEMBLY ADVENTURE</h1>
-               <div class="entry-image">
-                  <div style="  background-image: url(images/mech/assemble.png);" class="img-placeholder">1</div>
-               </div>
-               <br>
-               <ul class="nav nav-tabs" id="myTab" role="tablist">
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="h3-tab" data-toggle="tab" href="#h3" role="tab" aria-controls="h3" aria-selected="true">Rules</a>
-                  </li>
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link" id="p3-tab" data-toggle="tab" href="#p3" role="tab" aria-controls="p3" aria-selected="false">Details</a>
-                  </li>
-               </ul>
-               <div class="tab-content" id="myTabContent">
-                  <div class="tab-pane fade show active" id="h3" role="tabpanel" aria-labelledby="h3-tab">
-                     <p>
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                       <li>The one race where you can test your limits.</li>
-	<li>Cross all the obstacles to set up an assembly</li>
-	<li>You can skip an obstacle; but in the penalty of 10 to 20 seconds</li>
-	<li>Failure during an event requires you to start that obstacle again</li>
-</ul>
-                     </p>
-                  </div>
-                  <div class="tab-pane fade" id="p3" role="tabpanel" aria-labelledby="p3-tab">
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                       <li>Fee: Rs50 for Intra, Rs80 for Inter</li>
-	<li> Team size: Solo or duo event</li>
-	<li> Duration: Maximum of 4 mins period per individual or team</li>
-	<li> Venue: The ground opposite to mechanical block.</li>
-	<li> Prize: Attractive price Money</li>
-	<li> Time: 1st day after lunch Break starts sharp 1.00 pm</li>
-	<li> Contact- Thirumalesh V (9742208913), Pranava A R (9019302224)</li>
-                     </ul>
-                  </div>
-               </div>
-                 <?php 
-include('dbconnection.php');
-$query="select eid,team_size,type from Events where ename like 'Assembly Adventure';";
-$run_query=mysqli_query($dbHandle,$query);
-$row=mysqli_fetch_assoc($run_query);
-$eid=$row["eid"];
-$type=$row["type"];
-$size=$row["team_size"];
-echo "
-<form method='POST' action='register.php?id=$size'>
-<input type='hidden' name='eid' value=$eid>
-<input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>"; ?>/
-            </article>
-         </div>
-         <div id="section7" class="expanding-container">
-            <article class="hentry">
-               <h1 class="entry-title">TOOL TANTRA</h1>
-               <div class="entry-image">
-                  <div style="background-image: url(images/mech/tantra.png);" class="img-placeholder">1</div>
-               </div>
-               <br>
-               <ul class="nav nav-tabs" id="myTab" role="tablist">
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="h4-tab" data-toggle="tab" href="#h4" role="tab" aria-controls="h4" aria-selected="true">Rules</a>
-                  </li>
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link" id="p4-tab" data-toggle="tab" href="#p4" role="tab" aria-controls="p4" aria-selected="false">Details</a>
-                  </li>
-               </ul>
-               <div class="tab-content" id="myTabContent">
-                  <div class="tab-pane fade show active" id="h4" role="tabpanel" aria-labelledby="h4-tab">
-                     <p>
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Accurate with your hands? Show it with
-tools. A workpiece will be given with the required dimensions to be
-machined. The one with the finest machining in the given time is the
-winner.</li>
-                     </ul>
-                     </p>
-                  </div>
-                  <div class="tab-pane fade" id="p4" role="tabpanel" aria-labelledby="p4-tab">
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                       <li>Team size: Solo event</li>
-	<li> Fee: Rs30 for Inter and Rs40 for Intra</li>
-	<li> Duration: 1 hour</li>
-	<li> Venue: Machine Lab</li>
-	<li> Prize: prize money</li>
-	<li> Time: 3rd Nov 11.30am</li>
-	<li> Contact details: (Chief Org) Mehul (8951940042) and Madhu</li>
-                     </ul>
-                  </div>
-               </div>
-                 <?php 
-include('dbconnection.php');
-$query="select eid,team_size,type from Events where ename like 'Tool Tantra';";
-$run_query=mysqli_query($dbHandle,$query);
-$row=mysqli_fetch_assoc($run_query);
-$eid=$row["eid"];
-$type=$row["type"];
-$size=$row["team_size"];
-echo "
-<form method='POST' action='register.php?id=$size'>
-<input type='hidden' name='eid' value=$eid>
-<input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>"; ?>
-            </article>
-         </div>
+      
+      
       </div>
       <script src="//static.codepen.io/assets/common/stopExecutionOnTimeout-41c52890748cd7143004e05d3c5f786c66b19939c4500ce446314d1748483e13.js"></script>
       <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>

@@ -268,7 +268,8 @@
       <header class="clearfix">
         <button onclick=" relocate_events()" type="button" style="margin-left:30px; width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;" class="btn btn-default backbtn "> &laquo; Back</button>
 
-         <h2 style="font-size:30px; text-align: center; font-family: 'Raleway', sans-serif;color:#bdbdbd">Basic Science</h2>
+         <h2 style="font-size:30px; text-align: center; font-family: 'Raleway', sans-serif;color:#bdbdbd">Basic Science & 
+Humanities</h2>
          
          <h3 style="font-size:20px; text-align: center;font-family: 'Raleway', sans-serif;color:#bdbdbd">Events</h3>
       </header>
@@ -278,8 +279,9 @@
             <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section2"> Glass Preparation</a></li>
             <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section3"> Water Quality </a></li>
            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section4"> Movie on Nobel Laureate Chandra</a></li>
-            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section5"> Report Writing</a></li>
-            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section6">Preparation of Nanoparticles </a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section6"> Report Writing</a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section7">Preparation of Nanoparticles </a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section8">Will you eat this?</a></li>
          </ul>
           <div  id="section1" class="expanding-container">
             <article class="hentry">
@@ -296,6 +298,8 @@
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
                         <li>To explore the concepts of Maths through the lens of Magic and Origami through hands-on workshop by creating the models.</li>
+                        <li>Venue: CC 305 </li>
+                        <li>Duration: 3hr </li>
                      </ul>
                      </p>
                   </div>
@@ -322,6 +326,10 @@
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
                         <li>"Wanna Cook glasses in few minutes?" - A hands on workshop to prepare one's own colourful glasses.</li>
+                        <li>Venue: Chemistry Lab</li>
+                        <li>Duration: 3 Hours-Intro+preperation 
+ for each session of batch
+ size up to 20. </li>
                       
                      </ul>
                      </p>
@@ -348,6 +356,8 @@
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
                         <li>"Water Potability" -  An experiential approach to collect samples of water and check if they are potable or not.</li>
+                         <li>Venue: Chemistry Lab</li>
+                        <li>Duration: 6 hr (27 Afternoon - 3 hr) & (28 th Morning - 3 hr) </li>
 </ul>
                      </p>
                   </div>
@@ -373,6 +383,7 @@
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
                         <li>Screening the movie - Making of a Star.  Movie is a biographical sketch of the Nobel Laureate - S Chandrashekar, popularly known as Chandra. </li>
+                           <li>Venue: CC 306</li>
                      </ul>
                      </p>
                   </div>
@@ -400,6 +411,8 @@
                      <ul style="margin-top: 15px;list-style-type: circle;">
                        <li>The one race where you can test your limits.</li>
    <li>"Blog it on National Science Day" - Students will visit any of the four workshops in progress during the first hour and write a blog on the website of Atria  </li>
+      <li>Venue: English Lab</li>
+                        <li>Duration: 3hr </li>
 </ul>
                      </p>
                   </div>
@@ -425,6 +438,10 @@
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
                         <li>"Material Sciences for Medical world" - Preparation of nanoparticles that have medical applications in general and in particular to Cancer</li>
+                           <li>Venue: Chemistry Lab</li>
+                        <li>Duration: 8 hr (27th Morning - 3 hr & 
+28th Morning - 3 hr)
+ </li>
                      </ul>
                      </p>
                   </div>
@@ -436,9 +453,34 @@
 <button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
             </article>
          </div>
-      
-      
-      </div>
+      <div  id="section8" class="expanding-container">
+            <article class="hentry">
+               <h1 class="entry-title">Will you eat this?</h1>
+              
+               <br>
+               <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item">
+                     <a style="color:white;" class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Details</a>
+                  </li>
+               </ul>
+               <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                     <p>
+                     <ul style="margin-top: 15px;list-style-type: circle;">
+                        <li>Adulteration of edible products will be studied. Common examples like Milk, Spices, Butter, Ghee, and etc</li>
+                        <li>Venue: Chemistry Lab </li>
+                        <li>Duration: 6 hr (27 Morning 3 hr + 28 Morning 3 hr) </li>
+                     </ul>
+                     </p>
+                  </div>
+               </div>
+
+<form method='POST' action='register.php'>
+<input type='hidden' name='eid' value=$eid>
+<input type='hidden' name='type' value=$type>
+<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
+            </article>
+         </div></div>
       <script src="//static.codepen.io/assets/common/stopExecutionOnTimeout-41c52890748cd7143004e05d3c5f786c66b19939c4500ce446314d1748483e13.js"></script>
       <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
       <script >

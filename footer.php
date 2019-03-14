@@ -156,11 +156,11 @@
       </div>
       <div>
          <i class="fa fa-phone"></i>
-         <p style=" font-family: 'Raleway', sans-serif;!important">Raghu:  +91 96865 19241</p>
+         <p style=" font-family: 'Raleway', sans-serif;!important">Prof. Hemalatha K N:  +91 95912 49131</p>
       </div>
       <div>
          <i class="fa fa-phone"></i>
-         <p style=" font-family: 'Raleway', sans-serif;!important">Sampath:  +91 88927 12796</p>
+         <p style=" font-family: 'Raleway', sans-serif;!important">Prof. Pallavi N:  +91 80508 90430</p>
       </div>
      
       <div>
@@ -174,9 +174,9 @@
          Vision: To be a premier technical institution providing best in class learning solutions in developing competent professionals.
       </p>
       <div class="footer-icons">
-         <a href="https://www.facebook.com/code.ait/"><i class="fa fa-facebook"></i></a>
-         <a href="https://twitter.com/DexteriX2k17"><i class="fa fa-twitter"></i></a>
-         <a href="https://www.instagram.com/dexterix2k17/"><i class="fa fa-instagram"></i></a>
+         <a href="https://www.facebook.com/atria.edu/?fref=ts&ref=br_tf"><i class="fa fa-facebook"></i></a>
+         <a href="https://twitter.com/atria_institute"><i class="fa fa-twitter"></i></a>
+         <a href="https://www.linkedin.com/school/atria-institute-of-technology/about/"><i class="fa fa-linkedin"></i></a>
       </div>
    </div>
 </footer>

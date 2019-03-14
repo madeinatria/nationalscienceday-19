@@ -294,8 +294,7 @@
                   <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                 <li>2 -Days workshop on Web Design and Development would </li>
-	<li>cover the following topics:</li>
+                 2 -Days workshop on Web Design and Development would cover the following topics:
 	<li>• Basics of HTML CSS & Javascript.</li>
 	<li>• Libraries of Javascript's such as Jquery</li>
 	<li>• How all the above 3 languages can be effectively together. </li>
@@ -309,6 +308,8 @@
                 <li>Venue: AC 108</li>
                 <li>Date: 27th February 2019</li>
                   <li>9:00 AM - 4:00 PM</li>
+                  
+                
                      </ul>
                      </p>
                   </div>
@@ -318,7 +319,7 @@
 <form method='POST' action='register.php'>
 <input type='hidden' name='eid' value=$eid>
 <input type='hidden' name='type' value=$type>
-              <button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button>
+           <button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button> 
             </article>
          </div>
          <div id="section2" class="expanding-container">
