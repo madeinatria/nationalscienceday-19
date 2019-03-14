@@ -2,7 +2,7 @@
 <html lang="en" class="no-js">
    <head>
       <meta charset="UTF-8" />
-      <title>National Science Day-2019</title>
+      <title>Sapthrang19</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
       <link rel="stylesheet" href="css/bootstrap.css" />
@@ -21,7 +21,7 @@
          body{
          font-family: 'Raleway', sans-serif;
         
-         background-image: url("images/background/background2.jpg");
+         background-image: url("images/bgbg.png");
         background-size: 100% 100%;
        
        height:700px;
@@ -275,7 +275,7 @@
       <div id='stars2'></div>
       <div id='stars3'></div>
      <nav style="  font-weight: 250; color:white!important; font-family: 'Raleway', sans-serif; min-height:55px !important; font-size: 13.5px;" class="navbar navbar-expand-lg navbar-dark bg-dark">
-   <a class="navbar-brand" href="#">National Science Day'19</a>
+   <a class="navbar-brand" href="#">Atria Institute of Technology</a>
    <button  class="navbar-toggler ml-auto custom-toggler"  type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
    <span class="navbar-toggler-icon"></span>
    </button>
@@ -303,7 +303,7 @@
          </div>
        
       </div>
-      
+      <!--
       <div id="section2"  style="background-color:black;opacity:1  ">
       <div class="container">
         <h2 style="text-decoration:underline;text-align:center;font-size:20px; padding-top:40px; font-weight:1000;" > Chief Guest</h2>
@@ -328,7 +328,7 @@
                   </div>
                 </div>
               </div>
-        </div> 
+        </div> -->
         
  <?php include('footer.php') ; ?>
  

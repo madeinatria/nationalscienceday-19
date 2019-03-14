@@ -186,11 +186,11 @@
       <div id="stars3"></div>
       <div class="container "  style="margin-top:50px">
          <div class="row">
-             <div id="one" style="background-image: url('images/background/abstract2.jpg'); text-align:center;padding-top:50px;font-size:20px;border: 1px solid white; height:150px;" class="cse box foo col-md-4  offset-md-4">
+             <div id="one" style="background-image: url('images/background/abstract2.jpg'); text-align:center;padding-top:50px;font-size:20px;border: 1px solid white; height:150px;" class="cse box foo col-md-4  offset-md-2">
                <div style="background-color:black;">COMPUTER SCIENCE</div>
                 
             </div>
-            <div class="is box foo col-md-4 " style="background-image: url('images/background/abstract.jpg'); ; text-align:center;padding-top:50px;font-size:20px;border: 1px solid white; height:150px;">
+            <div class="is box foo col-md-4  offset-md-1" style="background-image: url('images/background/abstract.jpg'); ; text-align:center;padding-top:50px;font-size:20px;border: 1px solid white; height:150px;">
                <div style="background-color:black;">INFORMATION SCIENCE </div>
             </div>
          </div>
@@ -198,7 +198,7 @@
             <div style="background-image: url('images/background/abstract.jpg');  text-align:center;padding-top:50px;font-size:20px;border: 1px solid white; height:150px;" class="me box foo col-md-4">
                <div style="background-color:black;">MECHANICAL ENGINEERING </div>
             </div>
-            <div style="color:#bdbdbd;text-align:center;padding-top:50px;font-size:20px;border: 1px solid white; height:150px;" class="col-md-4">
+            <div style="color:white;text-align:center;padding-top:50px;font-size:25px;border: 1px solid white; height:150px;" class="col-md-4">
                EVENTS
             </div>
             <div class="mba box foo col-md-4 " style=" background-image: url('images/background/abstract3.jpeg'); 
@@ -208,10 +208,10 @@
             </div>
          </div>
          <div class="row">
-            <div style=" background-image: url('images/background/abstract2.jpg');  text-align:center;padding-top:50px;font-size:20px;border: 1px solid white; height:150px;" class="ec box foo col-md-4  ">
+            <div style=" background-image: url('images/background/abstract2.jpg');  text-align:center;padding-top:50px;font-size:20px;border: 1px solid white; height:150px;" class="ec box foo col-md-4  offset-md-2">
                <div style="background-color:black;">ELECTRONICS AND COMMUNICATION </div>
             </div>
-            <div class="civil box foo col-md-4 " style="background-image: url('images/background/abstract.jpg');  text-align:center;padding-top:50px;font-size:20px;border: 1px solid white; height:150px;">
+            <div class="civil box foo col-md-4  offset-md-1" style="background-image: url('images/background/abstract.jpg');  text-align:center;padding-top:50px;font-size:20px;border: 1px solid white; height:150px;">
                <div style="background-color:black;">CIVIL ENGINEERING </div>
             </div>
          </div>
