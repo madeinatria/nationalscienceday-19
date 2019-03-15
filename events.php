@@ -195,10 +195,10 @@
              opacity:1.0;font-size:20px;border: 1px solid white; height:150px;">
                <div style="background-color:black;">INTER-COLLEGE</div>
             </div>
-            <div class="box foo col-md-5 offset-md-1" style="background-image: url('images/background/v.jpg'); 
+            <div class="box foo col-md-5 offset-md-1" style="background-image: url('images/background/voilet.jpg'); 
              background-size: 100% 100%;text-align:center;padding-top:50px;
              opacity:1.0;font-size:20px;border: 1px solid white; height:150px;">
-               <div style="background-color:black;">INTER-COLLEGE EVENTS</div>
+               <div style="background-color:black;">INTRA-COLLEGE EVENTS</div>
             </div>
          </div>
          <div class="row">
@@ -209,24 +209,25 @@
             </div>
          </div>
          <div class="row">
-            <div style=" background-image: url('images/background/gr.jpg');  text-align:center;padding-top:50px;
-            opacity:1.0;font-size:20px;border: 1px solid white; height:150px;" class="ec box foo col-md-4 offset-md-5 ">
-               <div style="background-color:black;">FUN </div>
+         <div class="ec box foo col-md-4 offset-md-5" style=" background-image: url('images/background/green.jpg'); 
+             background-size: 100% 100%;text-align:center;padding-top:50px;
+             opacity:1.0;font-size:20px;border: 1px solid white; height:150px;">
+               <div style="background-color:black;">FUN</div>
             </div> 
          </div>
          <div class="row">
-            <div class="is box foo col-md-4 offset-md-4" style="background-image: url('images/background/abstract3.jpeg'); ; text-align:center;padding-top:50px;opacity:1.0;font-size:20px;border: 1px solid white; height:150px;">
+            <div class="is box foo col-md-4 offset-md-4" style="background-image: url('images/background/yellow.jpg');  background-size: 100% 100%; text-align:center;padding-top:50px;opacity:1.0;font-size:20px;border: 1px solid white; height:150px;">
                <div style="background-color:black;">DANCE</div>
             </div>
          </div>
          <div class="row">
-            <div id="one" style="background-image: url('images/background/o.jpg'); text-align:center;padding-top:50px;opacity:1.0;font-size:20px;border: 1px solid white; height:150px;" class="cse box foo col-md-4  offset-md-3">
+            <div id="one" style="background-image: url('images/background/orang.jpg'); background-size: 100% 100%; text-align:center;padding-top:50px;opacity:1.0;font-size:20px;border: 1px solid white; height:150px;" class="cse box foo col-md-4  offset-md-3">
                <div style="background-color:black;">MUSIC</div>
                 
             </div>
          </div>
             <div class="row">
-               <div style="background-image: url('images/background/9220.jpg');  text-align:center;padding-top:50px;   opacity:1.0;font-size:20px;border: 1px solid white; height:150px;" class="me box foo col-md-4 offset-md-2">
+               <div style="background-image: url('images/background/red.jpg'); background-size: 100% 100%;  text-align:center;padding-top:50px;   opacity:1.0;font-size:20px;border: 1px solid white; height:150px;" class="me box foo col-md-4 offset-md-2">
                <div style="background-color:black;"> LITERARY </div>
                </div>
             </div>
