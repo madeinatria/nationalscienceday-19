@@ -224,7 +224,15 @@
               <input required type='text' id='' name='phone1'>
               </br>
               <label for='fname'>DEPARTMENT: </label>
-              <input required type='text' id='' name='dep1'>
+              <select name='dep1'>
+                <optgroup style='background-color:#404040;' label='Department'>
+                  <option value='CSE'>CSE</option>
+                  <option value='ECE'>ECE</option>
+                  <option value='Mech'>Mechanical Engineering</option>
+                  <option value='Mech'>Civil Engineering</option>
+                  <option value='Mech'>ISE</option>
+                </optgroup>
+                </select>
               </br>
               <label>SEMESTER:</label>
               <select name='sem'>
@@ -240,10 +248,10 @@
               <input required type='text' id='' name='trans'>
               </br>
               <div class="form-group">
-                <label for="tid" class="col-md-2 col-sm-2"> </label>
+                <label for="tid" class="col-md-2 col-sm-2">Pay Using :</label>
                 <div class="col-md-6 col-sm-10">
                   <a data-toggle="modal" data-target="#myModal"><img style="widht:160px; height:70px;" src="images/paytm.jpg" />
-                    <p style="color: #000080;"><u>Click here</u></p>
+                    <p style="color: white;"><u>Click here</u></p>
                   </a>
                 </div>
               </div>

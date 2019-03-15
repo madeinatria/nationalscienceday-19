@@ -15,6 +15,9 @@
       <script type='text/javascript' src='js/demo.js'></script>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+
       <style>
 
 
@@ -296,8 +299,9 @@
       <div  >
          <div  id=""   style=" margin-top: 200px!important;">
             <div class="fade-in center" style="text-align:center;" >
-               <h1 style="font-weight:500!important; display:inline-block;  font-size: 70px;color:#f5f5f5"><div style=" background:rgba(0,0,0,0.7);">National Science Day '19</div></h1>
-               <p style="font-size:20px ;margin-bottom: 200px!important;" >February 27th | February 28th</p>
+               <h1 style="font-weight:500!important; display:inline-block;  font-size: 70px;color:#f5f5f5"><img src="images/asset1.png"></h1>
+               <p style="font-size:20px ;" >LET YOUR COLOURS BLOOM</p>
+               <p style="font-size:20px ;margin-bottom: 200px!important;" >March 29th, 2019</p>
 
             </div>
          </div>
