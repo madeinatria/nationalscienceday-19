@@ -346,7 +346,9 @@
 	               <li>REGISTRATION FEE: Rs 500/-</li>
                    <li>PRIZE: I - Rs 5000/-</li>
                    <li>      II - Rs 2500/-</li>
-                   <li>
+                   
+                   </br>
+                   </br>
                     <h2>ELECTRIC HEELS</h2>
                     <li>  No. of participants/team: 1</li>
 	               <li>   Time duration: 2 minutes</li>
