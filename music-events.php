@@ -301,9 +301,9 @@
                                        </br>   Karaoke not allowed.</li>
               <li>                      REGISTRATION FEES: Rs.50/-</li>
                 </br>
-                <li>Venue: </li>
-                <li>Date: </li>
-                  <li>*insert timings*</li>
+                <li>Venue: NSoJ </li>
+                <li>Date: 29th March 2019 </li>
+                  <li>9:30 - 10:30 AM</li>
                  
                      </ul>
                      </p>
@@ -337,9 +337,9 @@
               <li>                      Rules: Be at the venue ten minutes before the start of the event</li>
               <li>                      REGISTRATION FEES: Rs.50/-</li>
                         </br>
-                <li>Venue: </li>
-                <li>Date: </li>
-                  <li>timings</li>
+                <li>Venue: NSoJ</li>
+                <li>Date: 29th March 2019</li>
+                  <li>8:30 - 9:30 AM</li>
                      </ul>
                      </p>
                   </div>
@@ -373,9 +373,9 @@
               <li>                      REGISTRATION FEES: Rs.50/-</li>
 	
     </br>
-                <li>Venue:</li>
-                <li>Date: </li>
-                  <li>*timings*</li>
+    <li>Venue: NSoJ</li>
+                <li>Date: 29th March 2019</li>
+                  <li>12:00 - 1:00 AM</li>
                      </ul>
                      </p>
                   </div>

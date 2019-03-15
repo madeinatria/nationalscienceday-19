@@ -298,11 +298,18 @@
                <div class="tab-content" id="myTabContent">
                   <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                      <p>
-                        <p> A historical account of the phenomenon of Classical Mechanics followed by hands on experimental demonstration to illustrate an inherent paradox in the first principle of Classical mechanics.</p>
-                </br>
-                
-                <li> Feb 27,2019 </li>
-                  <li>9:00 AM - 2:00 PM</li>
+                     <li>               No. of participants: 1</li>
+              <li>                      Time Duration: 1 hour</li>
+              <li>                      Rules: </li>
+              <li>1. Be at the venue ten minutes before the start of the event.</li>
+              <li>2. Topic shall be given on the spot. </li>
+              <li>3. Bring your own paints, brushes and paraphemalia.</li>
+              <li>4. Use of stencils will lead to disqualification.</li>
+              <li>                      REGISTRATION FEES: Rs 50/-</li>
+                        </br>
+                <li>Venue: Civil Drawing Room</li>
+                <li>Date: 26th March 2019</li>
+                  <li>3:00 - 4:00 PM</li>
                     
                      </p>
                   </div>
