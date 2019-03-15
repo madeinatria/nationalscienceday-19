@@ -97,105 +97,28 @@
     #myImg:hover {
       opacity: 0.8;
     }
+    #imageToSwap{
+                    height:200px; 
+                    width:200px;
+                    display: block;
+                     margin: 0 auto
+                }
 
-    /* The Modal (background) */
-    .modal {
-      display: none;
-      /* Hidden by default */
-      position: fixed;
-      /* Stay in place */
-      z-index: 1;
-      /* Sit on top */
-      padding-top: 100px;
-      /* Location of the box */
-      left: 0;
-      top: 0;
-      width: 100%;
-      /* Full width */
-      height: 100%;
-      /* Full height */
-      overflow: auto;
-      /* Enable scroll if needed */
-      background-color: rgb(0, 0, 0);
-      /* Fallback color */
-      background-color: rgba(0, 0, 0, 0.9);
-      /* Black w/ opacity */
-    }
+                @media (min-width: 576px) {
+                .modal-dialog {
+                 margin-bottom: 30px;
+                 margin-left: auto;
+                 margin-right: auto;
+                }
+                #imageToSwap{
+                    height:400px; 
+                    width:400px;
+                    display: block;
+                     margin: 0 auto
+                }
+              }
 
-    /* Modal Content (image) */
-    .modal-content {
-      margin: auto;
-      display: block;
-      width: 30%;
-      height: 500px;
-      max-width: 700px;
-    }
 
-    /* Caption of Modal Image */
-    #caption {
-      margin: auto;
-      display: block;
-      width: 80%;
-      max-width: 700px;
-      text-align: center;
-      color: #ccc;
-      padding: 10px 0;
-      height: 100px;
-    }
-
-    /* Add Animation */
-    .modal-content,
-    #caption {
-      -webkit-animation-name: zoom;
-      -webkit-animation-duration: 0.6s;
-      animation-name: zoom;
-      animation-duration: 0.6s;
-    }
-
-    @-webkit-keyframes zoom {
-      from {
-        -webkit-transform: scale(0)
-      }
-
-      to {
-        -webkit-transform: scale(1)
-      }
-    }
-
-    @keyframes zoom {
-      from {
-        transform: scale(0)
-      }
-
-      to {
-        transform: scale(1)
-      }
-    }
-
-    /* The Close Button */
-    .close {
-      position: absolute;
-      top: 15px;
-      right: 35px;
-      color: #f1f1f1;
-      font-size: 40px;
-      font-weight: bold;
-      transition: 0.3s;
-    }
-
-    .close:hover,
-    .close:focus {
-      color: #bbb;
-      text-decoration: none;
-      cursor: pointer;
-    }
-
-    /* 100% Image Width on Smaller Screens */
-    @media only screen and (max-width: 700px) {
-      .modal-content {
-        width: 70%;
-      }
-    }
   </style>
 </head>
 
@@ -206,11 +129,28 @@
     </h2>
     <div id='accordion'>
 
-      <div id='myModal' class='modal'>
+      <!--<div id='myModal' class='modal'>
         <span class='close'>&times;</span>
         <img class='modal-content' src='images/qrcode.jpg'>
         
-      </div> 
+      </div>  -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content center">
+                    <div class="modal-header" style="display:block; text-align:center;" >
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" style="display:block; text-align:center;"  id="myModalLabel">Paytm</h4>
+                    </div>
+                    <div class="modal-body center">
+                        <img  id="imageToSwap" src="images/qrcode.jpg"/>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                 </div>
+            </div>
+        </div>
               
       <form action='save.php' method='POST'>
         <div class='card'>
