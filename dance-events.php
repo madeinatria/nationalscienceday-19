@@ -16,7 +16,7 @@
       <link rel="stylesheet" href="css/bootstrap.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Information Science Events</title>
+      <title>Dance Events</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
       <style>
@@ -268,20 +268,20 @@
       <header class="clearfix">
         <button onclick=" relocate_events()" type="button" style="margin-left:30px; width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;" class="btn btn-default backbtn "> &laquo; Back</button>
 
-         <h2 style="font-size:30px; text-align: center; font-family: 'Raleway', sans-serif;color:#bdbdbd">Information Science</h2>
+         <h2 style="font-size:30px; text-align: center; font-family: 'Raleway', sans-serif;color:#bdbdbd">DANCE</h2>
          
          <h3 style="font-size:20px; text-align: center;font-family: 'Raleway', sans-serif;color:#bdbdbd">Events</h3>
       </header>
       <div class="expanding-grid ">
          <ul  class="links">
-            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section1">Web Design and Development </a></li>
-            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section2">Poster Presentation</a></li>
-            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section3"> Tech Talk</a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section1">WESTERN & FILMY DANCE SOLO  </a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section2">WESTERN/INDIAN DANCE (GROUP)</a></li>
+            
            
          </ul>
          <div  id="section1" class="expanding-container"> 
             <article class="hentry">
-               <h1 class="entry-title">Web Design and Development</h1>
+               <h1 class="entry-title">WESTERN & FILMY DANCE SOLO </h1>
              
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -294,20 +294,18 @@
                   <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                 2 -Days workshop on Web Design and Development would cover the following topics:
-	<li>• Basics of HTML CSS & Javascript.</li>
-	<li>• Libraries of Javascript's such as Jquery</li>
-	<li>• How all the above 3 languages can be effectively together. </li>
-	<li>• Designing a Layout and developing it using the above Languages</li>
-	<li>• Database handling using MYSQL.</li>
-	<li>• Basic programming using PHP and its role in Web Development.</li>
-	<li>• Understanding PHP frameworks (Laravel)</li>
-	<li>• Testing the Website/ Web Application for various contingencies.</li>
-	<li>• Hosting the site in the respective Domain</li>
+                  <li>   No of participants/team: 1</li>
+	               <li>   Time duration: 3+2 minutes</li>
+	               <li>   Rules:
+                  </br>
+                  <li>   1. Be at the venue 10 minutes prior to the start of the event</li>
+                  <li>   2. Should get the music in pen drive and CD/DVD</li>
+	               <li>   REGISTRATION FEE: Rs 50/-</li>
+
                 </br>
-                <li>Venue: AC 108</li>
-                <li>Date: 27th February 2019</li>
-                  <li>9:00 AM - 4:00 PM</li>
+                <li>Venue: Seminar Hall</li>
+                <li>Date: 29/03/2019</li>
+                  <li>3:00 - 5:00 PM</li>
                   
                 
                      </ul>
@@ -324,7 +322,7 @@
          </div>
          <div id="section2" class="expanding-container">
             <article class="hentry">
-               <h1 class="entry-title">Poster Presentation</h1>
+               <h1 class="entry-title">WESTERN/INDIAN DANCE (GROUP)</h1>
               
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -337,53 +335,30 @@
                   <div class="tab-pane fade show active" id="h" role="tabpanel" aria-labelledby="h-tab">
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                         <li>Theme: "Science for the People and the People for Science."</li>
-                         </br>
-                <li>Venue: AC 207</li>
-                <li>Date: 28th February 2019</li>
-                  <li>9.30 AM - 12.30 PM</li>
+                     <li>   Team Size: min 6 - max 8</li>
+	               <li>   Time duration: 6+2 minutes</li>
+	               <li>   Rules:
+                  </br>
+                  <li>   1. Be at the venue 10 minutes prior to the start of the event</li>
+                  <li>   2. Should get the music in pen drive and CD/DVD</li>
+	               <li>   REGISTRATION FEE: Rs 150/-</li>
+
+                </br>
+                <li>Venue: Main Stage</li>
+                <li>Date: </li>
+                  <li>1:00 - 3:00 PM</li>
                      </ul>
                      </p>
                   </div>
                
                </div>
                <form method='POST' action='register.php'>
-<input type='hidden' name='eid' value=$eid>
-<input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
+               <input type='hidden' name='eid' value=$eid>
+               <input type='hidden' name='type' value=$type>
+               <button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
           </article>
          </div>
-         <div id="section3" class="expanding-container">
-            <article class="hentry">
-               <h1 class="entry-title">Tech Talk</h1>
-               
-               <br>
-               <ul class="nav nav-tabs" id="myTab" role="tablist">
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="h1-tab" data-toggle="tab" href="#h1" role="tab" aria-controls="h1" aria-selected="true">Details</a>
-                  </li>
-                 
-               </ul>
-               <div class="tab-content" id="myTabContent">
-                  <div class="tab-pane fade show active" id="h1" role="tabpanel" aria-labelledby="h1-tab">
-                     <p>
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                                            	<li>HTML 5 and Vue.js</li>
-    </br>
-                <li>Venue: AC 208</li>
-                <li>Date: 28th February 2019</li>
-                  <li>9.30 AM - 11.30 AM</li>
-                     </p>
-                  </div>
-                  
-               </div>
-               <form method='POST' action='register.php'>
-<input type='hidden' name='eid' value=$eid>
-<input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
-            </article>
-         </div>
-    
+         
       
       
       </div>

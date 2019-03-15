@@ -16,7 +16,7 @@
       <link rel="stylesheet" href="css/bootstrap.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Computer Science Events</title>
+      <title>Inter-College Events</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
       <style>
@@ -268,128 +268,144 @@
       <header class="clearfix">
         <button onclick=" relocate_events()" type="button" style="margin-left:30px; width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;" class="btn btn-default backbtn "> &laquo; Back</button>
 
-         <h2 style="font-size:30px; text-align: center; font-family: 'Raleway', sans-serif;color:#bdbdbd">Electronics And Communication</h2>
+         <h2 style="font-size:30px; text-align: center; font-family: 'Raleway', sans-serif;color:#bdbdbd"> INTER-COLLEGE</h2>
          
-         <h3 style="font-size:20px; text-align: center;font-family: 'Raleway', sans-serif;color:#bdbdbd">Events</h3>
+         <h3 style="font-size:20px; text-align: center;font-family: 'Raleway', sans-serif;color:#bdbdbd">EVENTS</h3>
       </header>
       <div class="expanding-grid ">
          <ul  class="links">
-            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section1"> Hardware</a></li>
-            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section2"> Build Your Own Robot from "SCRATCH"</a></li>
-            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section3"> Amazon ALEXA </a></li>
-            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section4"> ARM </a></li>
-
-           
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section1">CLASSICAL SOLO DANCE AND INAUGURATION</a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section2">GROUP DANCE AND ELECTRIC HEELS</a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section3"> BATTLE OF BANDS</a></li>
+           <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section4"> FASHION SHOW </a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section5"> DJ NIGHT </a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section6"> BEAT BOXING</a></li>
          </ul>
-         <div  id="section1" class="expanding-container"> 
+          <div  id="section1" class="expanding-container">
             <article class="hentry">
-               <h1 class="entry-title">Hardware</h1>
-             
+               <h1 class="entry-title">CLASSICAL SOLO DANCE AND INAUGURATION</h1>
+              
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
                   <li class="nav-item">
                      <a style="color:white;" class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Details</a>
                   </li>
-                 
                </ul>
                <div class="tab-content" id="myTabContent">
                   <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                      2- Days hands-on workshop to understand basics electronic components and applications
-              <li>                       LED Glow</li>
-              <li>                       LDR controlled LED on-off</li>
-              <li>                       Thermistor : Fire Alarm with 555 timer IC</li>
-              <li>                       Shift register and Counters with LED</li>
-              <li>                       LDR based automatic street light application</li>
-              <li>   Serial Set : Running LED chain.</li>
-              <li>  Making of Mobile charger.</li>
-              <li>  Temperature controlled Fan </li>
+                     <li>  No of participants/team: 1</li>
+	               <li>   Time duration: 3+2 minutes</li>
+	               <li>   Rules:</li>
+                  </br>
+                  <li>   1. Be at the venue 10 minutes prior to the start of the event</li>
+                  <li>   2. Should get the music in pen drive and CD/DVD</li>
+	               
+                   <li>   REGISTRATION FEE: Rs 50/-</li>
+                    
                 </br>
-                <li>Venue: LIC LAB</li>
-                <li>Date: 27th and 28th February 2019</li>
-                  <li>9:00 AM - 4:00 PM</li>
+                <li>Venue: Main Stage</li>
+                <li>Date: 29th March 2019</li>
+                  <li>8:30 - 11:30 AM</li>
                      </ul>
                      </p>
                   </div>
-                  
                </div>
-   
+
 <form method='POST' action='register.php'>
 <input type='hidden' name='eid' value=$eid>
 <input type='hidden' name='type' value=$type>
-              <button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button>
+<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
             </article>
          </div>
          <div id="section2" class="expanding-container">
             <article class="hentry">
-               <h1 class="entry-title">Build Your Own Robot from "SCRATCH"</h1>
-              
+               <h1 class="entry-title">GROUP DANCE AND ELECTRIC HEELS</h1>
+             
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
                   <li class="nav-item">
                      <a style="color:white;" class="nav-link active" id="h-tab" data-toggle="tab" href="#h" role="tab" aria-controls="h" aria-selected="true">Details</a>
                   </li>
-                  
                </ul>
                <div class="tab-content" id="myTabContent">
                   <div class="tab-pane fade show active" id="h" role="tabpanel" aria-labelledby="h-tab">
-                     <p>2 - Days Hands-on Workshop on Scratch Animation Programming and Development Robot from Scratch </p>
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li> Getting started with Scratch Programming</li>
-                        <li> Introduction to Arduino Controller, Arduino IDE and Sensors</li>
-                        <li> Build your own Robot from Scratch</li>
-                        <li> Interfacing IR sensors and bluetooth module with robot</li>
-                        <li> Competition </li>
+                     <h2>GROUP DANCE</h2>
+                     <li>  Team Size: min 6 - max 8</li>
+	               <li>   Time duration: 6+2 minutes</li>
+	               <li>   Rules:</li>
+                  </br>
+                  <li>1. Duration of each performance should not exceed 8 minutes.</li>
+                    <li>2. The decision of the judges will be final.</li>
+                    <li>3. One representative of the performing team shall be allowed at the sound console during the performance.</li>
+                    <li>4. Props allowed.</li>
+                    <li>5.Fire/harmful substances not allowed.</li>
+	               <li>REGISTRATION FEE: Rs 500/-</li>
+                   <li>PRIZE: I - Rs 5000/-</li>
+                   <li>      II - Rs 2500/-</li>
+                   <li>
+                    <h2>ELECTRIC HEELS</h2>
+                    <li>  No. of participants/team: 1</li>
+	               <li>   Time duration: 2 minutes</li>
+	               <li>   Rules:</li>
+                  </br>
+                  <li>   1. Participants should dance for the random music played by DJ.</li>
+                  <li>   2. They should dance using a prop kept on the stage for at least 30sec.</li>
+	               <li>  3. They should not stop dancing for more than 2sec. </li>
+                   <li>   REGISTRATION FEE: Rs 200/-</li>
+                   <li>PRIZE: I - Rs 3000/-</li>
+                </br>
+                <li>Venue: Main Stage</li>
+                <li>Date: 29th March 2019</li>
+                  <li>11:30 - 1:00 AM</li>
+                      
                      </ul>
-                     Note: Students should get Laptops preferably 
-                     <li>Venue: VLSI Lab</li>
-                    <li>Date: 27th and 28th February 2019</li>
-                    <li>09:00 AM - 04:00 PM</li>
                      </p>
                   </div>
-               
                </div>
-                  <form method='POST' action='register.php'>
+<form method='POST' action='register.php'>
 <input type='hidden' name='eid' value=$eid>
 <input type='hidden' name='type' value=$type>
 <button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
-          </article>
+            </article>
          </div>
          <div id="section3" class="expanding-container">
             <article class="hentry">
-               <h1 class="entry-title">Amazon ALEXA </h1>
+               <h1 class="entry-title">BATTLE OF BANDS</h1>
                
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
                   <li class="nav-item">
                      <a style="color:white;" class="nav-link active" id="h1-tab" data-toggle="tab" href="#h1" role="tab" aria-controls="h1" aria-selected="true">Details</a>
                   </li>
-                 
                </ul>
                <div class="tab-content" id="myTabContent">
                   <div class="tab-pane fade show active" id="h1" role="tabpanel" aria-labelledby="h1-tab">
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                      	2- Days Hands-on programming Amazon ALEXA
-	<li> Getting Started : connecting to internet and configuring </li>
-	<li> Presentation : Working of Alexa Skills</li>
-	<li> Building simple conversational skills</li>
-	<li> Intermediate level Skills: Demo and Development</li>
-	<li> Competition</li>
-	<li>Venue: LIC Lab</li>
-                    <li>Date: 27th and 28th February 2019</li>
-                    <li>09:00 AM - 04:00 PM</li>
-
-    </br>
-          
-                     </ul>
+                     <li>   Rules:</li>
+                  </br>
+                  <li>1. Evaluation is based on composition, rhythm, coordination and general impression.</li>
+                  <li>2. Participants shall bring their own instruments.</li>
+                  <li>3. Language of the song shall be English only.</li>
+                  <li>4. Judge’s decision is final.</li>
+	               
+                   <li>   REGISTRATION FEE: Rs 600/-</li>
+                   <li>PRIZE: I - Rs 8000/-</li>
+                   <li>      II - Rs 4000/-</li>
+                    
+                </br>
+                <li>Venue: Main Stage</li>
+                <li>Date: 29th March 2019</li>
+                  <li>3:00 - 5:00 PM</li>
+</ul>
                      </p>
                   </div>
-                  
                </div>
-               <form method='POST' action='register.php'>
+<form method='POST' action='register.php'>
 <input type='hidden' name='eid' value=$eid>
 <input type='hidden' name='type' value=$type>
 <button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
@@ -397,48 +413,113 @@
          </div>
          <div id="section4" class="expanding-container">
             <article class="hentry">
-               <h1 class="entry-title">ARM</h1>
+               <h1 class="entry-title">FASHION SHOW</h1>
                
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
                   <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="h1-tab" data-toggle="tab" href="#h1" role="tab" aria-controls="h1" aria-selected="true">Details</a>
+                     <a style="color:white;" class="nav-link active" id="h2-tab" data-toggle="tab" href="#h2" role="tab" aria-controls="h2" aria-selected="true">Details</a>
                   </li>
-                 
                </ul>
                <div class="tab-content" id="myTabContent">
-                  <div class="tab-pane fade show active" id="h1" role="tabpanel" aria-labelledby="h1-tab">
-                 <p>
+                  <div class="tab-pane fade show active" id="h2" role="tabpanel" aria-labelledby="h2-tab">
+                     <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                      	2 Days Hands on Programming ARM microcontroller with STM32Nucleo-64 development board.
-	<li> Interfacing simple I/O devices switches,LEDS and buzzer </li>
-	<li> Interfacing and controlling devices with the help of Motors.
-</li>
-	<li>Demonstration of serial communication </li>
-	<li> Handling analog input with microcontroller</li>
-	<li> Applications involving 7 segment LED display</li>
-	<li> Competiton on Deriving algorithm for innovative application
-</li>
-	<li>Venue: Embedded controller Lab</li>
-                    <li>Date: 27th and 28th February 2019</li>
-                    <li>09:00 AM - 04:00 PM</li>
-
-    </br>
-          
+                    <li> Team Size: 12 + 2(assistance)</li>
+	               <li>   Time duration: 8+2 minutes</li>
+                     <li>   Rules:</li>
+                  </br>
+                  <li>1. Open theme.</li>
+                  <li>2. Costume should not have any form of vulgarity. If vulgarity is noticed, the team will be disqualified.</li>
+                  <li>3. Team must be ready 10 minutes prior to call.</li>
+                  <li>4. Judge’s decision is final.</li>
+	               
+                   <li>   REGISTRATION FEE: Rs 1000/-</li>
+                   <li>PRIZE: I - Rs 10000/-</li>
+                   <li>      II - Rs 5000/-</li>
+                    
+                </br>
+                <li>Venue: Main Stage</li>
+                <li>Date: 29th March 2019</li>
+                  <li>5:00 - 7:00 PM</li>
                      </ul>
                      </p>
                   </div>
-                  
                </div>
-               <form method='POST' action='register.php'>
+<form method='POST' action='register.php'>
+<input type='hidden' name='eid' value=$eid>
+<input type='hidden' name='type' value=$type>
+<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
+  </article>
+            </article>
+         </div>
+         <div id="section5" class="expanding-container">
+            <article class="hentry">
+               <h1 class="entry-title">DJ NIGHT </h1>
+              
+               <br>
+               <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item">
+                     <a style="color:white;" class="nav-link active" id="h3-tab" data-toggle="tab" href="#h3" role="tab" aria-controls="h3" aria-selected="true">Details</a>
+                  </li>
+               </ul>
+               <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade show active" id="h3" role="tabpanel" aria-labelledby="h3-tab">
+                     <p>
+                     <ul style="margin-top: 15px;list-style-type: circle;">
+                       
+                        <li>Venue: Main Stage</li>
+                        <li>Duration:  7:00 - 9:00 PM</li>
+                        <li>Day: 29th March 2019</li>
+</ul>
+                     </p>
+                  </div>
+               </div>
+<form method='POST' action='register.php'>
 <input type='hidden' name='eid' value=$eid>
 <input type='hidden' name='type' value=$type>
 <button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
             </article>
          </div>
-    
-      
-      
+         <div id="section6" class="expanding-container">
+            <article class="hentry">
+               <h1 class="entry-title">BEAT BOXING</h1>
+              
+               <br>
+               <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item">
+                     <a style="color:white;" class="nav-link active" id="h4-tab" data-toggle="tab" href="#h4" role="tab" aria-controls="h4" aria-selected="true">Details</a>
+                  </li>
+               </ul>
+               <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade show active" id="h4" role="tabpanel" aria-labelledby="h4-tab">
+                     <p>
+                     <ul style="margin-top: 15px;list-style-type: circle;">
+                     <li>   Rules:</li>
+                  </br>
+                  <li>1. After the prelims, 6 contestants will be chosen for a faceoff.</li>
+                    <li>2. Every contestant will be given 4minutes first, followed by 2 + 2 minutes as rebuttals in the faceoff.</li>
+                  
+	               
+                   <li>   REGISTRATION FEE: Rs 100/-</li>
+                   <li>PRIZE: I - Rs 1500/-</li>
+                   <li>      II - Rs 800/-</li>
+                    
+                </br>
+                <li>Venue: Main Stage</li>
+                <li>Date: 29th March 2019</li>
+                  <li>TIMINGS: Fillers</li>
+                     </ul>
+                     </p>
+                  </div>
+                  
+               </div>
+<form method='POST' action='register.php'>
+<input type='hidden' name='eid' value=$eid>
+<input type='hidden' name='type' value=$type>
+<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
+            </article>
+         </div>
       </div>
       <script src="//static.codepen.io/assets/common/stopExecutionOnTimeout-41c52890748cd7143004e05d3c5f786c66b19939c4500ce446314d1748483e13.js"></script>
       <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
