@@ -140,14 +140,14 @@
 </style>
 <footer  style=" font-family: 'Raleway', sans-serif;!important" id="foot" class="footer-distributed">
    <div class="footer-left">
-      <h3 style=" font-family: 'Raleway', sans-serif;">National Science Day '19</h3>
+      <h3 style=" font-family: 'Raleway', sans-serif;">Sapthrang 2019</h3>
       <br>
       <br>
-      <h5 style="color:#bdbdbd; font-size:17px;" >Developed by: </h5>
-      <h5 style="color:#bdbdbd; font-size:17px;">   Saarah Asad ,Aishwarya S, 
-         John Karamchand
+      <h5 style="color:#bdbdbd; font-size:12px;" >Developed by: </h5>
+      <h5 style="color:#bdbdbd; font-size:12px;">   Saarah, John, Neha, Sarath, Prakash
       </h5>
-      <h5 style="color:#bdbdbd; font-size:17px;">Department of Computer Science & Engineering</h5>
+      <h5 style="color:#bdbdbd; font-size:12px;">Department of Computer Science & Engineering and Department of Information Science</h5>
+      <h5 style="color:#bdbdbd; font-size:12px;">   Credits:   </h5>
    </div>
    <div class="footer-center">
       <div>

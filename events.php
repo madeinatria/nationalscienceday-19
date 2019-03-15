@@ -206,7 +206,7 @@
              background-size: 100% 100%;text-align:center;padding-top:50px;
              opacity:1.0;font-size:20px;border: 1px solid white; height:150px;">
                <div style="background-color:black;">ART</div>
-            </div>
+
          </div>
          <div class="row">
          <div class="ec box foo col-md-4 offset-md-5" style=" background-image: url('images/background/green.jpg'); 
@@ -221,6 +221,7 @@
             </div>
          </div>
          <div class="row">
+
             <div id="one" style="background-image: url('images/background/orang.jpg'); background-size: 100% 100%; text-align:center;padding-top:50px;opacity:1.0;font-size:20px;border: 1px solid white; height:150px;" class="cse box foo col-md-4  offset-md-3">
                <div style="background-color:black;">MUSIC</div>
                 
@@ -230,7 +231,7 @@
                <div style="background-image: url('images/background/red.jpg'); background-size: 100% 100%;  text-align:center;padding-top:50px;   opacity:1.0;font-size:20px;border: 1px solid white; height:150px;" class="me box foo col-md-4 offset-md-2">
                <div style="background-color:black;"> LITERARY </div>
                </div>
-            </div>
+
          </div>
       </div>
     <?php include('footer.php') ; ?>

@@ -2,7 +2,7 @@
 <html lang="en" class="no-js">
    <head>
       <meta charset="UTF-8" />
-      <title>National Science Day-2019</title>
+      <title>Sapthrang19</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
       <link rel="stylesheet" href="css/bootstrap.css" />
@@ -15,13 +15,16 @@
       <script type='text/javascript' src='js/demo.js'></script>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+
       <style>
 
 
          body{
          font-family: 'Raleway', sans-serif;
         
-         background-image: url("images/background/background2.jpg");
+         background-image: url("images/bgbg.png");
         background-size: 100% 100%;
        
        height:700px;
@@ -275,7 +278,7 @@
       <div id='stars2'></div>
       <div id='stars3'></div>
      <nav style="  font-weight: 250; color:white!important; font-family: 'Raleway', sans-serif; min-height:55px !important; font-size: 13.5px;" class="navbar navbar-expand-lg navbar-dark bg-dark">
-   <a class="navbar-brand" href="#">National Science Day'19</a>
+   <a class="navbar-brand" href="#">Atria Institute of Technology</a>
    <button  class="navbar-toggler ml-auto custom-toggler"  type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
    <span class="navbar-toggler-icon"></span>
    </button>
@@ -296,14 +299,15 @@
       <div  >
          <div  id=""   style=" margin-top: 200px!important;">
             <div class="fade-in center" style="text-align:center;" >
-               <h1 style="font-weight:500!important; display:inline-block;  font-size: 70px;color:#f5f5f5"><div style=" background:rgba(0,0,0,0.7);">National Science Day '19</div></h1>
-               <p style="font-size:20px ;margin-bottom: 200px!important;" >February 27th | February 28th</p>
+               <h1 style="font-weight:500!important; display:inline-block;  font-size: 70px;color:#f5f5f5"><img src="images/asset1.png"></h1>
+               <p style="font-size:20px ;" >LET YOUR COLOURS BLOOM</p>
+               <p style="font-size:20px ;margin-bottom: 200px!important;" >March 29th, 2019</p>
 
             </div>
          </div>
        
       </div>
-      
+      <!--
       <div id="section2"  style="background-color:black;opacity:1  ">
       <div class="container">
         <h2 style="text-decoration:underline;text-align:center;font-size:20px; padding-top:40px; font-weight:1000;" > Chief Guest</h2>
@@ -328,7 +332,7 @@
                   </div>
                 </div>
               </div>
-        </div> 
+        </div> -->
         
  <?php include('footer.php') ; ?>
  
