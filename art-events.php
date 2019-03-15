@@ -16,7 +16,7 @@
       <link rel="stylesheet" href="css/bootstrap.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Basic Science Events</title>
+      <title>ART EVENTS</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
       <style>
@@ -268,101 +268,136 @@
       <header class="clearfix">
         <button onclick=" relocate_events()" type="button" style="margin-left:30px; width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;" class="btn btn-default backbtn "> &laquo; Back</button>
 
-         <h2 style="font-size:30px; text-align: center; font-family: 'Raleway', sans-serif;color:#bdbdbd">Basic Science & 
-Humanities</h2>
+         <h2 style="font-size:30px; text-align: center; font-family: 'Raleway', sans-serif;color:#bdbdbd">ART</h2>
          
-         <h3 style="font-size:20px; text-align: center;font-family: 'Raleway', sans-serif;color:#bdbdbd">Events</h3>
+         <h3 style="font-size:20px; text-align: center;font-family: 'Raleway', sans-serif;color:#bdbdbd">EVENTS</h3>
       </header>
       <div class="expanding-grid ">
          <ul  class="links">
-            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section1">Magic and Origami for Maths</a></li>
-            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section2"> Glass Preparation</a></li>
-            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section3"> Water Quality </a></li>
-           <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section4"> Movie on Nobel Laureate Chandra</a></li>
-            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section6"> Report Writing</a></li>
-            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section7">Preparation of Nanoparticles </a></li>
-            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section8">Will you eat this?</a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:2em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section1"> PAINTING</a></li>
+            
+            <li style="" class="grow edit"> <a class="edit" style="line-height:2em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section2">SKETCHING</a></li>
+            
+
+            <li style="" class="grow edit"> <a class="edit" style="line-height:2em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section3"> RANGOLI</a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:2em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section4"> COLLAGE</a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:2em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section5"> PHOTOGRAPHY</a></li>
+
          </ul>
-          <div  id="section1" class="expanding-container">
+         <div  id="section1" class="expanding-container"> 
             <article class="hentry">
-               <h1 class="entry-title">Magic and Origami for Maths</h1>
-              
+               <h1 class="entry-title">PAINTING</h1>
+             
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
                   <li class="nav-item">
                      <a style="color:white;" class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Details</a>
                   </li>
+                 
                </ul>
                <div class="tab-content" id="myTabContent">
                   <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                      <p>
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>To explore the concepts of Maths through the lens of Magic and Origami through hands-on workshop by creating the models.</li>
-                        <li>Venue: CC 305 </li>
-                        <li>Duration: 3hr </li>
-                     </ul>
+                     <li>               No. of participants: 1</li>
+              <li>                      Time Duration: 1 hour</li>
+              <li>                      Rules: </li>
+              <li>1. Be at the venue ten minutes before the start of the event.</li>
+              <li>2. Topic shall be given on the spot. </li>
+              <li>3. Bring your own paints, brushes and paraphemalia.</li>
+              <li>4. Use of stencils will lead to disqualification.</li>
+              <li>                      REGISTRATION FEES: Rs 50/-</li>
+                        </br>
+                <li>Venue: Civil Drawing Room</li>
+                <li>Date: 26th March 2019</li>
+                  <li>3:00 - 4:00 PM</li>
+                    
                      </p>
                   </div>
+                  
                </div>
-
+   
 <form method='POST' action='register.php'>
 <input type='hidden' name='eid' value=$eid>
 <input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
+              <button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button>
             </article>
          </div>
          <div id="section2" class="expanding-container">
             <article class="hentry">
-               <h1 class="entry-title">Glass Preparation</h1>
-             
+               <h1 class="entry-title">SKETCHING</h1>
+              
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
                   <li class="nav-item">
                      <a style="color:white;" class="nav-link active" id="h-tab" data-toggle="tab" href="#h" role="tab" aria-controls="h" aria-selected="true">Details</a>
                   </li>
+                  
                </ul>
                <div class="tab-content" id="myTabContent">
                   <div class="tab-pane fade show active" id="h" role="tabpanel" aria-labelledby="h-tab">
                      <p>
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>"Wanna Cook glasses in few minutes?" - A hands on workshop to prepare one's own colourful glasses.</li>
-                        <li>Venue: Chemistry Lab</li>
-                        <li>Duration: 3 Hours-Intro+preperation 
- for each session of batch
- size up to 20. </li>
-                      
-                     </ul>
+                         </br>
+                         <li>               No. of participants: 1</li>
+              <li>                      Time Duration: 1 hour</li>
+              <li>                      Rules: </li>
+              <li>1. Be at the venue ten minutes before the start of the event.</li>
+              <li>2. Topic shall be given on the spot. </li>
+              <li>3. Bring your own pencils, erasers and paraphemalia.</li>
+              <li>                      REGISTRATION FEES: Rs 50/-</li>
+                        </br>
+                <li>Venue: Civil Drawing Room</li>
+                <li>Date: 27th March 2019</li>
+                  <li>3:00 - 4:00 PM</li>
                      </p>
                   </div>
+               
                </div>
-<form method='POST' action='register.php'>
+                  <form method='POST' action='register.php'>
 <input type='hidden' name='eid' value=$eid>
 <input type='hidden' name='type' value=$type>
 <button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
-            </article>
+          </article>
          </div>
+
          <div id="section3" class="expanding-container">
             <article class="hentry">
-               <h1 class="entry-title">Water Quality</h1>
+               <h1 class="entry-title">RANGOLI</h1>
                
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
                   <li class="nav-item">
                      <a style="color:white;" class="nav-link active" id="h1-tab" data-toggle="tab" href="#h1" role="tab" aria-controls="h1" aria-selected="true">Details</a>
                   </li>
+                 
                </ul>
                <div class="tab-content" id="myTabContent">
                   <div class="tab-pane fade show active" id="h1" role="tabpanel" aria-labelledby="h1-tab">
                      <p>
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>"Water Potability" -  An experiential approach to collect samples of water and check if they are potable or not.</li>
-                         <li>Venue: Chemistry Lab</li>
-                        <li>Duration: 6 hr (27 Afternoon - 3 hr) & (28 th Morning - 3 hr) </li>
-</ul>
+                     <li>               No. of participants: 1</li>
+              <li>                      Time Duration: 1 hour</li>
+              <li>                      Rules: </li>
+              <li>1. Be at the venue ten minutes before the start of the event.</li>
+              <li>2. Topic shall be given on the spot. </li>
+              <li>3. Bring your own rangoli colours and paraphemalia.</li>
+              <li>4. Use of stencils will lead to disqualification.</li>
+              <li>                      REGISTRATION FEES: Rs 50/-</li>
+                        </br>
+                <li>Venue: Library Quadrangle</li>
+                <li>Date: 28th March 2019</li>
+                  <li>3:00 - 5:00 PM</li>
+
+
+
+
+
+                     
+    </br>
+                
                      </p>
                   </div>
+                  
                </div>
-<form method='POST' action='register.php'>
+               <form method='POST' action='register.php'>
 <input type='hidden' name='eid' value=$eid>
 <input type='hidden' name='type' value=$type>
 <button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
@@ -370,117 +405,80 @@ Humanities</h2>
          </div>
          <div id="section4" class="expanding-container">
             <article class="hentry">
-               <h1 class="entry-title">Movie on Nobel Laureate Chandra</h1>
+               <h1 class="entry-title">COLLAGE</h1>
                
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
                   <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="h2-tab" data-toggle="tab" href="#h2" role="tab" aria-controls="h2" aria-selected="true">Details</a>
+                     <a style="color:white;" class="nav-link active" id="h1-tab" data-toggle="tab" href="#h1" role="tab" aria-controls="h1" aria-selected="true">Details</a>
                   </li>
+                 
                </ul>
                <div class="tab-content" id="myTabContent">
-                  <div class="tab-pane fade show active" id="h2" role="tabpanel" aria-labelledby="h2-tab">
+                  <div class="tab-pane fade show active" id="h1" role="tabpanel" aria-labelledby="h1-tab">
                      <p>
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Screening the movie - Making of a Star.  Movie is a biographical sketch of the Nobel Laureate - S Chandrashekar, popularly known as Chandra. </li>
-                           <li>Venue: CC 306</li>
-                     </ul>
-                     </p>
+                     <li>               No. of participants: 1</li>
+              <li>                      Time Duration: 1 hour</li>
+              <li>                      Rules: </li>
+              <li>1. Be at the venue ten minutes before the start of the event.</li>
+              <li>2. Topic shall be given on the spot. </li>
+              <li>3. Bring your own pictures, glue and paraphemalia.</li>
+              <li>                      REGISTRATION FEES: Rs 50/-</li>
+                        </br>
+                <li>Venue: Civil Drawing Room</li>
+                <li>Date: 29th March 2019</li>
+                  <li>1:00 - 3:00 PM</li>
+                  </br>
+                   </p>
                   </div>
+                  
                </div>
-<form method='POST' action='register.php'>
-<input type='hidden' name='eid' value=$eid>
-<input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
-  </article>
-            </article>
-         </div>
-         <div id="section6" class="expanding-container">
-            <article class="hentry">
-               <h1 class="entry-title">Report Writing</h1>
-              
-               <br>
-               <ul class="nav nav-tabs" id="myTab" role="tablist">
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="h3-tab" data-toggle="tab" href="#h3" role="tab" aria-controls="h3" aria-selected="true">Details</a>
-                  </li>
-               </ul>
-               <div class="tab-content" id="myTabContent">
-                  <div class="tab-pane fade show active" id="h3" role="tabpanel" aria-labelledby="h3-tab">
-                     <p>
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                       <li>The one race where you can test your limits.</li>
-   <li>"Blog it on National Science Day" - Students will visit any of the four workshops in progress during the first hour and write a blog on the website of Atria  </li>
-      <li>Venue: English Lab</li>
-                        <li>Duration: 3hr </li>
-</ul>
-                     </p>
-                  </div>
-               </div>
-<form method='POST' action='register.php'>
+               <form method='POST' action='register.php'>
 <input type='hidden' name='eid' value=$eid>
 <input type='hidden' name='type' value=$type>
 <button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
             </article>
          </div>
-         <div id="section7" class="expanding-container">
+         <div id="section5" class="expanding-container">
             <article class="hentry">
-               <h1 class="entry-title">Preparation of Nanoparticles</h1>
-              
+               <h1 class="entry-title">PHOTOGRAPHY</h1>
+               
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
                   <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="h4-tab" data-toggle="tab" href="#h4" role="tab" aria-controls="h4" aria-selected="true">Details</a>
+                     <a style="color:white;" class="nav-link active" id="h1-tab" data-toggle="tab" href="#h1" role="tab" aria-controls="h1" aria-selected="true">Details</a>
                   </li>
+                 
                </ul>
                <div class="tab-content" id="myTabContent">
-                  <div class="tab-pane fade show active" id="h4" role="tabpanel" aria-labelledby="h4-tab">
+                  <div class="tab-pane fade show active" id="h1" role="tabpanel" aria-labelledby="h1-tab">
                      <p>
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>"Material Sciences for Medical world" - Preparation of nanoparticles that have medical applications in general and in particular to Cancer</li>
-                           <li>Venue: Chemistry Lab</li>
-                        <li>Duration: 8 hr (27th Morning - 3 hr & 
-28th Morning - 3 hr)
- </li>
-                     </ul>
+                     <li>               No. of participants: 1</li>
+              <li>                      Time Duration: 1 day</li>
+              <li>                      Rules: </li>
+              <li>1. Be at the venue ten minutes before the start of the event.</li>
+              <li>2. Topic shall be given on the spot. </li>
+              <li>3. Bring your own microSD card, which shall be formatted at the start of the event.</li>
+              <li>4. Submit 3 unedited pictures at the end of the event. </li>
+              
+              <li>                      REGISTRATION FEES: Rs 50/-</li>
+                        </br>
+                <li>Venue: Entire Campus</li>
+                <li>Date: 29th March 2019</li>
+                  <li>TIMINGS: Full Day</li>
+    </br>
+                
                      </p>
                   </div>
                   
                </div>
-<form method='POST' action='register.php'>
+               <form method='POST' action='register.php'>
 <input type='hidden' name='eid' value=$eid>
 <input type='hidden' name='type' value=$type>
 <button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
             </article>
          </div>
-      <div  id="section8" class="expanding-container">
-            <article class="hentry">
-               <h1 class="entry-title">Will you eat this?</h1>
-              
-               <br>
-               <ul class="nav nav-tabs" id="myTab" role="tablist">
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Details</a>
-                  </li>
-               </ul>
-               <div class="tab-content" id="myTabContent">
-                  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                     <p>
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Adulteration of edible products will be studied. Common examples like Milk, Spices, Butter, Ghee, and etc</li>
-                        <li>Venue: Chemistry Lab </li>
-                        <li>Duration: 6 hr (27 Morning 3 hr + 28 Morning 3 hr) </li>
-                     </ul>
-                     </p>
-                  </div>
-               </div>
-
-<form method='POST' action='register.php'>
-<input type='hidden' name='eid' value=$eid>
-<input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
-            </article>
-         </div></div>
+      </div>
       <script src="//static.codepen.io/assets/common/stopExecutionOnTimeout-41c52890748cd7143004e05d3c5f786c66b19939c4500ce446314d1748483e13.js"></script>
       <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
       <script >

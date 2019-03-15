@@ -16,7 +16,7 @@
       <link rel="stylesheet" href="css/bootstrap.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Information Science Events</title>
+      <title>Literary Events</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
       <style>
@@ -268,20 +268,22 @@
       <header class="clearfix">
         <button onclick=" relocate_events()" type="button" style="margin-left:30px; width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;" class="btn btn-default backbtn "> &laquo; Back</button>
 
-         <h2 style="font-size:30px; text-align: center; font-family: 'Raleway', sans-serif;color:#bdbdbd">Information Science</h2>
+         <h2 style="font-size:30px; text-align: center; font-family: 'Raleway', sans-serif;color:#bdbdbd">LITERARY</h2>
          
-         <h3 style="font-size:20px; text-align: center;font-family: 'Raleway', sans-serif;color:#bdbdbd">Events</h3>
+         <h3 style="font-size:20px; text-align: center;font-family: 'Raleway', sans-serif;color:#bdbdbd">EVENTS</h3>
       </header>
       <div class="expanding-grid ">
          <ul  class="links">
-            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section1">Web Design and Development </a></li>
-            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section2">Poster Presentation</a></li>
-            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section3"> Tech Talk</a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section1"> POETRY</a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section2"> DEBABTE</a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section3"> CREATIVE WRITING </a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section4"> QUIZ (Prelims and Finals) </a></li>
+
            
          </ul>
          <div  id="section1" class="expanding-container"> 
             <article class="hentry">
-               <h1 class="entry-title">Web Design and Development</h1>
+               <h1 class="entry-title">POETRY</h1>
              
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -294,22 +296,17 @@
                   <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                 2 -Days workshop on Web Design and Development would cover the following topics:
-	<li>• Basics of HTML CSS & Javascript.</li>
-	<li>• Libraries of Javascript's such as Jquery</li>
-	<li>• How all the above 3 languages can be effectively together. </li>
-	<li>• Designing a Layout and developing it using the above Languages</li>
-	<li>• Database handling using MYSQL.</li>
-	<li>• Basic programming using PHP and its role in Web Development.</li>
-	<li>• Understanding PHP frameworks (Laravel)</li>
-	<li>• Testing the Website/ Web Application for various contingencies.</li>
-	<li>• Hosting the site in the respective Domain</li>
+                     <li>	No of participants: 1</li>
+                     <li>	Time duration: 1 hour</li>
+                     <li>	Rules:</li>
+                     </br>
+                     <li>1. The topic shall be given on the spot</li>
+                     <li>2. Be at the venue ten minutes before the start of the event.</li>
+                     <li>	REGISTRATION FEE: Rs 50/-</li>
                 </br>
-                <li>Venue: AC 108</li>
-                <li>Date: 27th February 2019</li>
-                  <li>9:00 AM - 4:00 PM</li>
-                  
-                
+                <li>Venue: Classroom</li>
+                <li>Date: 25th March 2019</li>
+                  <li>3:00 AM - 4:00 PM</li>
                      </ul>
                      </p>
                   </div>
@@ -319,12 +316,12 @@
 <form method='POST' action='register.php'>
 <input type='hidden' name='eid' value=$eid>
 <input type='hidden' name='type' value=$type>
-           <button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button> 
+              <button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button>
             </article>
          </div>
          <div id="section2" class="expanding-container">
             <article class="hentry">
-               <h1 class="entry-title">Poster Presentation</h1>
+               <h1 class="entry-title">DEBATE</h1>
               
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -335,19 +332,25 @@
                </ul>
                <div class="tab-content" id="myTabContent">
                   <div class="tab-pane fade show active" id="h" role="tabpanel" aria-labelledby="h-tab">
-                     <p>
+                    <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                         <li>Theme: "Science for the People and the People for Science."</li>
-                         </br>
-                <li>Venue: AC 207</li>
-                <li>Date: 28th February 2019</li>
-                  <li>9.30 AM - 12.30 PM</li>
-                     </ul>
+                           <li>	No of participants: 1</li>
+                           <li>	Time duration: 3+2 minutes</li>
+                           <li>	Rules:</li>
+                           </br>
+                           <li>1. The topic shall be given a day before the event</li>
+                           <li>2. Be at the venue ten minutes before the start of the event.</li>
+                           <li>	REGISTRATION FEE: Rs 50/-</li>
+                           </br>
+                           <li>Venue: Classroom</li>
+                           <li>Date: 26th March 2019</li>
+                           <li>3:00 AM - 4:00 PM</li>
+                        </ul>
                      </p>
                   </div>
                
                </div>
-               <form method='POST' action='register.php'>
+                  <form method='POST' action='register.php'>
 <input type='hidden' name='eid' value=$eid>
 <input type='hidden' name='type' value=$type>
 <button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
@@ -355,7 +358,7 @@
          </div>
          <div id="section3" class="expanding-container">
             <article class="hentry">
-               <h1 class="entry-title">Tech Talk</h1>
+               <h1 class="entry-title">CREATIVE WRITING </h1>
                
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -368,11 +371,65 @@
                   <div class="tab-pane fade show active" id="h1" role="tabpanel" aria-labelledby="h1-tab">
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                                            	<li>HTML 5 and Vue.js</li>
+                     <li>	No of participants: 1</li>
+                           <li>	Time duration: 1 hour</li>
+                           <li>	Rules:</li>
+                           </br>
+                           <li>1. The topic shall be given on the spot.</li>
+                           <li>2. Be at the venue ten minutes before the start of the event.</li>
+                           <li>	REGISTRATION FEE: Rs 50/-</li>
+                           </br>
+                           <li>Venue: Classroom</li>
+                           <li>Date: 27th March 2019</li>
+                           <li>3:00 AM - 4:00 PM</li>
+
     </br>
-                <li>Venue: AC 208</li>
-                <li>Date: 28th February 2019</li>
-                  <li>9.30 AM - 11.30 AM</li>
+          
+                     </ul>
+                     </p>
+                  </div>
+                  
+               </div>
+               <form method='POST' action='register.php'>
+<input type='hidden' name='eid' value=$eid>
+<input type='hidden' name='type' value=$type>
+<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
+            </article>
+         </div>
+         <div id="section4" class="expanding-container">
+            <article class="hentry">
+               <h1 class="entry-title">QUIZ (Prelims and Finals)</h1>
+               
+               <br>
+               <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item">
+                     <a style="color:white;" class="nav-link active" id="h1-tab" data-toggle="tab" href="#h1" role="tab" aria-controls="h1" aria-selected="true">Details</a>
+                  </li>
+                 
+               </ul>
+               <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade show active" id="h1" role="tabpanel" aria-labelledby="h1-tab">
+                 <p>
+                     <ul style="margin-top: 15px;list-style-type: circle;">
+                     <li>	No of participants/teams: 2</li>
+                           <li>	Time duration: 1 hour</li>
+                           <li>	Rules:</li>
+                           </br>
+                           <li>1. We will have multiple rounds.</li>
+                           <li>2. Quiz master's decision will be final.</li>
+                           <li>3. Be at the venue ten minutes before the start of the event.</li>
+                           <li>	REGISTRATION FEE: Rs 100/-</li>
+                           </br>
+                           <li>VENUE: </li>
+                           
+                              <li>1. Prelims : Classroom</li>
+                              <li>2. Finals : Seminar Hall</li>
+                           <li>DATE: 29th March 2019</li>
+                           <li>TIMINGS: </li>
+                          
+                           <li>1. Prelims : 8:30 - 9:00 AM</li>
+                           <li>2. Finals : 1:00 - 3:00 PM</li>
+                     </ul>
                      </p>
                   </div>
                   

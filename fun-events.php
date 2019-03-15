@@ -16,7 +16,7 @@
       <link rel="stylesheet" href="css/bootstrap.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Computer Science Events</title>
+      <title>FUN Events</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
       <style>
@@ -268,124 +268,157 @@
       <header class="clearfix">
         <button onclick=" relocate_events()" type="button" style="margin-left:30px; width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;" class="btn btn-default backbtn "> &laquo; Back</button>
 
-         <h2 style="font-size:30px; text-align: center; font-family: 'Raleway', sans-serif;color:#bdbdbd">Computer Science</h2>
+         <h2 style="font-size:30px; text-align: center; font-family: 'Raleway', sans-serif;color:#bdbdbd">FUN</h2>
          
-         <h3 style="font-size:20px; text-align: center;font-family: 'Raleway', sans-serif;color:#bdbdbd">Events</h3>
+         <h3 style="font-size:20px; text-align: center;font-family: 'Raleway', sans-serif;color:#bdbdbd">EVENTS</h3>
       </header>
       <div class="expanding-grid ">
          <ul  class="links">
-            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section1"> Future of Work - Robotics Workshop</a></li>
-            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section2"> Robotics Model Making Exhibition</a></li>
-            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section3"> Tech Say</a></li>
-           
-         </ul>
-         <div  id="section1" class="expanding-container"> 
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section1">HOGATHON</a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section2">MINUTE TO WIN IT</a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section3">ANTAKSHARI </a></li>
+           <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section4">PUBG</a></li>
+           </ul>
+          <div  id="section1" class="expanding-container">
             <article class="hentry">
-               <h1 class="entry-title">Robotics Workshop</h1>
-             
+               <h1 class="entry-title">HOGATHON</h1>
+              
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
                   <li class="nav-item">
                      <a style="color:white;" class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Details</a>
                   </li>
-                 
                </ul>
                <div class="tab-content" id="myTabContent">
                   <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                      Students would demonstrate
-              <li>                      1. I/O port operation – Bar graph LED</li>
-              <li>                      2. LCD to display a message using boot switch</li>
-              <li>                      3. Velocity control of DC motor using PWM</li>
-              <li>                      4. Line following Robot</li>
-              <li>                      5. Command Control Robot</li>
-              <li>   6. Obstacle Avoidance Robot</li>
+                     <li>   Rules:</li>
+                  </br>
+                  <li>1. All the foodstuff kept must be eaten fully and wholeheartedly.</li>
+                    <li>2. Drinking water during a round leads to disqualification.</li>
+                    <li>3. Water will be provided in between rounds.</li>
+                    <li>   REGISTRATION FEE: Rs 100/-</li>
+                   <li>PRIZE: I - Rs 1000/-</li>
+                  
+                    
                 </br>
-                <li>Venue: AC 413</li>
-                <li>Date: 27th February 2019</li>
-                  <li>9:00 AM - 4:00 PM</li>
-                 
+                <li>Venue: Above Canteen</li>
+                <li>Date: 29th March 2019</li>
+                  <li>11:30 - 1:00 AM</li>
                      </ul>
                      </p>
                   </div>
-                  
                </div>
-   
+
 <form method='POST' action='register.php'>
 <input type='hidden' name='eid' value=$eid>
 <input type='hidden' name='type' value=$type>
-  <button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button> 
+<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
             </article>
          </div>
          <div id="section2" class="expanding-container">
             <article class="hentry">
-               <h1 class="entry-title">Robotics Model Making Exhibition</h1>
-              
+               <h1 class="entry-title">MINUTE TO WIN IT</h1>
+             
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
                   <li class="nav-item">
                      <a style="color:white;" class="nav-link active" id="h-tab" data-toggle="tab" href="#h" role="tab" aria-controls="h" aria-selected="true">Details</a>
                   </li>
-                  
                </ul>
                <div class="tab-content" id="myTabContent">
                   <div class="tab-pane fade show active" id="h" role="tabpanel" aria-labelledby="h-tab">
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Peer-to-Peer Learning</li>
+                     <li>   No. of participants: 1</li>
+              <li>        Time Duration: 1 minute</li>
+              <li>       Rules:</li>
+              <li> 1. Be at the venue ten minutes before the start of the event</li>
+              <li>2. Multiple rounds shall be conducted.</li>
+              <li>       REGISTRATION FEES: Rs 50/-</li>
                         </br>
-                <li>Venue: CoE/BC501</li>
-                <li>Date: 28th February 2019</li>
-                  <li>9:00 AM - 1:00 PM</li>
+                <li>Venue: Library Quadrangle</li>
+                <li>Date:29th March 2019 </li>
+                  <li>2:00 - 4:00 PM</li>
+                      
                      </ul>
                      </p>
                   </div>
-               
                </div>
-                  <form method='POST' action='register.php'>
+<form method='POST' action='register.php'>
 <input type='hidden' name='eid' value=$eid>
 <input type='hidden' name='type' value=$type>
 <button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
-          </article>
+            </article>
          </div>
          <div id="section3" class="expanding-container">
             <article class="hentry">
-               <h1 class="entry-title">TECH SAY</h1>
+               <h1 class="entry-title">ANTAKSHARI</h1>
                
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
                   <li class="nav-item">
                      <a style="color:white;" class="nav-link active" id="h1-tab" data-toggle="tab" href="#h1" role="tab" aria-controls="h1" aria-selected="true">Details</a>
                   </li>
-                 
                </ul>
                <div class="tab-content" id="myTabContent">
                   <div class="tab-pane fade show active" id="h1" role="tabpanel" aria-labelledby="h1-tab">
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                      	<li>Round 1 : Quiz </li>
-                      	<li>Round 2 : Pick & Speak </li>
-	
-    </br>
-                <li>Venue: AC 403</li>
-                <li>Date: 28th February 2019</li>
-                  <li>12:30 PM - 2:30 PM</li>
-                     </ul>
+                     <li>   No. of participants/team: 3/team</li>
+              <li>        Time Duration: Prelims and Finals</li>
+              <li>       Rules:</li>
+              <li> 1. Will be announced at the day of the event.</li>
+              <li>2. Brush up your filmy song knowledge.</li>
+              <li>       REGISTRATION FEES: Rs 100/-</li>
+                        </br>
+                <li>Venue: Seminar Hall</li>
+                <li>Date:29th March 2019 </li>
+                  <li>5:00 - 6:00 PM</li>
+</ul>
                      </p>
                   </div>
-                  
                </div>
-               <form method='POST' action='register.php'>
+<form method='POST' action='register.php'>
 <input type='hidden' name='eid' value=$eid>
 <input type='hidden' name='type' value=$type>
 <button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
             </article>
          </div>
-    
-      
-      
-      </div>
+         <div id="section4" class="expanding-container">
+            <article class="hentry">
+               <h1 class="entry-title">PUBG</h1>
+               
+               <br>
+               <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item">
+                     <a style="color:white;" class="nav-link active" id="h2-tab" data-toggle="tab" href="#h2" role="tab" aria-controls="h2" aria-selected="true">Details</a>
+                  </li>
+               </ul>
+               <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade show active" id="h2" role="tabpanel" aria-labelledby="h2-tab">
+                     <p>
+                     <ul style="margin-top: 15px;list-style-type: circle;">
+                     <li>   No. of participants/team: 4/team</li>
+              <li>        Time Duration: 1 hour</li>
+              <li>       REGISTRATION FEES: Rs 200/-</li>
+                        </br>
+                <li>Venue: Entire Campus</li>
+                <li>Date:29th March 2019 </li>
+                  <li>TIMINGS: Full day</li>
+                     </ul>
+                     </p>
+                  </div>
+               </div>
+<form method='POST' action='register.php'>
+<input type='hidden' name='eid' value=$eid>
+<input type='hidden' name='type' value=$type>
+<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
+  </article>
+            </article>
+         </div>
+         </div>
       <script src="//static.codepen.io/assets/common/stopExecutionOnTimeout-41c52890748cd7143004e05d3c5f786c66b19939c4500ce446314d1748483e13.js"></script>
       <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
       <script >

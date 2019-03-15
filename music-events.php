@@ -16,7 +16,7 @@
       <link rel="stylesheet" href="css/bootstrap.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Computer Science Events</title>
+      <title>Music Events</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
       <style>
@@ -268,22 +268,20 @@
       <header class="clearfix">
         <button onclick=" relocate_events()" type="button" style="margin-left:30px; width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;" class="btn btn-default backbtn "> &laquo; Back</button>
 
-         <h2 style="font-size:30px; text-align: center; font-family: 'Raleway', sans-serif;color:#bdbdbd">Electronics And Communication</h2>
+         <h2 style="font-size:30px; text-align: center; font-family: 'Raleway', sans-serif;color:#bdbdbd">MUSIC</h2>
          
-         <h3 style="font-size:20px; text-align: center;font-family: 'Raleway', sans-serif;color:#bdbdbd">Events</h3>
+         <h3 style="font-size:20px; text-align: center;font-family: 'Raleway', sans-serif;color:#bdbdbd">EVENTS</h3>
       </header>
       <div class="expanding-grid ">
          <ul  class="links">
-            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section1"> Hardware</a></li>
-            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section2"> Build Your Own Robot from "SCRATCH"</a></li>
-            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section3"> Amazon ALEXA </a></li>
-            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section4"> ARM </a></li>
-
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section1"> INDIAN FILMY & NON-FILMY SOLO</a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section2"> CLASSICAL VOCAL SOLO</a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section3"> WESTERN VOCAL SOLO (ACOUSTIC)</a></li>
            
          </ul>
          <div  id="section1" class="expanding-container"> 
             <article class="hentry">
-               <h1 class="entry-title">Hardware</h1>
+               <h1 class="entry-title">INDIAN FILMY & NON-FILMY SOLO</h1>
              
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -296,19 +294,17 @@
                   <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                      2- Days hands-on workshop to understand basics electronic components and applications
-              <li>                       LED Glow</li>
-              <li>                       LDR controlled LED on-off</li>
-              <li>                       Thermistor : Fire Alarm with 555 timer IC</li>
-              <li>                       Shift register and Counters with LED</li>
-              <li>                       LDR based automatic street light application</li>
-              <li>   Serial Set : Running LED chain.</li>
-              <li>  Making of Mobile charger.</li>
-              <li>  Temperature controlled Fan </li>
+                      
+              <li>                      No. of participants: 1 + 1 accompanist</li>
+              <li>                      Time Duration: 3+2minutes</li>
+              <li>                      Rules: Be at the venue ten minutes before the start of the event
+                                       </br>   Karaoke not allowed.</li>
+              <li>                      REGISTRATION FEES: Rs.50/-</li>
                 </br>
-                <li>Venue: LIC LAB</li>
-                <li>Date: 27th and 28th February 2019</li>
-                  <li>9:00 AM - 4:00 PM</li>
+                <li>Venue: NSoJ </li>
+                <li>Date: 29th March 2019 </li>
+                  <li>9:30 - 10:30 AM</li>
+                 
                      </ul>
                      </p>
                   </div>
@@ -318,12 +314,12 @@
 <form method='POST' action='register.php'>
 <input type='hidden' name='eid' value=$eid>
 <input type='hidden' name='type' value=$type>
-              <button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button>
+  <button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button> 
             </article>
          </div>
          <div id="section2" class="expanding-container">
             <article class="hentry">
-               <h1 class="entry-title">Build Your Own Robot from "SCRATCH"</h1>
+               <h1 class="entry-title">CLASSICAL VOCAL SOLO</h1>
               
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -334,19 +330,17 @@
                </ul>
                <div class="tab-content" id="myTabContent">
                   <div class="tab-pane fade show active" id="h" role="tabpanel" aria-labelledby="h-tab">
-                     <p>2 - Days Hands-on Workshop on Scratch Animation Programming and Development Robot from Scratch </p>
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li> Getting started with Scratch Programming</li>
-                        <li> Introduction to Arduino Controller, Arduino IDE and Sensors</li>
-                        <li> Build your own Robot from Scratch</li>
-                        <li> Interfacing IR sensors and bluetooth module with robot</li>
-                        <li> Competition </li>
+                     <li>               No. of participants: 1</li>
+              <li>                      Time Duration: 5+2minutes</li>
+              <li>                      Rules: Be at the venue ten minutes before the start of the event</li>
+              <li>                      REGISTRATION FEES: Rs.50/-</li>
+                        </br>
+                <li>Venue: NSoJ</li>
+                <li>Date: 29th March 2019</li>
+                  <li>8:30 - 9:30 AM</li>
                      </ul>
-                     Note: Students should get Laptops preferably 
-                     <li>Venue: VLSI Lab</li>
-                    <li>Date: 27th and 28th February 2019</li>
-                    <li>09:00 AM - 04:00 PM</li>
                      </p>
                   </div>
                
@@ -359,7 +353,7 @@
          </div>
          <div id="section3" class="expanding-container">
             <article class="hentry">
-               <h1 class="entry-title">Amazon ALEXA </h1>
+               <h1 class="entry-title">WESTERN VOCAL SOLO (ACOUSTIC)</h1>
                
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -372,59 +366,16 @@
                   <div class="tab-pane fade show active" id="h1" role="tabpanel" aria-labelledby="h1-tab">
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                      	2- Days Hands-on programming Amazon ALEXA
-	<li> Getting Started : connecting to internet and configuring </li>
-	<li> Presentation : Working of Alexa Skills</li>
-	<li> Building simple conversational skills</li>
-	<li> Intermediate level Skills: Demo and Development</li>
-	<li> Competition</li>
-	<li>Venue: LIC Lab</li>
-                    <li>Date: 27th and 28th February 2019</li>
-                    <li>09:00 AM - 04:00 PM</li>
-
+               <li>                     No. of participants: 1 + 1 accompanist</li>
+              <li>                      Time Duration: 3+2minutes</li>
+              <li>                      Rules: Be at the venue ten minutes before the start of the event
+                                       </br>   Karaoke not allowed.</li>
+              <li>                      REGISTRATION FEES: Rs.50/-</li>
+	
     </br>
-          
-                     </ul>
-                     </p>
-                  </div>
-                  
-               </div>
-               <form method='POST' action='register.php'>
-<input type='hidden' name='eid' value=$eid>
-<input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
-            </article>
-         </div>
-         <div id="section4" class="expanding-container">
-            <article class="hentry">
-               <h1 class="entry-title">ARM</h1>
-               
-               <br>
-               <ul class="nav nav-tabs" id="myTab" role="tablist">
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="h1-tab" data-toggle="tab" href="#h1" role="tab" aria-controls="h1" aria-selected="true">Details</a>
-                  </li>
-                 
-               </ul>
-               <div class="tab-content" id="myTabContent">
-                  <div class="tab-pane fade show active" id="h1" role="tabpanel" aria-labelledby="h1-tab">
-                 <p>
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                      	2 Days Hands on Programming ARM microcontroller with STM32Nucleo-64 development board.
-	<li> Interfacing simple I/O devices switches,LEDS and buzzer </li>
-	<li> Interfacing and controlling devices with the help of Motors.
-</li>
-	<li>Demonstration of serial communication </li>
-	<li> Handling analog input with microcontroller</li>
-	<li> Applications involving 7 segment LED display</li>
-	<li> Competiton on Deriving algorithm for innovative application
-</li>
-	<li>Venue: Embedded controller Lab</li>
-                    <li>Date: 27th and 28th February 2019</li>
-                    <li>09:00 AM - 04:00 PM</li>
-
-    </br>
-          
+    <li>Venue: NSoJ</li>
+                <li>Date: 29th March 2019</li>
+                  <li>12:00 - 1:00 AM</li>
                      </ul>
                      </p>
                   </div>

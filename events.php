@@ -185,56 +185,74 @@
       <div id="stars2"></div>
       <div id="stars3"></div>
       <div class="container "  style="margin-top:50px">
+
          <div class="row">
-             <div id="one" style="background-image: url('images/background/abstract2.jpg'); text-align:center;padding-top:50px;font-size:20px;border: 1px solid white; height:150px;" class="cse box foo col-md-4  offset-md-2">
-               <div style="background-color:black;">COMPUTER SCIENCE</div>
+
+         </div>
+         <div class="row">
+           <div class="inter box foo col-md-5 " style="background-image: url('images/background/purple.jpg'); 
+             background-size: 100% 100%;text-align:center;padding-top:50px;
+             opacity:1.0;font-size:20px;border: 1px solid white; height:150px;">
+               <div style="background-color:black;">INTER-COLLEGE</div>
+            </div>
+            <div class="box foo col-md-5 offset-md-1" style="background-image: url('images/background/voilet.jpg'); 
+             background-size: 100% 100%;text-align:center;padding-top:50px;
+             opacity:1.0;font-size:20px;border: 1px solid white; height:150px;">
+               <div style="background-color:black;">INTRA-COLLEGE EVENTS</div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="mba box foo col-md-4 offset-md-6" style=" background-image: url('images/background/b.jpg'); 
+             background-size: 100% 100%;text-align:center;padding-top:50px;
+             opacity:1.0;font-size:20px;border: 1px solid white; height:150px;">
+               <div style="background-color:black;">ART</div>
+
+         </div>
+         <div class="row">
+         <div class="ec box foo col-md-4 offset-md-5" style=" background-image: url('images/background/green.jpg'); 
+             background-size: 100% 100%;text-align:center;padding-top:50px;
+             opacity:1.0;font-size:20px;border: 1px solid white; height:150px;">
+               <div style="background-color:black;">FUN</div>
+            </div> 
+         </div>
+         <div class="row">
+            <div class="is box foo col-md-4 offset-md-4" style="background-image: url('images/background/yellow.jpg');  background-size: 100% 100%; text-align:center;padding-top:50px;opacity:1.0;font-size:20px;border: 1px solid white; height:150px;">
+               <div style="background-color:black;">DANCE</div>
+            </div>
+         </div>
+         <div class="row">
+
+            <div id="one" style="background-image: url('images/background/orang.jpg'); background-size: 100% 100%; text-align:center;padding-top:50px;opacity:1.0;font-size:20px;border: 1px solid white; height:150px;" class="cse box foo col-md-4  offset-md-3">
+               <div style="background-color:black;">MUSIC</div>
                 
             </div>
-            <div class="is box foo col-md-4  offset-md-1" style="background-image: url('images/background/abstract.jpg'); ; text-align:center;padding-top:50px;font-size:20px;border: 1px solid white; height:150px;">
-               <div style="background-color:black;">INFORMATION SCIENCE </div>
-            </div>
          </div>
-         <div class="row">
-            <div style="background-image: url('images/background/abstract.jpg');  text-align:center;padding-top:50px;font-size:20px;border: 1px solid white; height:150px;" class="me box foo col-md-4">
-               <div style="background-color:black;">MECHANICAL ENGINEERING </div>
-            </div>
-            <div style="color:white;text-align:center;padding-top:50px;font-size:25px;border: 1px solid white; height:150px;" class="col-md-4">
-               EVENTS
-            </div>
-            <div class="mba box foo col-md-4 " style=" background-image: url('images/background/abstract3.jpeg'); 
-             background-size: 100% 100%;text-align:center;padding-top:50px;
-             opacity:0.8;font-size:20px;border: 1px solid white; height:150px;">
-               <div style="background-color:black;">BSE and Humanities</div>
-            </div>
-         </div>
-         <div class="row">
-            <div style=" background-image: url('images/background/abstract2.jpg');  text-align:center;padding-top:50px;font-size:20px;border: 1px solid white; height:150px;" class="ec box foo col-md-4  offset-md-2">
-               <div style="background-color:black;">ELECTRONICS AND COMMUNICATION </div>
-            </div>
-            <div class="civil box foo col-md-4  offset-md-1" style="background-image: url('images/background/abstract.jpg');  text-align:center;padding-top:50px;font-size:20px;border: 1px solid white; height:150px;">
-               <div style="background-color:black;">CIVIL ENGINEERING </div>
-            </div>
+            <div class="row">
+               <div style="background-image: url('images/background/red.jpg'); background-size: 100% 100%;  text-align:center;padding-top:50px;   opacity:1.0;font-size:20px;border: 1px solid white; height:150px;" class="me box foo col-md-4 offset-md-2">
+               <div style="background-color:black;"> LITERARY </div>
+               </div>
+
          </div>
       </div>
     <?php include('footer.php') ; ?>
  <script>
           $(".cse").click(function() {
-                window.location = "cse-events.php";
+                window.location = "music-events.php";
             });
          $(".is").click(function() {
-                window.location = "ise-events.php";
+                window.location = "dance-events.php";
             });
              $(".ec").click(function() {
-                window.location = "ece-events.php";
+                window.location = "fun-events.php";
             });
              $(".me").click(function() {
-                window.location = "me-events.php";
-            });
-             $(".civil").click(function() {
-                window.location = "civil-events.php";
+                window.location = "literary-events.php";
             });
              $(".mba").click(function() {
-                window.location = "bse-events.php";
+                window.location = "art-events.php";
+            });
+            $(".inter").click(function() {
+                window.location = "intercollege-events.php";
             });
         </script>
          

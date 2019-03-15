@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" >
-   <head>
+  <head>
       <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
       <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
       <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -15,8 +15,8 @@
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
       <link rel="stylesheet" href="css/bootstrap.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-       <title>Mechanical Engineering Events</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Dance Events</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
       <style>
@@ -38,17 +38,11 @@
          padding: 2rem;
          }
          .expanding-grid .links {
-         display: block;
-         margin: 0 -1em;
-         overflow: hidden;
-         padding: 1em 0;
-         background-color: transparent;
+       
+        
          }
          .expanding-grid .links > li {
-         box-sizing: border-box;
-         float: left;
-         padding: 1em;
-         background-color: transparent;
+       
          }
          .expanding-grid .links > li a {
          background-image: url(images/ece/ec-ramrom.jpeg);   
@@ -56,13 +50,7 @@
          display: block;
          font-size: 2em;
          line-height: 1;
-         padding: 25% 1em;
-         position: relative;
-         background-color: transparent;
-         text-align: center;
-         text-decoration: none;
-         -webkit-font-smoothing: antialiased;
-         -moz-osx-font-smoothing: grayscale;
+        
          }
          .expanding-grid .links > li a:hover {
          #ffb733
@@ -85,7 +73,7 @@
          }
          @media only screen and (max-width: 39.99em) {
          .expanding-grid .links > li {
-         width: 50%;
+        
          }
          .expanding-grid .links > li:nth-of-type(2n+1) {
          clear: left;
@@ -93,7 +81,6 @@
          }
          @media only screen and (min-width: 40em) and (max-width: 59.99em) {
          .expanding-grid .links > li {
-         width: 33.3333333333%;
          }
          .expanding-grid .links > li:nth-of-type(3n+1) {
          clear: left;
@@ -101,7 +88,7 @@
          }
          @media only screen and (min-width: 60em) {
          .expanding-grid .links > li {
-         width: 25%;
+        
          }
          .expanding-grid .links > li:nth-of-type(4n+1) {
          clear: left;
@@ -129,6 +116,7 @@
          border: 1px solid white;
          box-sizing: border-box;
          clear: both;
+         margin-bottom:20px;
          color: #fff;
          min-height: 4em;
          overflow: hidden;
@@ -234,22 +222,35 @@
          to {
          transform: translateY(-2000px);
          }}
-         .grow{
-         transition: transform .2s;
-         }
-         .grow:hover
-         {
-         -webkit-transform: scale(1.1);
-         -ms-transform: scale(1.1);
-         transform: scale(1.1);
-         opacity:0.8;
-         }
-         .backbtn:hover{
-         opacity:0.7;
-         }
+        .grow{
+              transition: transform .2s;
+        }
+    
+          .grow:hover
+          {
+              -webkit-transform: scale(1.05);
+              -ms-transform: scale(1.05);
+              transform: scale(1.05);
+              opacity:0.8;
+                
+          }
+          .backbtn:hover{
+            opacity:0.7;
+          }
+        .edit{
+              width: 100%;
+            height: 100px!important;
+            background: #6f6f6f6e;
+            margin-bottom:20px;
+        }
+        a:hover{
+          text-decoration:none;
+        }
       </style>
       <script>
          window.console = window.console || function(t) {};
+      </script>
+      <script>
          if (document.location.search.match(/type=embed/gi)) {
            window.parent.postMessage("resize", "*");
          }
@@ -265,188 +266,101 @@
       <div id='stars2'></div>
       <div id='stars3'></div>
       <header class="clearfix">
-         <button onclick=" relocate_events()" type="button" style="margin-left:30px; width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;" class="btn btn-default backbtn "> &laquo; Back</button>
-         <h2 style="font-size:30px; text-align: center; font-family: 'Raleway', sans-serif;color:#bdbdbd">BSE and Humanities</h2>
-         <h3 style="font-size:20px; text-align: center;font-family: 'Raleway', sans-serif;color:#bdbdbd">Events</h3>
+        <button onclick=" relocate_events()" type="button" style="margin-left:30px; width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;" class="btn btn-default backbtn "> &laquo; Back</button>
+
+         <h2 style="font-size:30px; text-align: center; font-family: 'Raleway', sans-serif;color:#bdbdbd">DANCE</h2>
+         
+         <h3 style="font-size:20px; text-align: center;font-family: 'Raleway', sans-serif;color:#bdbdbd">EVENTS</h3>
       </header>
       <div class="expanding-grid ">
          <ul  class="links">
-            <li class="grow"> <div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">Magic and Origami for Maths </div><a style="opacity:0.8; color:transparent; border:1px #bdbdbd solid; height: 225px; background-image: url(images/mech/nuts.png);" href="#section1"></a></li>
-            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">Glass Preparation </div><a style="opacity:0.8; color:transparent; border:1px  #bdbdbd  solid;  height: 225px; background-image: url(images/mech/cycle.png);" href="#section2">2</a></li>
-            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">Water Quality </div><a style="opacity:0.8; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/mech/terrain.png);"   href="#section3">3</a></li>
-            <li><a style=" background-image: url(images/stars-about.png);    "  href="#section5"></a></li>
-            <li><a style=" background-image: url(images/stars-about.png);    "  href="#section5"></a></li>
-            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;"> Movie on Nobel Laureate Chandra</div><a style="opacity:0.5; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/mech/roar.png);" href="#section4">4</a></li>
-            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">Report Writing </div><a style="opacity:0.8; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/mech/assemble.jpg);"href="#section6">6</a></li>
-            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;"> Preparation of Nanoparticles </div><a style="opacity:0.8; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/mech/tantra.png);" href="#section7">7</a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section1">WESTERN & FILMY DANCE SOLO  </a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section2">WESTERN/INDIAN DANCE (GROUP)</a></li>
+            
+           
          </ul>
-         <div  id="section1" class="expanding-container">
+         <div  id="section1" class="expanding-container"> 
             <article class="hentry">
-               <h1 class="entry-title">Magic and Origami for Maths</h1>
-               <div class="entry-image">
-                  <div style=" background-image: url(images/mech/nuts.png);" class="img-placeholder">1</div>
-               </div>
+               <h1 class="entry-title">WESTERN & FILMY DANCE SOLO </h1>
+             
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
                   <li class="nav-item">
                      <a style="color:white;" class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Details</a>
                   </li>
+                 
                </ul>
                <div class="tab-content" id="myTabContent">
                   <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>To explore the concepts of Maths through the lens of Magic and Origami through hands-on workshop by creating the models.</li>
-                     </ul>
-                     </p>
-                  </div>
-               </div>
+                  <li>   No of participants/team: 1</li>
+	               <li>   Time duration: 3+2 minutes</li>
+	               <li>   Rules:
+                  </br>
+                  <li>   1. Be at the venue 10 minutes prior to the start of the event</li>
+                  <li>   2. Should get the music in pen drive and CD/DVD</li>
+	               <li>   REGISTRATION FEE: Rs 50/-</li>
 
-<form method='POST' action='register.php'>
-<input type='hidden' name='eid' value=$eid>
-<input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
-            </article>
-         </div>
-         <div id="section2" class="expanding-container">
-            <article class="hentry">
-               <h1 class="entry-title">Glass Preparation</h1>
-               <div class="entry-image">
-                  <div style="background-image: url(images/mech/cycle.png);" class="img-placeholder">1</div>
-               </div>
-               <br>
-               <ul class="nav nav-tabs" id="myTab" role="tablist">
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="h-tab" data-toggle="tab" href="#h" role="tab" aria-controls="h" aria-selected="true">Details</a>
-                  </li>
-               </ul>
-               <div class="tab-content" id="myTabContent">
-                  <div class="tab-pane fade show active" id="h" role="tabpanel" aria-labelledby="h-tab">
-                     <p>
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>"Wanna Cook glasses in few minutes?" - A hands on workshop to prepare one's own colourful glasses.</li>
-                      
-                     </ul>
-                     </p>
-                  </div>
-               </div>
-<form method='POST' action='register.php'>
-<input type='hidden' name='eid' value=$eid>
-<input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
-            </article>
-         </div>
-         <div id="section3" class="expanding-container">
-            <article class="hentry">
-               <h1 class="entry-title">Water Quality</h1>
-               <div class="entry-image">
-                  <div style="background-image: url(images/mech/terrain.png);" class="img-placeholder">1</div>
-               </div>
-               <br>
-               <ul class="nav nav-tabs" id="myTab" role="tablist">
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="h1-tab" data-toggle="tab" href="#h1" role="tab" aria-controls="h1" aria-selected="true">Details</a>
-                  </li>
-               </ul>
-               <div class="tab-content" id="myTabContent">
-                  <div class="tab-pane fade show active" id="h1" role="tabpanel" aria-labelledby="h1-tab">
-                     <p>
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>"Water Potability" -  An experiential approach to collect samples of water and check if they are potable or not.</li>
-</ul>
-                     </p>
-                  </div>
-               </div>
-<form method='POST' action='register.php'>
-<input type='hidden' name='eid' value=$eid>
-<input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
-            </article>
-         </div>
-         <div id="section4" class="expanding-container">
-            <article class="hentry">
-               <h1 class="entry-title">Movie on Nobel Laureate Chandra</h1>
-               <div class="entry-image">
-                  <div style=" background-image: url(images/mech/roar.png);" class="img-placeholder">1</div>
-               </div>
-               <br>
-               <ul class="nav nav-tabs" id="myTab" role="tablist">
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="h2-tab" data-toggle="tab" href="#h2" role="tab" aria-controls="h2" aria-selected="true">Details</a>
-                  </li>
-               </ul>
-               <div class="tab-content" id="myTabContent">
-                  <div class="tab-pane fade show active" id="h2" role="tabpanel" aria-labelledby="h2-tab">
-                     <p>
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Screening the movie - Making of a Star.  Movie is a biographical sketch of the Nobel Laureate - S Chandrashekar, popularly known as Chandra. </li>
-                     </ul>
-                     </p>
-                  </div>
-               </div>
-<form method='POST' action='register.php'>
-<input type='hidden' name='eid' value=$eid>
-<input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
-  </article>
-            </article>
-         </div>
-         <div id="section6" class="expanding-container">
-            <article class="hentry">
-               <h1 class="entry-title">Report Writing</h1>
-               <div class="entry-image">
-                  <div style="  background-image: url(images/mech/assemble.png);" class="img-placeholder">1</div>
-               </div>
-               <br>
-               <ul class="nav nav-tabs" id="myTab" role="tablist">
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="h3-tab" data-toggle="tab" href="#h3" role="tab" aria-controls="h3" aria-selected="true">Details</a>
-                  </li>
-               </ul>
-               <div class="tab-content" id="myTabContent">
-                  <div class="tab-pane fade show active" id="h3" role="tabpanel" aria-labelledby="h3-tab">
-                     <p>
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                       <li>The one race where you can test your limits.</li>
-   <li>"Blog it on National Science Day" - Students will visit any of the four workshops in progress during the first hour and write a blog on the website of Atria  </li>
-</ul>
-                     </p>
-                  </div>
-               </div>
-<form method='POST' action='register.php'>
-<input type='hidden' name='eid' value=$eid>
-<input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
-            </article>
-         </div>
-         <div id="section7" class="expanding-container">
-            <article class="hentry">
-               <h1 class="entry-title">Preparation of Nanoparticles</h1>
-               <div class="entry-image">
-                  <div style="background-image: url(images/mech/tantra.png);" class="img-placeholder">1</div>
-               </div>
-               <br>
-               <ul class="nav nav-tabs" id="myTab" role="tablist">
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="h4-tab" data-toggle="tab" href="#h4" role="tab" aria-controls="h4" aria-selected="true">Details</a>
-                  </li>
-               </ul>
-               <div class="tab-content" id="myTabContent">
-                  <div class="tab-pane fade show active" id="h4" role="tabpanel" aria-labelledby="h4-tab">
-                     <p>
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>"Material Sciences for Medical world" - Preparation of nanoparticles that have medical applications in general and in particular to Cancer</li>
+                </br>
+                <li>Venue: Seminar Hall</li>
+                <li>Date: 29/03/2019</li>
+                  <li>3:00 - 5:00 PM</li>
+                  
+                
                      </ul>
                      </p>
                   </div>
                   
                </div>
+   
 <form method='POST' action='register.php'>
 <input type='hidden' name='eid' value=$eid>
 <input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
+           <button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button> 
             </article>
          </div>
+         <div id="section2" class="expanding-container">
+            <article class="hentry">
+               <h1 class="entry-title">WESTERN/INDIAN DANCE (GROUP)</h1>
+              
+               <br>
+               <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item">
+                     <a style="color:white;" class="nav-link active" id="h-tab" data-toggle="tab" href="#h" role="tab" aria-controls="h" aria-selected="true">Details</a>
+                  </li>
+                  
+               </ul>
+               <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade show active" id="h" role="tabpanel" aria-labelledby="h-tab">
+                     <p>
+                     <ul style="margin-top: 15px;list-style-type: circle;">
+                     <li>   Team Size: min 6 - max 8</li>
+	               <li>   Time duration: 6+2 minutes</li>
+	               <li>   Rules:
+                  </br>
+                  <li>   1. Be at the venue 10 minutes prior to the start of the event</li>
+                  <li>   2. Should get the music in pen drive and CD/DVD</li>
+	               <li>   REGISTRATION FEE: Rs 150/-</li>
+
+                </br>
+                <li>Venue: Main Stage</li>
+                <li>Date: </li>
+                  <li>1:00 - 3:00 PM</li>
+                     </ul>
+                     </p>
+                  </div>
+               
+               </div>
+               <form method='POST' action='register.php'>
+               <input type='hidden' name='eid' value=$eid>
+               <input type='hidden' name='type' value=$type>
+               <button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
+          </article>
+         </div>
+         
+      
+      
       </div>
       <script src="//static.codepen.io/assets/common/stopExecutionOnTimeout-41c52890748cd7143004e05d3c5f786c66b19939c4500ce446314d1748483e13.js"></script>
       <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
@@ -604,79 +518,79 @@
          var lastSibling = getLastSiblingInRow(this);
          activeRowChanged = lastSibling !== lastItemInActiveRow;
          if (activeRowChanged) {
-            lastItemInActiveRow = lastSibling;
+         	lastItemInActiveRow = lastSibling;
          }
          // If we are changing rows, replace spacer with secondary spacer.
          if (isExpanded && activeRowChanged) {
-            $secondarySpacer.height($spacer.height());
-            $spacer.height(0).replaceWith($secondarySpacer);
+         	$secondarySpacer.height($spacer.height());
+         	$spacer.height(0).replaceWith($secondarySpacer);
          }
          $(lastItemInActiveRow).after($spacer);
          });
          if (isExpanded && activeRowChanged) {
          $secondarySpacer.animate({height: 0}, settings.animationDuration, function () {
-            $(this).detach();
+         	$(this).detach();
          });
          $closeButton.removeClass(settings.elementActiveClass).hide();
          }
          scrollTargetOffset = ($secondarySpacer.position().top < $spacer.position().top ? $secondarySpacer.height() : 0);
          activeExpandedAreaTop = ($spacer.position().top - scrollTargetOffset);
          $expandingAreas.removeClass(settings.elementExpandedClass).hide().filter(target).each(function () {
-            var $this = $(this);
-            var autoHeight = $this.height();
-            var autoOuterHeight = $this.outerHeight();
-            var initialHeight = (isExpanded && activeExpandedAreaHeight && (activeRowChanged === false)) ? activeExpandedAreaHeight : 0;
+         	var $this = $(this);
+         	var autoHeight = $this.height();
+         	var autoOuterHeight = $this.outerHeight();
+         	var initialHeight = (isExpanded && activeExpandedAreaHeight && (activeRowChanged === false)) ? activeExpandedAreaHeight : 0;
          
-            stopExpandedAreaMonitor();
+         	stopExpandedAreaMonitor();
          
-            $spacer.animate({height: autoHeight + 'px'}, settings.animationDuration);
+         	$spacer.animate({height: autoHeight + 'px'}, settings.animationDuration);
          
-            $this.css({
-               height: initialHeight + 'px',
-               position: 'absolute',
-               left: 0,
-               top: $spacer.position().top + 'px'
-            }).show(0, function () {
-               // Callback.
-               if (typeof settings.onExpandBefore === 'function') {
-                  settings.onExpandBefore.call(this);
-               }
-            }).animate({
-               height: autoHeight + 'px',
-               top: activeExpandedAreaTop + 'px'
-            }, settings.animationDuration, function () {
-               $this.css({height: 'auto'}).addClass(settings.elementExpandedClass);
+         	$this.css({
+         		height: initialHeight + 'px',
+         		position: 'absolute',
+         		left: 0,
+         		top: $spacer.position().top + 'px'
+         	}).show(0, function () {
+         		// Callback.
+         		if (typeof settings.onExpandBefore === 'function') {
+         			settings.onExpandBefore.call(this);
+         		}
+         	}).animate({
+         		height: autoHeight + 'px',
+         		top: activeExpandedAreaTop + 'px'
+         	}, settings.animationDuration, function () {
+         		$this.css({height: 'auto'}).addClass(settings.elementExpandedClass);
          
-               // Set a timer to monitor changes to expanded area’s height.
-               activeExpandedAreaHeight = $this.height();
-               checkExpandedAreaResize = setInterval(function () {
-                  var activeExpandedAreaNewHeight = $this.height();
-                  if (activeExpandedAreaNewHeight !== activeExpandedAreaHeight) {
-                     activeExpandedAreaHeight = activeExpandedAreaNewHeight;
-                     syncExpandedAreaWithSpacer();
-                  }
-               }, 1000);
+         		// Set a timer to monitor changes to expanded area’s height.
+         		activeExpandedAreaHeight = $this.height();
+         		checkExpandedAreaResize = setInterval(function () {
+         			var activeExpandedAreaNewHeight = $this.height();
+         			if (activeExpandedAreaNewHeight !== activeExpandedAreaHeight) {
+         				activeExpandedAreaHeight = activeExpandedAreaNewHeight;
+         				syncExpandedAreaWithSpacer();
+         			}
+         		}, 1000);
          
-               // Callback.
-               if (typeof settings.onExpandAfter === 'function') {
-                  settings.onExpandAfter.call(this);
-               }
-            });
+         		// Callback.
+         		if (typeof settings.onExpandAfter === 'function') {
+         			settings.onExpandAfter.call(this);
+         		}
+         	});
          
-            // Scroll the page to bring the active link and preview into view.
-            var scrollTargetTop = $(clickedLink).offset().top - scrollTargetOffset;
-            var scrollTargetBottom = $this.offset().top + autoOuterHeight + 20 - scrollTargetOffset;
-            scrollSectionIntoView(scrollTargetTop, scrollTargetBottom);
+         	// Scroll the page to bring the active link and preview into view.
+         	var scrollTargetTop = $(clickedLink).offset().top - scrollTargetOffset;
+         	var scrollTargetBottom = $this.offset().top + autoOuterHeight + 20 - scrollTargetOffset;
+         	scrollSectionIntoView(scrollTargetTop, scrollTargetBottom);
          });
          
          // Activate close button.
          closeButtonAnimationDelay = (isExpanded && activeRowChanged && ($this.parent().index() > $(activeLink).parent().index())) ? settings.animationDuration : (settings.animationDuration / 4);
          $closeButton.css({
-            position: 'absolute',
-            right: 0,
-            top: activeExpandedAreaTop + 'px'
+         	position: 'absolute',
+         	right: 0,
+         	top: activeExpandedAreaTop + 'px'
          }).delay(closeButtonAnimationDelay).fadeIn(settings.animationDuration, function () {
-            $(this).addClass(settings.elementActiveClass);
+         	$(this).addClass(settings.elementActiveClass);
          });
          
          // Set global variables.
