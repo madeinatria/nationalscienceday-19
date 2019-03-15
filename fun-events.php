@@ -16,7 +16,7 @@
       <link rel="stylesheet" href="css/bootstrap.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Civil Events</title>
+      <title>FUN Events</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
       <style>
@@ -268,24 +268,20 @@
       <header class="clearfix">
         <button onclick=" relocate_events()" type="button" style="margin-left:30px; width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;" class="btn btn-default backbtn "> &laquo; Back</button>
 
-         <h2 style="font-size:30px; text-align: center; font-family: 'Raleway', sans-serif;color:#bdbdbd">Civil Engineering</h2>
+         <h2 style="font-size:30px; text-align: center; font-family: 'Raleway', sans-serif;color:#bdbdbd">FUN</h2>
          
-         <h3 style="font-size:20px; text-align: center;font-family: 'Raleway', sans-serif;color:#bdbdbd">Events</h3>
+         <h3 style="font-size:20px; text-align: center;font-family: 'Raleway', sans-serif;color:#bdbdbd">EVENTS</h3>
       </header>
       <div class="expanding-grid ">
          <ul  class="links">
-            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section1">Invited Talk</a></li>
-            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section2">Modelling of Civil Engineering Construction Marvels </a></li>
-            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section3"> Hands on session   </a></li>
-           <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section4">Structure Capture </a></li>
-            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section6"> Hands on session </a></li>
-            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section7"> Futuristic Civil Engineering</a></li>
-            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section8">Tech Debate</a></li>
-            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section9">Invited Talk</a></li>
-         </ul>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section1">HOGATHON</a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section2">MINUTE TO WIN IT</a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section3">ANTAKSHARI </a></li>
+           <li style="" class="grow edit"> <a class="edit" style="line-height:5em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section4">PUBG</a></li>
+           </ul>
           <div  id="section1" class="expanding-container">
             <article class="hentry">
-               <h1 class="entry-title">Invited Talk</h1>
+               <h1 class="entry-title">HOGATHON</h1>
               
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -297,10 +293,19 @@
                   <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Session on Next Generation Concrete by Ultra Tech Vice- President.</li>
-                        <li>Venue: Main Seminar Hall </li>
-                        <li>Day: 27-02-2019  </li>
-                        <li>Duration : 9:30pm-11:30am</li>
+                     <li>   Rules:</li>
+                  </br>
+                  <li>1. All the foodstuff kept must be eaten fully and wholeheartedly.</li>
+                    <li>2. Drinking water during a round leads to disqualification.</li>
+                    <li>3. Water will be provided in between rounds.</li>
+                    <li>   REGISTRATION FEE: Rs 100/-</li>
+                   <li>PRIZE: I - Rs 1000/-</li>
+                  
+                    
+                </br>
+                <li>Venue: Above Canteen</li>
+                <li>Date: 29th March 2019</li>
+                  <li>11:30 - 1:00 AM</li>
                      </ul>
                      </p>
                   </div>
@@ -314,7 +319,7 @@
          </div>
          <div id="section2" class="expanding-container">
             <article class="hentry">
-               <h1 class="entry-title">Modelling of Civil Engineering Construction Marvels</h1>
+               <h1 class="entry-title">MINUTE TO WIN IT</h1>
              
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -326,10 +331,16 @@
                   <div class="tab-pane fade show active" id="h" role="tabpanel" aria-labelledby="h-tab">
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Modelling will be done using the materials such as ice-cream sticks, paper and plastic cups etc. (All materials will be provided by the dept)</li>
-                        <li>Venue: Class room IV A, IV B</li>
-                        <li>Duration: 1:30pm - 3:30pm </li>
-                        <li>Day: 27 -02-2019 </li>
+                     <li>   No. of participants: 1</li>
+              <li>        Time Duration: 1 minute</li>
+              <li>       Rules:</li>
+              <li> 1. Be at the venue ten minutes before the start of the event</li>
+              <li>2. Multiple rounds shall be conducted.</li>
+              <li>       REGISTRATION FEES: Rs 50/-</li>
+                        </br>
+                <li>Venue: Library Quadrangle</li>
+                <li>Date:29th March 2019 </li>
+                  <li>2:00 - 4:00 PM</li>
                       
                      </ul>
                      </p>
@@ -343,7 +354,7 @@
          </div>
          <div id="section3" class="expanding-container">
             <article class="hentry">
-               <h1 class="entry-title">Hands on session - </h1>
+               <h1 class="entry-title">ANTAKSHARI</h1>
                
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -355,10 +366,16 @@
                   <div class="tab-pane fade show active" id="h1" role="tabpanel" aria-labelledby="h1-tab">
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Exposure to Civil Engineering softwares and advancements</li>
-                         <li>Venue: Language lab/Civil CAD lab</li>
-                        <li>Duration:  2pm - 4pm </li>
-                        <li>Day: 27 -02-2019</li>
+                     <li>   No. of participants/team: 3/team</li>
+              <li>        Time Duration: Prelims and Finals</li>
+              <li>       Rules:</li>
+              <li> 1. Will be announced at the day of the event.</li>
+              <li>2. Brush up your filmy song knowledge.</li>
+              <li>       REGISTRATION FEES: Rs 100/-</li>
+                        </br>
+                <li>Venue: Seminar Hall</li>
+                <li>Date:29th March 2019 </li>
+                  <li>5:00 - 6:00 PM</li>
 </ul>
                      </p>
                   </div>
@@ -371,7 +388,7 @@
          </div>
          <div id="section4" class="expanding-container">
             <article class="hentry">
-               <h1 class="entry-title">Structure Capture</h1>
+               <h1 class="entry-title">PUBG</h1>
                
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -383,10 +400,13 @@
                   <div class="tab-pane fade show active" id="h2" role="tabpanel" aria-labelledby="h2-tab">
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li> Students will try to identify the structure(s) in question</li>
-                        <li>Venue: Campus</li>
-                           <li>Duration:  9:00am - 11 am </li>
-                           <li>Day: 28-02-2019</li>
+                     <li>   No. of participants/team: 4/team</li>
+              <li>        Time Duration: 1 hour</li>
+              <li>       REGISTRATION FEES: Rs 200/-</li>
+                        </br>
+                <li>Venue: Entire Campus</li>
+                <li>Date:29th March 2019 </li>
+                  <li>TIMINGS: Full day</li>
                      </ul>
                      </p>
                   </div>
@@ -398,123 +418,7 @@
   </article>
             </article>
          </div>
-         <div id="section6" class="expanding-container">
-            <article class="hentry">
-               <h1 class="entry-title">Hands on session - </h1>
-              
-               <br>
-               <ul class="nav nav-tabs" id="myTab" role="tablist">
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="h3-tab" data-toggle="tab" href="#h3" role="tab" aria-controls="h3" aria-selected="true">Details</a>
-                  </li>
-               </ul>
-               <div class="tab-content" id="myTabContent">
-                  <div class="tab-pane fade show active" id="h3" role="tabpanel" aria-labelledby="h3-tab">
-                     <p>
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                       <li>Ecofriendly construction techniques</li>
-      <li>Venue: Strength of materials lab</li>
-                        <li>Duration:  9 am - 11 am</li>
-                        <li>Day: 28-02-2019</li>
-</ul>
-                     </p>
-                  </div>
-               </div>
-<form method='POST' action='register.php'>
-<input type='hidden' name='eid' value=$eid>
-<input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
-            </article>
          </div>
-         <div id="section7" class="expanding-container">
-            <article class="hentry">
-               <h1 class="entry-title">Futuristic Civil Engineering</h1>
-              
-               <br>
-               <ul class="nav nav-tabs" id="myTab" role="tablist">
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="h4-tab" data-toggle="tab" href="#h4" role="tab" aria-controls="h4" aria-selected="true">Details</a>
-                  </li>
-               </ul>
-               <div class="tab-content" id="myTabContent">
-                  <div class="tab-pane fade show active" id="h4" role="tabpanel" aria-labelledby="h4-tab">
-                     <p>
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Technical Talk on Challenges, Opportunities and Solutions in CE</li><li>
-Round 2 : Pick & Speak</li>
-                           <li>Venue: Language lab/Civil CAD lab</li>
-                        <li>Duration:  1:30pm - 2:00pm
- </li>
-                        <li>Day: 28 -02-2019</li>
-                     </ul>
-                     </p>
-                  </div>
-                  
-               </div>
-<form method='POST' action='register.php'>
-<input type='hidden' name='eid' value=$eid>
-<input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
-            </article>
-         </div>
-      <div  id="section8" class="expanding-container">
-            <article class="hentry">
-               <h1 class="entry-title">Tech Debate</h1>
-              
-               <br>
-               <ul class="nav nav-tabs" id="myTab" role="tablist">
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Details</a>
-                  </li>
-               </ul>
-               <div class="tab-content" id="myTabContent">
-                  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                     <p>
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Debate on Solutions to Water Scarcity in Bangalore</li>
-                        <li>Venue: Class room IV A, IV B </li>
-                        <li>Duration:  11am-12:30pm </li>
-                        <li>Day: 28-02-2019</li>
-                     </ul>
-                     </p>
-                  </div>
-               </div>
-
-<form method='POST' action='register.php'>
-<input type='hidden' name='eid' value=$eid>
-<input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
-            </article>
-         </div>
-          <div  id="section9" class="expanding-container">
-            <article class="hentry">
-               <h1 class="entry-title">Tech Debate</h1>
-              
-               <br>
-               <ul class="nav nav-tabs" id="myTab" role="tablist">
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Details</a>
-                  </li>
-               </ul>
-               <div class="tab-content" id="myTabContent">
-                  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                     <p>
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Session on Disaster management</li>
-                        <li>Venue: Main Seminar Hall </li>
-                        <li>Duration:  1.30pm-3:00pm </li>
-                        <li>Day: 28-02-2019</li>
-                     </ul>
-                     </p>
-                  </div>
-               </div>
-
-<form method='POST' action='register.php'>
-<input type='hidden' name='eid' value=$eid>
-<input type='hidden' name='type' value=$type>
-<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
-            </article>
-         </div></div>
       <script src="//static.codepen.io/assets/common/stopExecutionOnTimeout-41c52890748cd7143004e05d3c5f786c66b19939c4500ce446314d1748483e13.js"></script>
       <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
       <script >

@@ -429,9 +429,6 @@
                           
                            <li>1. Prelims : 8:30 - 9:00 AM</li>
                            <li>2. Finals : 1:00 - 3:00 PM</li>
-
-    </br>
-          
                      </ul>
                      </p>
                   </div>

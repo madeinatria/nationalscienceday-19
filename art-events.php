@@ -16,7 +16,7 @@
       <link rel="stylesheet" href="css/bootstrap.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Mechanical Events</title>
+      <title>ART EVENTS</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
       <style>
@@ -268,23 +268,25 @@
       <header class="clearfix">
         <button onclick=" relocate_events()" type="button" style="margin-left:30px; width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;" class="btn btn-default backbtn "> &laquo; Back</button>
 
-         <h2 style="font-size:30px; text-align: center; font-family: 'Raleway', sans-serif;color:#bdbdbd">Mechanical Engineering</h2>
+         <h2 style="font-size:30px; text-align: center; font-family: 'Raleway', sans-serif;color:#bdbdbd">ART</h2>
          
-         <h3 style="font-size:20px; text-align: center;font-family: 'Raleway', sans-serif;color:#bdbdbd">Events</h3>
+         <h3 style="font-size:20px; text-align: center;font-family: 'Raleway', sans-serif;color:#bdbdbd">EVENTS</h3>
       </header>
       <div class="expanding-grid ">
          <ul  class="links">
-            <li style="" class="grow edit"> <a class="edit" style="line-height:2em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section1"> Elastica - The Paradox of the Principle of Least Action</a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:2em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section1"> PAINTING</a></li>
             </br>
-            <li style="" class="grow edit"> <a class="edit" style="line-height:2em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section2">Automobile- Cars evolution till date (Poster presentation)</a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:2em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section2">SKETCHING</a></li>
             </br>
 
-            <li style="" class="grow edit"> <a class="edit" style="line-height:2em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section4"> Computer Aided Design Workshop</a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:2em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section3"> RANGOLI</a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:2em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section4"> COLLAGE</a></li>
+            <li style="" class="grow edit"> <a class="edit" style="line-height:2em; vertical-align:middle; display:block;font-size:20px;color:white; width:100%;text-align:center; background-color: #6f6f6f6e;" href="#section5"> PHOTOGRAPHY</a></li>
 
          </ul>
          <div  id="section1" class="expanding-container"> 
             <article class="hentry">
-               <h1 class="entry-title">Elastica - The Paradox of the Principle of Least Action</h1>
+               <h1 class="entry-title">PAINTING</h1>
              
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -315,7 +317,7 @@
          </div>
          <div id="section2" class="expanding-container">
             <article class="hentry">
-               <h1 class="entry-title">Automobile- Cars evolution till date (Poster presentation)</h1>
+               <h1 class="entry-title">SKETCHING</h1>
               
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -328,12 +330,17 @@
                   <div class="tab-pane fade show active" id="h" role="tabpanel" aria-labelledby="h-tab">
                      <p>
                          </br>
-                     <p> The Technology development of Cars from yester years till date: </p>
-                     </br>
-                     <p>Students should create amazing posters which display the development of technological improvements over the years in the automotive(cars) sector.</p>
-                     <li>Venue: CC 212</li>
-                     <li>Date: 28th Feb</li>
-                     <li>Time: 10:00am to 4:00pm</li>
+                         <li>               No. of participants: 1</li>
+              <li>                      Time Duration: 1 hour</li>
+              <li>                      Rules: </li>
+              <li>1. Be at the venue ten minutes before the start of the event.</li>
+              <li>2. Topic shall be given on the spot. </li>
+              <li>3. Bring your own pencils, erasers and paraphemalia.</li>
+              <li>                      REGISTRATION FEES: Rs 50/-</li>
+                        </br>
+                <li>Venue: Civil Drawing Room</li>
+                <li>Date: 27th March 2019</li>
+                  <li>3:00 - 4:00 PM</li>
                      </p>
                   </div>
                
@@ -345,9 +352,9 @@
           </article>
          </div>
 
-         <div id="section4" class="expanding-container">
+         <div id="section3" class="expanding-container">
             <article class="hentry">
-               <h1 class="entry-title">Computer Aided Design Workshop</h1>
+               <h1 class="entry-title">RANGOLI</h1>
                
                <br>
                <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -359,11 +366,18 @@
                <div class="tab-content" id="myTabContent">
                   <div class="tab-pane fade show active" id="h1" role="tabpanel" aria-labelledby="h1-tab">
                      <p>
-                     <p> Provide an hands on training session on computer aided design (CAD) and will help students to convert ideas to virtual models. </p>
-
-                     <br />
-                     <li> Feb 27th and Feb 28th </li>
-                  <li>8 hours of training</li>
+                     <li>               No. of participants: 1</li>
+              <li>                      Time Duration: 1 hour</li>
+              <li>                      Rules: </li>
+              <li>1. Be at the venue ten minutes before the start of the event.</li>
+              <li>2. Topic shall be given on the spot. </li>
+              <li>3. Bring your own rangoli colours and paraphemalia.</li>
+              <li>4. Use of stencils will lead to disqualification.</li>
+              <li>                      REGISTRATION FEES: Rs 50/-</li>
+                        </br>
+                <li>Venue: Library Quadrangle</li>
+                <li>Date: 28th March 2019</li>
+                  <li>3:00 - 5:00 PM</li>
 
 
 
@@ -382,8 +396,81 @@
 <button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
             </article>
          </div>
-      
-      
+         <div id="section4" class="expanding-container">
+            <article class="hentry">
+               <h1 class="entry-title">COLLAGE</h1>
+               
+               <br>
+               <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item">
+                     <a style="color:white;" class="nav-link active" id="h1-tab" data-toggle="tab" href="#h1" role="tab" aria-controls="h1" aria-selected="true">Details</a>
+                  </li>
+                 
+               </ul>
+               <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade show active" id="h1" role="tabpanel" aria-labelledby="h1-tab">
+                     <p>
+                     <li>               No. of participants: 1</li>
+              <li>                      Time Duration: 1 hour</li>
+              <li>                      Rules: </li>
+              <li>1. Be at the venue ten minutes before the start of the event.</li>
+              <li>2. Topic shall be given on the spot. </li>
+              <li>3. Bring your own pictures, glue and paraphemalia.</li>
+              <li>                      REGISTRATION FEES: Rs 50/-</li>
+                        </br>
+                <li>Venue: Civil Drawing Room</li>
+                <li>Date: 29th March 2019</li>
+                  <li>1:00 - 3:00 PM</li>
+                  </br>
+                   </p>
+                  </div>
+                  
+               </div>
+               <form method='POST' action='register.php'>
+<input type='hidden' name='eid' value=$eid>
+<input type='hidden' name='type' value=$type>
+<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
+            </article>
+         </div>
+         <div id="section5" class="expanding-container">
+            <article class="hentry">
+               <h1 class="entry-title">PHOTOGRAPHY</h1>
+               
+               <br>
+               <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item">
+                     <a style="color:white;" class="nav-link active" id="h1-tab" data-toggle="tab" href="#h1" role="tab" aria-controls="h1" aria-selected="true">Details</a>
+                  </li>
+                 
+               </ul>
+               <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade show active" id="h1" role="tabpanel" aria-labelledby="h1-tab">
+                     <p>
+                     <li>               No. of participants: 1</li>
+              <li>                      Time Duration: 1 day</li>
+              <li>                      Rules: </li>
+              <li>1. Be at the venue ten minutes before the start of the event.</li>
+              <li>2. Topic shall be given on the spot. </li>
+              <li>3. Bring your own microSD card, which shall be formatted at the start of the event.</li>
+              <li>4. Submit 3 unedited pictures at the end of the event. </li>
+              
+              <li>                      REGISTRATION FEES: Rs 50/-</li>
+                        </br>
+                <li>Venue: Entire Campus</li>
+                <li>Date: 29th March 2019</li>
+                  <li>TIMINGS: Full Day</li>
+    </br>
+                
+                     </p>
+                  </div>
+                  
+               </div>
+               <form method='POST' action='register.php'>
+<input type='hidden' name='eid' value=$eid>
+<input type='hidden' name='type' value=$type>
+<button type='submit' style='width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;' class='btn btn-default '>REGISTER</button></form>
+            </article>
+         </div>
       </div>
       <script src="//static.codepen.io/assets/common/stopExecutionOnTimeout-41c52890748cd7143004e05d3c5f786c66b19939c4500ce446314d1748483e13.js"></script>
       <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
