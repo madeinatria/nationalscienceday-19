@@ -166,51 +166,40 @@
               </br>
               <label>EVENT:</label>
               <select name='event'>
-                <optgroup style='background-color:#404040;' label='Computer Science'>
-                  <option value='Robotics Workshop'>Future of Work - Robotics Workshop</option>
-                  <option value='Robotics Model Making Exhibition'>Robotics Model Making Exhibition</option>
-                  <option value='Tech Say'>Tech Say</option>
+                <optgroup style='background-color:#404040;' label='Inter-College Events'>
+                  <option value='1'>Classical Solo Dance</option>
+                  <option value='2'>Group Dance</option>
+                  <option value='3'>Battle of Bands</option>
+                  <option value='4'>Fashion Show</option>
+                  <option value='5'>Beat Boxing</option>
                 </optgroup>
-                <optgroup style='background-color:#404040;' label='Information science'>
-                  <option value='Web Design'>Workshop on: Web Design and
-                    Development</option>
-                  <option value='Poster Presentation'>Poster Presentation</option>
-                  <option value='Tech Talk'>Tech Talk</option>
+                <optgroup style='background-color:#404040;' label='Intra-College Art'>
+                  <option value='6'>Painting</option>
+                  <option value='7'>Sketching</option>
+                  <option value='8'>Rangoli</option>
+                  <option value='9'>Collage</option>
+                  <option value='10'>Photography</option>
                 </optgroup>
-                <optgroup style='background-color:#404040;' label='BSE & Humanities'>
-                  <option value='Magic and Origami for Maths'>Magic and Origami for Maths</option>
-                  <option value='Glass Preparation'>Glass Preparation</option>
-                  <option value='Movie on Nobel Laureate Chandra'>Movie on Nobel Laureate Chandra</option>
-                  <option value='Water Quality'>Water Quality</option>
-                  <option value='Report Writing'>Report Writing</option>
-                  <option value='Preparation of Nanoparticles'>Preparation of Nanoparticles</option>
-                  <option value='Will you eat it'>Will you eat it</option>
+                <optgroup style='background-color:#404040;' label='Intra-College Fun'>
+                  <option value='11'>Hogathon</option>
+                  <option value='12'>Minute To Win it</option>
+                  <option value='13'>Antakshari</option>
+                  <option value='14'>PUBG</option>
                 </optgroup>
-                <optgroup style='background-color:#404040;' label='Mechanical Engineering'>
-                  <option value='Elastica - The Paradox of the Principle of Least Action'>Elastica - The Paradox of the
-                    Principle of Least Action</option>
-                  <option value='Automobile- Cars evolution till date'>Automobile- Cars evolution till date</option>
-                  <option value='Computer Aided Design Workshop'>Computer Aided Design Workshop</option>
-                  <option value='Poster presentation'>Poster presentation</option>
+                <optgroup style='background-color:#404040;' label='Intra-College Dance'>
+                  <option value='15'>Solo</option>
+                  <option value='16'>Group</option>
                 </optgroup>
-                <optgroup style='background-color:#404040;' label='Electronics and Communication'>
-                  <option value='Hardware'>Hardware</option>
-                  <option value='Build Your Own Robot from SCRATCH'>Build Your Own Robot from SCRATCH</option>
-                  <option value='Amazon ALEXA'>Amazon ALEXA</option>
-                  <option value='ARM'>ARM</option>
+                <optgroup style='background-color:#404040;' label='Intra-College Music'>
+                  <option value='17'>Indian Solo</option>
+                  <option value='18'>Classical vocal Solo</option>
+                  <option value='19'>Western vocal Solo(Acoustic)</option>
                 </optgroup>
-                <optgroup style='background-color:#404040;' label='Civil Events'>
-                  <option value='Next Generation Concrete-Invited Talk'>Next Generation Concrete-Invited Talk</option>
-                  <option value='Modelling of Civil Engineering Construction Marvels'>Modelling of Civil Engineering
-                    Construction Marvels</option>
-                  <option value='Exposure to Civil Engineering-Hands on session'>Exposure to Civil Engineering-Hands on
-                    session</option>
-
-                  <option value='Structure Capture'>Structure Capture</option>
-                  <option value='Ecofriendly construction-Hands on session'>Ecofriendly construction-Hands on session</option>
-                  <option value='Futuristic Civil Engineering'>Futuristic Civil Engineering</option>
-                  <option value='Tech Debate'>Tech Debate</option>
-                  <option value='Disaster management-Invited Talk'>Disaster management-Invited Talk</option>
+                <optgroup style='background-color:#404040;' label='Intra-College Literary'>
+                  <option value='20'>Poetry</option>
+                  <option value='21'>Debate</option>
+                  <option value='22'>Creative Writing</option>
+                  <option value='23'>Quiz</option>
                 </optgroup>
               </select>
               </br>
@@ -235,14 +224,7 @@
                 </select>
               </br>
               <label>SEMESTER:</label>
-              <select name='sem'>
-                <optgroup style='background-color:#404040;'>
-                  <option value='2'>2</option>
-                  <option value='3'>4</option>
-                  <option value='6'>6</option>
-                  <option value='8'>8</option>
-                </optgroup>
-              </select>
+                <input required type="number" name="sem">
               </br>
               <label>Payment Transaction ID: </label>
               <input required type='text' id='' name='trans'>

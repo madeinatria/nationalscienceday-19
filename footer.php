@@ -143,29 +143,29 @@
       <h3 style=" font-family: 'Raleway', sans-serif;">Sapthrang 2019</h3>
       <br>
       <br>
-      <h5 style="color:#bdbdbd; font-size:12px;" >Developed by: </h5>
+     <!-- <h5 style="color:#bdbdbd; font-size:12px;" >Developed by: </h5>
       <h5 style="color:#bdbdbd; font-size:12px;">   Saarah, John, Neha, Sarath, Prakash
       </h5>
       <h5 style="color:#bdbdbd; font-size:12px;">Department of Computer Science & Engineering and Department of Information Science</h5>
-      <h5 style="color:#bdbdbd; font-size:12px;">   Credits:   </h5>
+      <h5 style="color:#bdbdbd; font-size:12px;">   Credits:   </h5> -->
    </div>
    <div class="footer-center">
       <div>
          <i class="fa fa-map-marker"></i>
-        <p style="font-family: 'Raleway', sans-serif;!important; font-size:14px;"> <a style="color:white;" href="https://www.google.com/maps/place/Atria+Institute+of+Technology/@13.0325175,77.5899353,17z/data=!3m1!4b1!4m5!3m4!1s0x3bae17bd97727093:0x5135aab8250c1df5!8m2!3d13.0325489!4d77.5920918?hl=en-US"> <span>Atria Institute of Technology</span> Adjacent Bangalore Baptist Hospital <br>Hebbal, Bengaluru - 560 024  </a> </p> 
+        <p style="font-family: 'Raleway', sans-serif;!important; font-size:14px;"> <a style="color:white;" href="https://goo.gl/maps/phR6VUCVsr32"> <span>Atria Institute of Technology</span> Adjacent Bangalore Baptist Hospital <br>Hebbal, Bengaluru - 560 024  </a> </p> 
       </div>
       <div>
          <i class="fa fa-phone"></i>
-         <p style=" font-family: 'Raleway', sans-serif;!important">Prof. Hemalatha K N:  +91 95912 49131</p>
+         <p style=" font-family: 'Raleway', sans-serif;!important">Ayesha:  +91 98860 65863</p>
       </div>
       <div>
          <i class="fa fa-phone"></i>
-         <p style=" font-family: 'Raleway', sans-serif;!important">Prof. Pallavi N:  +91 80508 90430</p>
+         <p style=" font-family: 'Raleway', sans-serif;!important">Sai Sanjit:  +91 96209 51439</p>
       </div>
      
       <div>
          <i class="fa fa-envelope"></i>
-         <p><a style="font-family: 'Raleway', sans-serif;!important;color:#bdbdbd;" href="mailto:code.webteam@gmail.com">code.webteam@gmail.com</a></p>
+         <p><a style="font-family: 'Raleway', sans-serif;!important;color:#bdbdbd;" href="mailto:ayeshamisbah1296@gmail.com">ayeshamisbah1296@gmail.com</a></p>
       </div>
    </div>
    <div class="footer-right">

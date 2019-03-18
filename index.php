@@ -299,7 +299,7 @@
       <div  >
          <div  id=""   style=" margin-top: 200px!important;">
             <div class="fade-in center" style="text-align:center;" >
-               <h1 style="font-weight:500!important; display:inline-block;  font-size: 70px;color:#f5f5f5"><img src="images/asset1.png"></h1>
+               <h1 style="font-weight:500!important; display:inline-block;  font-size: 70px;color:#f5f5f5"><img class="img-fluid" src="images/asset1.png"></h1>
                <p style="font-size:20px ;" >LET YOUR COLOURS BLOOM</p>
                <p style="font-size:20px ;margin-bottom: 200px!important;" >March 29th, 2019</p>
 

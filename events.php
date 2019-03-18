@@ -175,6 +175,9 @@
          }
          }nav {
     z-index: 999;}
+         .box {
+            margin-top: 10px ;
+         }
       </style>
    </head><body>     
    
@@ -207,6 +210,7 @@
              opacity:1.0;font-size:20px;border: 1px solid white; height:150px;">
                <div style="background-color:black;">ART</div>
 
+         </div>
          </div>
          <div class="row">
          <div class="ec box foo col-md-4 offset-md-5" style=" background-image: url('images/background/green.jpg'); 

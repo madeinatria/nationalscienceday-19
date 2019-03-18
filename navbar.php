@@ -31,7 +31,7 @@
             <a  style="  font-weight: 500; color:white;" class="nav-link" href="events.php">EVENTS</a>
          </li>
 
-         <li class="nav-item px-2" style="padding: 8px;"><a data-toggle="modal" data-target=".bs-example-modal-lg" style="  font-weight: 500; color:white; padding: 8px;" >EVENTS SCHEDULE</a></li>
+         <!-- <li class="nav-item px-2" style="padding: 8px;"><a data-toggle="modal" data-target=".bs-example-modal-lg" style="  font-weight: 500; color:white; padding: 8px;" >EVENTS SCHEDULE</a></li> -->
 
        
       </ul>
