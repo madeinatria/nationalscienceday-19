@@ -143,6 +143,7 @@
       <h3 style=" font-family: 'Raleway', sans-serif;">Sapthrang 2019</h3>
       <br>
       <br>
+      <h6> <a href="credits.php" style="color:#bdbdbd;"> Credits </a></h6>
      <!-- <h5 style="color:#bdbdbd; font-size:12px;" >Developed by: </h5>
       <h5 style="color:#bdbdbd; font-size:12px;">   Saarah, John, Neha, Sarath, Prakash
       </h5>

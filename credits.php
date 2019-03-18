@@ -28,9 +28,23 @@
 <body>
   <?php include('navbar.php') ; ?>
    
-   <div class="container text-center">
-     <img style="width:100px; height:90px; margin-top:120px;" src="images/sadface.png" alt=""/>
-        <h1 id="message" style=" text-transform:none; font-family:Cookie!important; color:white; margin-top:50px;">Registration failed. Try again or contact: ayeshamisbah1296@gmail.com</h1>
+   <div class="container text-center" style="color: white;">
+     <img style="width:100px; height:90px; margin-top:100px;" src="images/code.png" alt=""/>
+     <h5> Web Development Team </h5>
+     <ul style="list-style: none;">
+        <li> Saarah Asad - 1AT15CS </li>
+        <li> John K - 1AT16CS </li>
+        <li> Neha - 1AT17IS </li>
+        <li> Sarath - 1AT16IS <li>
+     </ul>
+     <h5> Resources Credits </h5>
+     <ul  style="list-style: none;">
+        <li> <a href="https://www.freepik.com/free-photos-vectors/background">Homepage Background vector created by rawpixel.com - www.freepik.com</a>  </li>
+    </ul>
+    <h5> Website Source Code </h5>
+    <ul  style="list-style: none;"> 
+        <li> https://github.com/madeinatria/nationalscienceday-19 </li>
+    </ul>   
    </div>
 </body>
 </html>
