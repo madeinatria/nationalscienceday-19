@@ -21,7 +21,9 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
       <style>
          body {
-         background-image: url(images/stars-about.png);   
+
+            background-image: url(images/stars-about.png);
+         background-size: 100% 100%;
          color: #333;
          font-family: 'Raleway', sans-serif;
          font-weight: 400;

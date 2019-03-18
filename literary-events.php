@@ -381,7 +381,7 @@
                            </br>
                            <li>Venue: Classroom</li>
                            <li>Date: 27th March 2019</li>
-                           <li>3:00 AM - 4:00 PM</li>
+                           <li>3:00 PM - 4:00 PM</li>
 
     </br>
           
