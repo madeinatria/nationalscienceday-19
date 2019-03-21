@@ -142,7 +142,7 @@
                         <h4 class="modal-title" style="display:block; text-align:center;"  id="myModalLabel">Paytm</h4>
                     </div>
                     <div class="modal-body center">
-                        <img  id="imageToSwap" src="images/qrcode.jpg"/>
+                        <img  id="imageToSwap" src="images/rajendrasir.jpeg"/>
 
                     </div>
                     <div class="modal-footer">
@@ -220,11 +220,15 @@
                   <option value='Mech'>Mechanical Engineering</option>
                   <option value='CIV'>Civil Engineering</option>
                   <option value='ISE'>ISE</option>
+                  <option value='Other'>Other</option>
                 </optgroup>
                 </select>
               </br>
               <label>SEMESTER:</label>
                 <input required type="number" name="sem">
+              </br>
+              <label>College:</label>
+                <input required type="text" name="college" value="Atria Institute of Technology">
               </br>
               <label>Payment Transaction ID: </label>
               <input required type='text' id='' name='trans'>
@@ -232,7 +236,7 @@
               <div class="form-group">
                 <label for="tid" class="col-md-2 col-sm-2">Pay Using :</label>
                 <div class="col-md-6 col-sm-10">
-                  <a data-toggle="modal" data-target="#myModal"><img style="widht:160px; height:70px;" src="images/rajendrasir.jpeg" />
+                  <a data-toggle="modal" data-target="#myModal"><img style="widht:160px; height:70px;" src="images/paytm.jpg" />
                     <p style="color: white;"><u>Click here</u></p>
                   </a>
                 </div>

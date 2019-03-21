@@ -54,6 +54,7 @@ echo "<table  class='table' border='1'>
         <th scope='col'>Department</th>
       <th scope='col'>Sem</th>
       <th scope='col'>Phone</th>
+      <th scope='col'>College</th>
       <th scope='col'>TransactionID</th>
       <th scope='col'>Attendence</th>
 
@@ -76,6 +77,7 @@ echo "<td>" . $row['email'] . "</td>";
 echo "<td>" . $row['department_id'] . "</td>";
 echo "<td>" . $row['semeseter'] . "</td>";
 echo "<td>" . $row['phno'] . "</td>";
+echo "<td>" . $row['college'] . "</td>";
 echo "<td>" . $row['transaction_no'] . "</td>";
 
 

@@ -32,7 +32,7 @@
      <img style="width:150px; height:120px; margin-top:120px;" src="images/tick.png" alt=""/>
         <h1 id="message" style=" text-transform:none; font-family:Cookie!important; color:white;">Thank You!</h1>
 
-   <h1 id="message" style=" text-transform:none; font-family:Cookie!important; color:white;">Your registration was successful!</h1>
+   <h1 id="message" style=" text-transform:none; font-family:Cookie!important; color:white;">Your registration was successful! You will receive an Email shortly with more details.</h1>
    </div>
 </body>
 </html>
