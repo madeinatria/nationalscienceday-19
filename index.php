@@ -291,6 +291,9 @@
          <li class="nav-item px-2">
             <a  style="  font-weight: 300; color:white;" class="nav-link" href="events.php">EVENTS</a>
          </li>
+         <li class="nav-item px-2">
+            <a  style="  font-weight: 300; color:white;" class="nav-link" href="schedule.pdf">EVENT SCHEDULE</a>
+         </li>
        
           
       </ul>

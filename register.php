@@ -166,7 +166,7 @@
               </br>
               <label>EVENT:</label>
               <select name='event'>
-                <optgroup style='background-color:#404040;' label='Inter-College Events'>
+                <optgroup style='background-color:white; color: black;' label='Inter-College Events'>
                   <option value='1'>Classical Solo Dance</option>
                   <option value='2'>Group Dance</option>
                   <option value='3'>Battle of Bands</option>
@@ -218,8 +218,8 @@
                   <option value='CSE'>CSE</option>
                   <option value='ECE'>ECE</option>
                   <option value='Mech'>Mechanical Engineering</option>
-                  <option value='Mech'>Civil Engineering</option>
-                  <option value='Mech'>ISE</option>
+                  <option value='CIV'>Civil Engineering</option>
+                  <option value='ISE'>ISE</option>
                 </optgroup>
                 </select>
               </br>
@@ -232,7 +232,7 @@
               <div class="form-group">
                 <label for="tid" class="col-md-2 col-sm-2">Pay Using :</label>
                 <div class="col-md-6 col-sm-10">
-                  <a data-toggle="modal" data-target="#myModal"><img style="widht:160px; height:70px;" src="images/paytm.jpg" />
+                  <a data-toggle="modal" data-target="#myModal"><img style="widht:160px; height:70px;" src="images/rajendrasir.jpeg" />
                     <p style="color: white;"><u>Click here</u></p>
                   </a>
                 </div>

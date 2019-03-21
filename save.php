@@ -12,7 +12,7 @@ $transaction=$_POST['trans'];
 $query="insert into registration(usn,name,email,event_id, department_id ,semeseter,transaction_no,phno) 
 values('$usn','$name','$email','$event','$dep','$sem','$transaction','$phone');";
 
-echo $query ;
+echo $query ;/*
 $insert=mysqli_query($dbHandle,$query);
 if($insert)
 {
@@ -23,6 +23,6 @@ header("Location: registration_failed.php");
 
 }
 
-
+*/
 
 ?>
